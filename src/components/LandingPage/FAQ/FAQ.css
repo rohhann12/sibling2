@@ -1,0 +1,120 @@
+
+body {
+    background: #F3F8FC;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-top_right {
+    font-size: 12px;
+    text-align: left;
+}
+
+.heading {
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Manrope', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+
+}
+
+.category {
+    font-family: "Montserrat",'sans-serif';
+    color: #0074D9;
+    font-weight:400 ;
+    font-size: 20px;
+    margin-left: 240px;
+    margin-bottom: 10px;
+
+}
+.heading2{
+    margin-left: 240px;
+    color: #0074D9;
+    font-weight:400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.accordion-container {
+    
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.accordion {
+    margin-bottom: 10px;
+}
+
+/* Styles for individual accordion items */
+.accordion-item {
+    margin-bottom: 10px;
+    border-bottom: 10px solid #dcdcdc;
+}
+
+/* Additional CSS for general styling */
+body {
+    background: #E5F1F7;
+
+}
+
+.heading-top_right p {
+    font-size: 12px;
+    color: #5a5a5a;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.heading p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+    color: #0074D9;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.accordion-container {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    display: grid;
+    margin-left: 240px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:768px) {
+    .heading-top_right{
+        display: none;
+    }
+    .category{
+        margin-left: 220px;
+    }
+    .accordion-container {
+        overflow: hidden;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        max-width: 550px;
+        display: grid;
+        margin-left:20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .heading2{
+        margin-left: 150px;
+    }
+}

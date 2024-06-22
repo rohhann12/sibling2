@@ -1,0 +1,56 @@
+import React from "react";
+import Accordion from "./Accordian";
+import './FAQ.css';
+
+const FAQ = () => {
+  return (
+    <div className="body">
+      <div className="heading-top_right">
+        <p>NEED HELP? LOOK HERE</p>
+      </div>
+      <div className="heading ml-[50px]">
+        <p>Answers to your Questions</p>
+      </div>
+      <p className="category">General</p>
+      <div className="accordion-container">
+        <Accordion
+          title="What is Sibling?"
+          answer="Sibling is a mental health and wellness platform designed for teenagers. We provide comprehensive support to enhance student well-being and academic success."
+        />
+        <Accordion
+          title="Do you charge any fees for your services?"
+          answer="No, all our services are free of charge."
+        />
+        <Accordion
+          title="How can I contact you if I have more questions?" 
+          answer="You can reach out to us via email at hqsibling@gmail.com"
+        />
+      </div>
+      <h1 className="heading2">Newsletter by Sibling</h1>
+      <div className="accordion-container">
+        <Accordion
+          title="What topics does the newsletter cover?"
+          answer="Our newsletter covers a wide range of topics related to mental health and wellness."
+        />
+        <Accordion
+          title="How often is the newsletter sent out?"
+          answer="The newsletter is sent out once a month."
+        />
+        <Accordion
+          title="How can I subscribe to the newsletter?" 
+          answer="You can subscribe to the newsletter by visiting our website and signing up. The newsletter will be delivered directly to your inbox."
+        />
+        <Accordion
+          title="Can I unsubscribe if I no longer want to receive the newsletter?" 
+          answer="Yes, you can unsubscribe from the newsletter directly from your email."
+        />
+        <Accordion
+          title="Who writes the articles in the newsletter?" 
+          answer="Our newsletter is written by a dedicated team of experts, including neuroscientists, psychologists, and other experienced writers."
+        />
+      </div>
+    </div>
+  );
+};
+
+export default FAQ;
