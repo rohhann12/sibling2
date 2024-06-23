@@ -1,27 +1,28 @@
-import './logo.css'
-import React from 'react'
+import './logo.css';
+import React from 'react';
 
-function logo() {
+function Logo() {
   return (
     <>
-    <div className='logos'>
+      <p className='top-left'>TRUSTED BY THE STUDENTS AT</p>
+      <div className='logos'>
         <div className='logos-slide'>
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Ashoka BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Chrsit BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Flame BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/ahemdabad BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Jindal BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Krea BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Ashoka BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Chrsit BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Flame BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/ahemdabad BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Jindal BW.png" alt="" />
-            <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Krea BW.png" alt="" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Ashoka BW.png" alt="Ashoka" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Chrsit BW.png" alt="Christ" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Flame BW.png" alt="Flame" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/ahemdabad BW.png" alt="Ahmedabad" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Jindal BW.png" alt="Jindal" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Krea BW.png" alt="Krea" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Ashoka BW.png" alt="Ashoka" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Chrsit BW.png" alt="Christ" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Flame BW.png" alt="Flame" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/ahemdabad BW.png" alt="Ahmedabad" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Jindal BW.png" alt="Jindal" />
+          <img src="src/components/assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Krea BW.png" alt="Krea" />
         </div>
-    </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default logo
+export default Logo;

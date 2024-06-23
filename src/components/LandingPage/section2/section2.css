@@ -7,8 +7,6 @@ body {
 .section2-container {
     background-color: #fff;
     padding: 150px 50px;
-    position: relative;
-    text-align: center;
 }
 
 .section2-container p {
@@ -18,12 +16,11 @@ body {
 .main-para {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    text-align: left;
 }
 
 .subscribe-section {
     margin-top: 20px;
-    text-align: left;
+    margin-left: 1000px;
 }
 
 .subscribe-text {
@@ -40,30 +37,9 @@ body {
     margin-left: 10px;
 }
 
-.image-onLeft {
-    position: relative;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.image-onLeft video {
-    width: 100%;
-    height: auto;
-}
-
-.heading-2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    z-index: 1;
-    text-align: center;
-}
-
 .title {
     font-family: 'Manrope', sans-serif;
-    font-size: 3em; 
+    font-size: 2em; 
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 10px;
@@ -76,6 +52,25 @@ body {
     color: #1E88E5; 
 }
 
+.para {
+    margin-left: 1000px;
+    margin-top: 30px;
+}
+.heading-2{
+    margin-left: 70%;
+}
+.para2{
+    margin-left: 1000px;
+    padding-bottom:20px ;
+}
+
+.image-onLeft {
+    float: left;
+    margin-right: 20px;
+    margin-top: -300px;
+    max-width:700px;
+
+}
 @media (max-width: 600px) {
     *{
         overflow-x:hidden ;

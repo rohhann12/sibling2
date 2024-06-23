@@ -8,7 +8,7 @@ const FAQ = () => {
       <div className="heading-top_right">
         <p>NEED HELP? LOOK HERE</p>
       </div>
-      <div className="heading ml-[50px]">
+      <div className="heading">
         <p>Answers to your Questions</p>
       </div>
       <p className="category">General</p>
