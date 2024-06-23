@@ -15,7 +15,7 @@ function Navbar() {
     <>
       <div className="navbar">
         <a href="">
-          <img src={Logo} alt="logo" />
+          <img src={Logo} alt="logo" className="ml-[-15px]"/>
         </a>
         <div className="mobile-btn" onClick={handleMenuToggle}>
           {menuOpen ? <IoMdClose /> : <RxHamburgerMenu />}

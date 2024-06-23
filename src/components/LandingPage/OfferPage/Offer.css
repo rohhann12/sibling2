@@ -63,4 +63,18 @@
   .text-blue {
     color: #1E90FF;
   }
-  
+  @media (max-width:600px) {
+    .heading{
+      margin-right: 20vh;
+    }
+    .offers{
+      display: flex;
+      flex-direction: column;
+    }
+    .offer-title{
+      font-size: 2.5vh;
+    }
+    .offer-button{
+      border-radius: 50px;
+    }
+  }

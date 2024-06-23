@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.hide_this{
+  display: none;
+}
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -20,7 +22,9 @@
   position: relative;
   background-color: #E5F1F7;
 }
-
+.testimonial-container:hover .testimonial-container-slide {
+  animation-play-state: paused;
+}
 .testimonial-container-slide {
   display: flex;
   flex-direction: column;
@@ -72,4 +76,10 @@
 .testimonial-card .occupation {
   color: gray;
   margin-top: 5px;
+}
+
+@media (max-width:600px) {
+  .heading-top-left{
+    display: none;
+  }
 }

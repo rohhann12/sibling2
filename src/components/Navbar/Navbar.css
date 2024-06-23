@@ -16,10 +16,11 @@
 }
 
 .navbar a {
-  margin: 0 15px;
+  margin: 0 25px;
   text-decoration: none;
   color: #333;
   font-weight: bold;
+  padding: 0 2vh;
 }
 
 .navbar a:hover {
@@ -45,15 +46,6 @@
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
-  .mobile-btn {
-    display: block;
-  }
-
-  .clickables {
-    display: none;
-  }
-
   .clickables.open {
     display: flex;
     flex-direction: column;
@@ -65,7 +57,9 @@
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.95);
-    z-index: 999; /* Ensure the menu is above other content */
+    z-index: 999; 
+    opacity: 100;
+    overflow: hidden;
   }
 
   .clickables a {
@@ -78,4 +72,20 @@
     right: 20px;
     z-index: 1000; /* Ensure the button is above the menu */
   }
-}
+
+  @media (max-width: 600px) {
+    *{
+      overflow-x: hidden;
+    }
+    .mobile-btn {
+      display: flex;
+      margin-right: 10px;
+    }
+    .navbar{
+      padding: 1vh 3vh;
+    }
+    .clickables {
+      display: none;
+    }
+
+  }  
