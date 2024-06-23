@@ -26,7 +26,7 @@ const FAQ = () => {
           answer="You can reach out to us via email at hqsibling@gmail.com"
         />
       </div>
-      <h1 className="heading2">Newsletter by Sibling</h1>
+      <p className="heading2">Newsletter by Sibling</p>
       <div className="accordion-container">
         <Accordion
           title="What topics does the newsletter cover?"

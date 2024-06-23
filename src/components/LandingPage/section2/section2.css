@@ -2,11 +2,15 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .section2-container {
     background-color: #fff;
-    padding: 150px 50px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .section2-container p {
@@ -20,7 +24,7 @@ body {
 
 .subscribe-section {
     margin-top: 20px;
-    margin-left: 1000px;
+    text-align: center;
 }
 
 .subscribe-text {
@@ -31,6 +35,7 @@ body {
     font-size: 1em;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .arrow-icon {
@@ -43,58 +48,52 @@ body {
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .title-blue {
     font-family: 'Manrope', sans-serif;
     font-size: 2.5em; 
     font-weight: 700;
-    color: #1E88E5; 
+    color: #1E88E5;
+    display: inline-block;
 }
 
-.para {
-    margin-left: 1000px;
-    margin-top: 30px;
-}
-.heading-2{
-    margin-left: 70%;
-}
-.para2{
-    margin-left: 1000px;
-    padding-bottom:20px ;
+.heading-2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .image-onLeft {
-    float: left;
-    margin-right: 20px;
-    margin-top: -300px;
-    max-width:700px;
-
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
+
+.image-onLeft video {
+    max-width: 100%;
+    height: auto;
+}
+
+.para {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.para2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 @media (max-width: 600px) {
-    *{
-        overflow-x:hidden ;
-    }
     .para2 {
         display: none;
     }
-    .heading-2 {
-        font-size: 17px;
-        padding-bottom: 90vh;
-    }
     .title {
-        margin-top: 5vh;
-        font-size: 1em;
-        color: black;
+        font-size: 1.5em;
     }
-    .main-para {
-        font-size: 0.875em;
-        margin-top: 20px;
-    }
-    .subscribe-section {
-        margin-top: 20px;
-    }
-    .image-onLeft {
-        margin-top: 20px;
+    .title-blue {
+        font-size: 1.5em;
+        margin-top:2vh;
     }
 }

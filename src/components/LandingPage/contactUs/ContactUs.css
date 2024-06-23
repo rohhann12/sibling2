@@ -63,3 +63,15 @@
     background: #0056b3;
   }
   
+  @media (max-width:600px) {
+    .img-on-left{
+      margin-bottom: 600px;
+      width: 400px;
+      height: 150px;
+      overflow-y: hidden;
+    }
+    .form-on-right{
+      margin-bottom: 1vh;
+      margin-left: -40vh;
+    }
+  }
