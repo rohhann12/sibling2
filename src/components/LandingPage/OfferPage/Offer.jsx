@@ -6,7 +6,7 @@ function Offer() {
     <>
       <div className='offer-container'>
         <div className='header'>
-          <p className='sub-header ml-[-1300px] text-[14px]'>WHAT WE OFFER</p>
+          <p className='sub-header text-[14px]'>WHAT WE OFFER</p>
           <img src="src/components/assets/offer/heading.svg" alt="" className='heading' />
         </div>
         <div className='offers'>

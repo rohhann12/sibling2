@@ -2,15 +2,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 .section2-container {
     background-color: #fff;
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 150px 50px;
 }
 
 .section2-container p {
@@ -24,7 +20,7 @@ body {
 
 .subscribe-section {
     margin-top: 20px;
-    text-align: center;
+    margin-left: 1000px;
 }
 
 .subscribe-text {
@@ -35,7 +31,6 @@ body {
     font-size: 1em;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .arrow-icon {
@@ -48,41 +43,33 @@ body {
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 .title-blue {
     font-family: 'Manrope', sans-serif;
     font-size: 2.5em; 
     font-weight: 700;
-    color: #1E88E5;
-    display: inline-block;
-}
-
-.heading-2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.image-onLeft {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.image-onLeft video {
-    max-width: 100%;
-    height: auto;
+    color: #1E88E5; 
 }
 
 .para {
+    margin-left: 1000px;
     margin-top: 30px;
-    text-align: center;
+}
+.heading-2{
+    margin-left: 70%;
+}
+.para2{
+    margin-left: 1000px;
+    padding-bottom:20px ;
 }
 
-.para2 {
-    text-align: center;
-    padding-bottom: 20px;
+.image-onLeft {
+    float: left;
+    margin-right: 20px;
+    margin-top: -300px;
+    max-width:700px;
+
 }
 
 @media (max-width: 600px) {
