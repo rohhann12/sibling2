@@ -9,15 +9,14 @@ body {
     text-align: left;
 }
 
-.heading {
+.heading p{
     text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Manrope', sans-serif;
-    font-size: 58px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    letter-spacing: -1px;
-    margin-bottom: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 
 .category, .heading2 {
@@ -82,10 +81,8 @@ h1 {
     .heading-top_right {
         display: none;
     }
-    .heading {
-        text-align: left;
-        font-size: 24px;
-        margin-left: 20px;
+    .heading p {
+        font-size: 2px;
     }
     .category, .heading2 {
         font-size: 18px;

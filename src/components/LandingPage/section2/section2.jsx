@@ -17,7 +17,7 @@ function Section2() {
       </div>
       <div className='para'>
         <p className='main-para'>
-        Looking after your mental well-being is important, and our newsletter is here to help. Get expert tips on handling stress, sleeping better, and practicing mindfulness straight to your inbox. Begin your days feeling refreshed and at your best.
+        Caring for your mental health & wellness can be tough, but finding the right support doesn't have to be. Our upcoming newsletter will deliver valuable resources directly to your inbox, offering personalized tips to help you manage stress and anxiety, improve your sleep, and enhance your mindfulness. Relax your mind and <br />start each day feeling like the best version of yourself.
         </p>
       </div>
       <div className='subscribe-section'>

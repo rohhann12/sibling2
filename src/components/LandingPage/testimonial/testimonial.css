@@ -90,11 +90,11 @@
     display: none;
   }
   .hide_this {
-    display: block;
+  padding-right: 22vh;
     margin-top: 7vh;
   }
   .testimonial-container-slide {
-    flex-direction: column;
-    animation: slide 1s linear infinite;
+    flex-direction: row;
+    animation: slide 20s linear infinite;
   }
 }

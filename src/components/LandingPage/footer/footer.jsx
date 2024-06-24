@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer-container w-full bg-white">
       <div className="footer-top">
         <div className="footer-column">
-          <h3 className='font-bold'>Space By Sibling</h3>
+          <h3 className="font-bold">Space By Sibling</h3>
           <ul>
             <li>How this Works?</li>
             <li>Resources</li>
@@ -17,7 +17,7 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-column">
-          <h3 className='font-bold' >The Sibling Newsletter</h3>
+          <h3 className="font-bold">The Sibling Newsletter</h3>
           <ul>
             <li>How this Works?</li>
             <li>Visit Archives</li>
@@ -28,7 +28,7 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-column">
-          <h3 className='font-bold'>Sibling ™</h3>
+          <h3 className="font-bold">Sibling ™</h3>
           <ul>
             <li>What is Sibling</li>
             <li>Team Sibling</li>
@@ -38,7 +38,7 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-column">
-          <h3 className='font-bold'>Company</h3>
+          <h3 className="font-bold">Company</h3>
           <ul>
             <li>About Us</li>
             <li>Careers</li>
@@ -48,12 +48,13 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>
+        <img src="src/components/assets/footer/footer.svg" alt="" className='hide_this' />
+        <p className="footer-description">
           Sibling is a mental health support platform fostering community,
           connection, and shared experiences to empower individuals on their
           wellness journey
         </p>
-        <div className="footer-social ml-[400px]">
+        <div className="footer-social">
           <a href="#"><img src="src/components/assets/social/facebook.svg" alt="Facebook" /></a>
           <a href="https://x.com/siblinghq"><img src="src/components/assets/social/x twitter.svg" alt="Twitter" /></a>
           <a href="https://www.instagram.com/hqsibling"><img src="src/components/assets/social/instagram.svg" alt="Instagram" /></a>
@@ -65,8 +66,8 @@ function Footer() {
           <a href="#">Terms of Use</a>
           <a href="#">Cookies</a>
           <a href="#">Website Accessibility</a>
-        </div >
-        <p className='ml-[350px]'>© 2021 MindBridge Ventures. All Rights Reserved</p>
+        </div>
+        <p className="footer-copyright">© 2021 MindBridge Ventures. All Rights Reserved</p>
       </div>
     </footer>
   );
