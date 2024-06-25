@@ -1,80 +1,89 @@
 .offer-container {
-    background-color: white;
-    padding: 20px;
-  }
-  
-  .header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .sub-header {
-    font-size: 14px;
-    padding-right: 180vh;
-  }
-  
+  background-color: white;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-header {
+  font-size: 14px;
+  display: inline-block;
+  padding: 0; /* Remove any padding */
+  margin: 0 auto; /* Center the text */
+}
+
+.heading {
+  margin: 0 auto;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.offer-item {
+  flex: 1;
+  max-width: 600px;
+  text-align: center;
+}
+
+.offer-image {
+  margin: 0 auto;
+}
+
+.offer-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.offer-description {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+.offer-button {
+  background-color: #1E90FF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.offer-button:hover {
+  background-color: #1C86EE;
+}
+
+.text-blue {
+  color: #1E90FF;
+}
+
+@media (max-width: 600px) {
   .heading {
-    margin: 0 auto;
+    margin-right: 20vh;
   }
-  
   .offers {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 40px;
-    margin-top: 40px;
+    flex-direction: column;
   }
-  
-  .offer-item {
-    flex: 1;
-    max-width: 600px;
-    text-align: center;
-  }
-  
-  .offer-image {
-    margin: 0 auto;
-  }
-  
   .offer-title {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 20px 0;
+    font-size: 2.5vh;
   }
-  
-  .offer-description {
-    font-size: 16px;
-    margin: 0 0 20px 0;
-  }
-  
   .offer-button {
-    background-color: #1E90FF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+    border-radius: 50px;
   }
-  
-  .offer-button:hover {
-    background-color: #1C86EE;
+  .sub-header {
+    display: block;
+    text-align: center;
+    padding: 0; /* Ensure no padding on smaller screens */
+    margin: 0 auto; /* Center the text on smaller screens */
   }
-  
-  .text-blue {
-    color: #1E90FF;
-  }
-  @media (max-width:600px) {
-    .heading{
-      margin-right: 20vh;
-    }
-    .offers{
-      display: flex;
-      flex-direction: column;
-    }
-    .offer-title{
-      font-size: 2.5vh;
-    }
-    .offer-button{
-      border-radius: 50px;
-    }
-  }
+}

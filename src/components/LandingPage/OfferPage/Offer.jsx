@@ -3,12 +3,13 @@ import './Offer.css';
 import Heading from "../../assets/offer/heading.svg"
 import Newsletter from "../../assets/offer/newsletter.svg"
 import Right_img from "../../assets/offer/space_by.svg"
+
 function Offer() {
   return (
     <>
       <div className='offer-container'>
         <div className='header'>
-          <p className='sub-header text-[14px]'>WHAT WE OFFER</p>
+          <p className='sub-header'>WHAT WE OFFER</p>
           <img src={Heading} alt="" className='heading' />
         </div>
         <div className='offers'>
