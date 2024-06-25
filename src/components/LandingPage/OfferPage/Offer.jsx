@@ -1,17 +1,19 @@
 import React from 'react';
 import './Offer.css';
-
+import Heading from "../../assets/offer/heading.svg"
+import Newsletter from "../../assets/offer/newsletter.svg"
+import Right_img from "../../assets/offer/space_by.svg"
 function Offer() {
   return (
     <>
       <div className='offer-container'>
         <div className='header'>
           <p className='sub-header text-[14px]'>WHAT WE OFFER</p>
-          <img src="src/components/assets/offer/heading.svg" alt="" className='heading' />
+          <img src={Heading} alt="" className='heading' />
         </div>
         <div className='offers'>
           <div className='offer-item'>
-            <img src="src/components/assets/offer/newsletter.svg" alt="" className='offer-image' />
+            <img src={Newsletter} alt="" className='offer-image' />
             <p className='offer-title'>
               newsletter - but it's actually useful
             </p>
@@ -23,7 +25,7 @@ function Offer() {
             <button className='offer-button'>Subscribe now</button>
           </div>
           <div className='offer-item'>
-            <img src="src/components/assets/offer/space_by.svg" alt="" className='offer-image' />
+            <img src={Right_img} alt="" className='offer-image' />
             <p className='offer-title'>
               space by <span className='text-blue'>sibling</span>
             </p>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './LandingPage.css';
 import Navbar from '../Navbar/Navbar';
-import vectorImage from '../assets/Vector.png'; 
+import vectorImage from '../assets/line.svg'; 
 
 function LandingPage() {
   const [text, setText] = useState('');

@@ -1,6 +1,6 @@
 import React from 'react';
 import './section2.css';
-
+import Arrow from '../../assets/Vector.svg'
 function Section2() {
   return (
     <div className="section2-container">
@@ -23,7 +23,7 @@ function Section2() {
       <div className='subscribe-section'>
         <a href="#" className='subscribe-text'>
           ACCESS OUR LATEST NEWSLETTER
-          <img src="src/components/assets/Vector.svg" alt="Arrow" className='arrow-icon' />
+          <img src={Arrow} alt="Arrow" className='arrow-icon' />
         </a>
       </div>
     </div>

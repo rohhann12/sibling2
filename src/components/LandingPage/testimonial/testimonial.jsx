@@ -1,15 +1,16 @@
 import './testimonial.css';
 import React from 'react';
 import Props from './prop';
-
+import Heading from "../../assets/heading2.svg"
+import Hidden from "../../assets/testomonials/hidden.svg"
 function Testimonial() {
   return (
     <>
       <div>
         <p className='heading-top-left'>TESTIMONIAL</p>
         <p className='heading-center'>Experience it for yourself</p>
-        <img src="src/components/assets/heading2.svg" alt="" className='heading' />
-        <img src="src/components/assets/testomonials/hidden.svg" alt="" className='hide_this'/>
+        <img src={Heading} alt="" className='heading' />
+        <img src={Hidden} alt="" className='hide_this'/>
       </div>
       <div className='testimonial-container'>
         <div className='testimonial-container-slide'>

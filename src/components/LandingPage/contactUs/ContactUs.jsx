@@ -1,7 +1,7 @@
 import './ContactUs.css'
 import React, { useState } from 'react'
 import axios from 'axios'
-
+import Left_img from "../../assets/contact/Group 2043684748.svg"
 function ContactUs() {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
@@ -27,7 +27,7 @@ function ContactUs() {
   return (
     <div className="contact-us-container">
       <div className="img-on-left">
-        <img src="src/components/assets/contact/Group 2043684748.svg" alt="Contact Us" />
+        <img src={Left_img} alt="Contact Us" />
       </div>
       <div className="form-on-right">
         <h2 className='heading3 font-bold'>Contact Us</h2>

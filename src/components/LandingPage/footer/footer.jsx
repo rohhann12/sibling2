@@ -1,6 +1,11 @@
 import './footer.css';
 import React from 'react';
-
+import Hidden from "../../assets/footer/footer.svg"
+import Fb from "../../assets/social/facebook.svg"
+import Twitter from "../../assets/social/x twitter.svg"
+import Insta from "../../assets/social/instagram.svg"
+import LinkedIn from "../../assets/social/linkedin.svg"
+import Yt from "../../assets/social/youtube.svg"
 function Footer() {
   return (
     <footer className="footer-container w-full bg-white">
@@ -48,18 +53,18 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <img src="src/components/assets/footer/footer.svg" alt="" className='hide_this' />
+        <img src={Hidden} alt="" className='hide_this' />
         <p className="footer-description">
           Sibling is a mental health support platform fostering community,
           connection, and shared experiences to empower individuals on their
           wellness journey
         </p>
         <div className="footer-social">
-          <a href="#"><img src="src/components/assets/social/facebook.svg" alt="Facebook" /></a>
-          <a href="https://x.com/siblinghq"><img src="src/components/assets/social/x twitter.svg" alt="Twitter" /></a>
-          <a href="https://www.instagram.com/hqsibling"><img src="src/components/assets/social/instagram.svg" alt="Instagram" /></a>
-          <a href="https://www.linkedin.com/company/siblinghq"><img src="src/components/assets/social/linkedin.svg" alt="LinkedIn" /></a>
-          <a href="#"><img src="src/components/assets/social/youtube.svg" alt="YouTube" /></a>
+          <a href="#"><img src={Fb} alt="Facebook" /></a>
+          <a href="https://x.com/siblinghq"><img src={Twitter} alt="Twitter" /></a>
+          <a href="https://www.instagram.com/hqsibling"><img src={Insta} alt="Instagram" /></a>
+          <a href="https://www.linkedin.com/company/siblinghq"><img src={LinkedIn} alt="LinkedIn" /></a>
+          <a href="#"><img src={Yt} alt="YouTube" /></a>
         </div>
         <div className="footer-links">
           <a href="#">Privacy</a>

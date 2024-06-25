@@ -31,7 +31,7 @@
 
 .testimonial-container-slide {
   display: flex;
-  animation: slide 1s linear infinite;
+  animation: slide 10s linear infinite;
 }
 
 .heading-top-left {
