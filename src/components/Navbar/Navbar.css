@@ -70,7 +70,7 @@
     position: fixed;
     top: 45 px;
     right: 20px;
-    z-index: 1000; /* Ensure the button is above the menu */
+    z-index: 1000; 
   }
 
   @media (max-width: 600px) {
@@ -89,3 +89,9 @@
     }
 
   }  
+@media (min-width:601px) and (max-width:768px) {
+  .clickables{
+    font-size:16px;
+    overflow-y: hidden;
+  }
+}

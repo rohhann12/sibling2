@@ -42,12 +42,19 @@
   font-weight: bold;
   margin: 20px 0;
 }
-
+.offer-title1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
 .offer-description {
   font-size: 16px;
   margin: 0 0 20px 0;
 }
-
+.offer-description1{
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
 .offer-button {
   background-color: #1E90FF;
   color: white;
@@ -83,7 +90,15 @@
   .sub-header {
     display: block;
     text-align: center;
-    padding: 0; /* Ensure no padding on smaller screens */
-    margin: 0 auto; /* Center the text on smaller screens */
+    padding: 0; 
+    margin: 0 auto; 
+  }
+}
+@media (min-width:601px) and (max-width:768px) {
+  .offer-description1{
+    margin-top: 6vh;
+  }
+  .offer-title1 {
+    margin-top: 5vh;
   }
 }

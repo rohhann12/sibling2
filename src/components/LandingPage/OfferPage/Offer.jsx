@@ -27,10 +27,10 @@ function Offer() {
           </div>
           <div className='offer-item'>
             <img src={Right_img} alt="" className='offer-image' />
-            <p className='offer-title'>
+            <p className='offer-title1'>
               space by <span className='text-blue'>sibling</span>
             </p>
-            <p className='offer-description'>
+            <p className='offer-description1'>
               Become a part of a supportive community where you can write and read about your experience 
               related to mental health and wellness. Share your experiences, insights, and learn from others 
               to foster well-being.

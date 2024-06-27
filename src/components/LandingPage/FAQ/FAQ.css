@@ -94,3 +94,12 @@ h1 {
         font-size: 2vh;
     }
 }
+@media (min-width:601px) and (max-width:768px) {
+  .accordion-container{
+    max-width: 70vh;
+  }
+  .category,
+  .heading2{
+    margin-left: 9vh;
+  }
+}

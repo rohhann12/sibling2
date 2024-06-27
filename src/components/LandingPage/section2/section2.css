@@ -103,3 +103,15 @@ body {
         justify-content: center;
     }
 }
+@media (min-width:601px) and (max-width:768px) {
+    .para2{
+        display: none;
+    }
+    .para{
+        display: block;
+        text-align: end;
+        
+        padding-right: 100vh;
+        overflow-x: hidden;
+    }
+}

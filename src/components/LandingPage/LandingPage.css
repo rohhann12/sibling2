@@ -96,3 +96,30 @@ body {
     padding: 2vh 2vh;
   }
 }
+  @media (min-width:601px) and (max-width: 768px) {
+    .text-container {
+      margin-top: 20vh;
+    }
+  
+    .main-heading {
+      font-size: 6vw;
+    }
+  
+    .typed-out-container {
+      font-size: 6vw;
+    }
+  
+    #line-homepage {
+      margin-left: 1vh;
+      width: 100vw;
+      overflow-x: hidden;
+    }
+  
+    #space-button1 {
+      margin-left: 30vh;
+      margin-top: 15vh;
+      padding: 2.3vh 3vw;
+      
+    }
+  }
+
