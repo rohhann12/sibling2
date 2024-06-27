@@ -1,11 +1,11 @@
 import './logo.css';
 import React from 'react';
-import Ashoka from "../../assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Ashoka BW.png"
-import Christ  from "../../assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Chrsit BW.png"
-import Flame from "../../assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Flame BW.png"
-import Ahd from "../../assets/logos/Client Logos-20240621T181825Z-001/Client Logos/ahemdabad BW.png"
-import Jinal from "../../assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Jindal BW.png"
-import Krea from "../../assets/logos/Client Logos-20240621T181825Z-001/Client Logos/Krea BW.png"
+import Ashoka from "../../../../public/logos/Ashoka BW.svg"
+import Christ  from "../../../../public/logos/Chrsit BW.svg"
+import Flame from "../../../../public/logos/Flame BW.svg"
+import Ahd from "../../../../public/logos/ahemdabad BW.svg"
+import Jinal from "../../../../public/logos/Jindal BW.svg"
+import Krea from "../../../../public/logos/Krea BW.svg"
 function Logo() {
   return (
     <>

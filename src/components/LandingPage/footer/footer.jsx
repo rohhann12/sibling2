@@ -72,7 +72,7 @@ function Footer() {
           <a href="#">Cookies</a>
           <a href="#">Website Accessibility</a>
         </div>
-        <p className="footer-copyright">© 2021 MindBridge Ventures. All Rights Reserved</p>
+        <p className="footer-copyright">© 2024 MindBridge Ventures. All Rights Reserved</p>
       </div>
     </footer>
   );
