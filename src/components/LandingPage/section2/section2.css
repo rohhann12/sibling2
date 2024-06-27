@@ -68,16 +68,12 @@ body {
     display: none;
 }
 @media (max-width: 600px) {
-    .para2 {
-        display: none;
-    }
-    .title {
-        display: none;
-        
+    
+    .title{
+        font-size: 1px;
     }
     .title-blue {
-        font-size: 22px;
-        display: block;
+        font-size: 20px;
     }
     .image-onLeft {
         display: block;
@@ -103,15 +99,45 @@ body {
         justify-content: center;
     }
 }
-@media (min-width:601px) and (max-width:768px) {
-    .para2{
+@media  (max-width: 768px) {
+    .heading-2 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .para2 {
         display: none;
     }
-    .para{
+    .title {
         display: block;
-        text-align: end;
-        
-        padding-right: 100vh;
-        overflow-x: hidden;
+        font-size: 34px;
+        text-align: center;
+        margin-left: 2px;
+        margin-top: -1vh;
+    }
+    .title-blue {
+        font-size: 34px;
+    }
+    .image-onLeft {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .para {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: left;
+        padding: 0 20px;
+    }
+    .main-para{
+        font-size:2vh;
+    }
+    .subscribe-section {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 2vh;
     }
 }
+
