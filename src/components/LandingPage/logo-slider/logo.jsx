@@ -1,7 +1,7 @@
 import './logo.css';
 import React from 'react';
 import Ashoka from "../../../../public/logos/Ashoka BW.svg";
-import Christ from "../../../../public/logos/Christ BW.svg";
+import Christ from "../../../../public/logos/Chrsit BW.svg";
 import Flame from "../../../../public/logos/Flame BW.svg";
 import Ahd from "../../../../public/logos/ahemdabad BW.svg";
 import Jinal from "../../../../public/logos/Jindal BW.svg";
