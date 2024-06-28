@@ -120,7 +120,8 @@
   }
   .hide_this{
     display: block;
-    margin-left: 1px;
+    margin-left: -20vh;
+    padding-right: 15vh;
     margin-bottom: 5px;
   }
   .footer-column{
@@ -129,8 +130,6 @@
 
 }
 
-
-
 @media (max-width: 768px) {
   *{
     overflow-x: hidden;
@@ -138,7 +137,7 @@
     .hide_this {
       align-items: center;
       justify-content: center;
-      margin-left: 25vh;
+      margin-left: 40%;
     }
   
     .footer-container {
