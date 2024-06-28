@@ -33,7 +33,7 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-column">
-          <h3 className="font-bold">Sibling ™</h3>
+          <h3 className="font-bold">Sibling</h3>
           <ul>
             <li>What is Sibling</li>
             <li>Team Sibling</li>

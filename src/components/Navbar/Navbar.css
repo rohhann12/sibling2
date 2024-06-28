@@ -3,15 +3,15 @@
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border-radius: 100px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
+  box-shadow: 0 2px 4px #0000001a;
+  margin: 30px auto;
   max-width: 1200px;
 }
 
 .navbar img {
-  height: 50px;
+  height: 60px;
   margin-right: 20px;
 }
 
@@ -24,11 +24,11 @@
 }
 
 .navbar a:hover {
-  color: #007bff;
+  color: #0056b3;
 }
 
 #space-button {
-  background-color: #007bff;
+  background-color: #37B6FF;
   color: white;
   padding: 10px 20px;
   border-radius: 50px;
@@ -64,6 +64,7 @@
 
   .clickables a {
     margin: 10px 0;
+    font-family: "Gilroy-bold";
   }
 
   .navbar .mobile-btn {
@@ -80,6 +81,7 @@
     .mobile-btn {
       display: flex;
       margin-right: 10px;
+      font-family: "Gilroy-bold";
     }
     .navbar{
       padding: 1vh 3vh;
@@ -93,5 +95,6 @@
   .clickables{
     font-size:16px;
     overflow-y: hidden;
+    font-family: "Gilroy-bold";
   }
 }

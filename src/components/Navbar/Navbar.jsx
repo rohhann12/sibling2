@@ -3,7 +3,8 @@ import Logo from '../assets/Logo.jpg';
 import './Navbar.css';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-
+import '../../App.css'
+import '../../fonts/gilroy/Gilroy-Bold.ttf'
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './LandingPage.css';
 import Navbar from '../Navbar/Navbar';
 import vectorImage from '../assets/line.svg'; 
-
+import '../../App.css'
+import '../../fonts/gilroy/Gilroy-SemiBold.ttf'
 function LandingPage() {
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
