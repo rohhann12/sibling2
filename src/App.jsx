@@ -7,6 +7,7 @@ import LogosSlider from './components/LandingPage/logo-slider/logo'
 import Offer from './components/LandingPage/OfferPage/Offer'
 import Testimonial from './components/LandingPage/testimonial/testimonial'
 import Footer from './components/LandingPage/footer/footer'
+// import Section3 from './components/LandingPage/section3/section3'
 function App() {
   return (
     <>
