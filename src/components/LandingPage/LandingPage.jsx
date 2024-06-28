@@ -8,7 +8,7 @@ function LandingPage() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
-  const words = ["happy", "proud","Stronger","Confident","Inspired"];
+  const words = ["happy", "proud","stronger","confident","inspired"];
   
   useEffect(() => {
     const handleTyping = () => {
@@ -35,6 +35,10 @@ function LandingPage() {
 
     return () => clearTimeout(typingTimeout);
   }, [text, isDeleting, loopNum, typingSpeed, words]);
+  
+function redirect(){
+  location.href = "https://www.instagram.com/hqsibling"
+}
 
   return (
     <>
@@ -44,11 +48,11 @@ function LandingPage() {
           <h1 className="main-heading">a sibling that makes you</h1>
           <div className="typed-out-container">
             <span className="typed-out">{text}</span>
-            <span className="cursor">|</span>
+            <span className="cursor">.</span>
           </div>
         </div>
         <img src={vectorImage} alt="line" id="line-homepage" />
-        <button id="space-button1">Join our community</button>
+        <button id="space-button1" onClick={redirect}>Join our community</button>
       </div>
     </>
   );

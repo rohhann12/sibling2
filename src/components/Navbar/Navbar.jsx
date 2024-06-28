@@ -21,7 +21,7 @@ function Navbar() {
           {menuOpen ? <IoMdClose /> : <RxHamburgerMenu />}
         </div>
         <div className={`clickables ${menuOpen ? 'open' : ''}`}>
-          <a href="#">Join Us</a>
+          <a href="https://www.instagram.com/hqsibling">Join Us</a>
           <a href="#">About</a>
           <a href="#">Newsletter</a>
           <a href="#" id="space-button">Space By Sibling</a>
@@ -30,5 +30,6 @@ function Navbar() {
     </>
   );
 }
+
 
 export default Navbar;
