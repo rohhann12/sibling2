@@ -95,7 +95,8 @@ body {
   }
   .category,
   .heading2{
-    margin-left: 7vh;
+    margin-left: 10vh;
+    padding-left: 10vh;
   }
 
 }
