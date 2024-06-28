@@ -6,3 +6,15 @@
   font-family: "Gilroy-semibold";   
   src:url("./fonts/gilroy/Gilroy-SemiBold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Montserrat-med";   
+  src:url("./fonts/Montserrat/static/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-semibold";   
+  src:url("./fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  src:url("./fonts//Manrope/static/Manrope-Regular.ttf") format("truetype");
+}

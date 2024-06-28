@@ -1,7 +1,13 @@
 import React from "react";
 import Accordion from "./Accordian";
 import './FAQ.css';
-
+import '../../../App.css'
+import '../../../fonts/gilroy/Gilroy-SemiBold.ttf'
+import '../../../fonts/gilroy/Gilroy-Bold.ttf'
+import "../../../fonts/Manrope/static/Manrope-Regular.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 const FAQ = () => {
   return (
     <div className="body">

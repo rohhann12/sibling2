@@ -3,8 +3,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    margin-top: 20vh;
+    margin-bottom: 15vh;
   }
-  
+
   .img-on-left {
     flex: 1;
   }

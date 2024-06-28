@@ -39,7 +39,9 @@ const publicKey = import.meta.env.VITE_PUBLIC_KEY;
   }
 
   return (
+   <>
     <div className="contact-us-container">
+      
       <div className="img-on-left">
         <img src={Left_img} alt="Contact Us" />
       </div>
@@ -76,6 +78,7 @@ const publicKey = import.meta.env.VITE_PUBLIC_KEY;
         </form>
       </div>
     </div>
+   </>
   )
 }
 export default EmailRestAPI;

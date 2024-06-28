@@ -1,9 +1,15 @@
 import React from 'react';
-import './Offer.css';
 import Heading from "../../assets/offer/heading.svg"
 import Newsletter from "../../assets/offer/newsletter.svg"
 import Right_img from "../../assets/offer/space_by.svg"
-
+import './Offer.css';
+import '../../../App.css'
+import '../../../fonts/gilroy/Gilroy-SemiBold.ttf'
+import '../../../fonts/gilroy/Gilroy-Bold.ttf'
+import "../../../fonts/Manrope/static/Manrope-Regular.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 function Offer() {
   return (
     <>
@@ -16,7 +22,7 @@ function Offer() {
           <div className='offer-item'>
             <img src={Newsletter} alt="" className='offer-image' />
             <p className='offer-title'>
-              newsletter - but it's actually useful
+              newsletter
             </p>
             <p className='offer-description'>
               Start your journey to your better mental health and wellness with us. Each issue is packed

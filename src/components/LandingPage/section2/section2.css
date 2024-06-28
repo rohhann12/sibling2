@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Manrope:wght@400;700&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-med';
 }
 
 .section2-container {
     background-color: #fff;
     padding: 150px 50px;
+    margin-top: 5vh;
 }
 
 .subscribe-section {
@@ -15,7 +15,7 @@ body {
 }
 
 .subscribe-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-med';
     font-weight: 700;
     text-decoration: none;
     color: #000; 
@@ -34,6 +34,7 @@ body {
     letter-spacing: -0.5px;
     margin-bottom: 10px;
     margin-left: -7vh;
+    font-family: "Manrope";
 }
 
 .title-blue {
@@ -47,12 +48,16 @@ body {
     margin-left: 120vh;
     margin-top: 4vh;
 }
-
+.main-para{
+    font-family: "Manrope";
+    margin-top: 5vh;
+}
 .heading-2 {
     margin-left: 70%;
 }
 
 .para2 {
+    font-family: "Montserrat";
     margin-left: 120vh;
     padding-bottom: 20px;
 }
@@ -60,8 +65,8 @@ body {
 .image-onLeft {
     float: left;
     margin-right: 20px;
-    margin-top: -300px;
-    max-width: 700px;
+    margin-top: -255px;
+    max-width: 100vh;
 }
 
 .hide_this{
