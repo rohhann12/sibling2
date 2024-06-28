@@ -33,6 +33,7 @@ const publicKey = import.meta.env.VITE_PUBLIC_KEY;
       setName('');
       setEmail('');
       setMessage('');
+      alert("Your message has been sent")
     } catch (error) {
       console.error(error);
     }
