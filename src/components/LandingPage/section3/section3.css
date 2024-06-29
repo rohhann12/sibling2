@@ -1,0 +1,76 @@
+
+.text-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    height: 400px;
+    overflow: hidden;
+    font-weight: 900;
+  }
+  
+  .heading3 {
+    font-family: "Montserrat-semibold";
+    font-size: 14px;
+    text-align: start;
+    margin-left: 3vh;
+    padding-top: 2vh;
+  }
+  
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100%;
+    width: 300px;
+    position: relative;
+    font-family: "Manrope";
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-item {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    transition: opacity 0.5s;
+  }
+  
+  .slider-item {
+    font-weight: 900;
+    opacity: 1;
+  }
+  
+  .message-container {
+    padding: 10px;
+    width: 40%;
+    text-align: start;
+    font-family: "Montserrat-med";
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 40vh;
+  }
+  
+  .slider-item:nth-child(1) {
+    top: 10%;
+  }
+  
+  .slider-item:nth-child(2) {
+    top: 30%;
+  }
+  
+  .slider-item:nth-child(3) {
+    top: 50%;
+  }
+  
+  .slider-item:nth-child(4) {
+    top: 70%;
+  }
+

@@ -1,32 +1,36 @@
 import './logo.css';
 import React from 'react';
-import Ashoka from "../../../../public/logos/Ashoka BW.svg";
-import Christ from "../../../../public/logos/Chrsit BW.svg";
-import Flame from "../../../../public/logos/Flame BW.svg";
-import Ahd from "../../../../public/logos/ahemdabad BW.svg";
-import Jinal from "../../../../public/logos/Jindal BW.svg";
-import Krea from "../../../../public/logos/Krea BW.svg";
+import Ashoka from "../../assets/logos/Ashoka BW.svg";
+import Christ from "../../assets/logos/Chrsit BW.svg";
+import Flame from "../../assets/logos/Flame BW.svg";
+import Ahd from "../../assets/logos/ahemdabad BW.svg";
+import Jindal from "../../assets/logos/Jindal BW.svg";
+import Krea from "../../assets/logos/Krea BW.svg";
 
 function Logo() {
+  const logos = [
+    Ashoka, Christ, Flame, Ahd, Jindal, Krea
+  ];
+
   return (
     <>
-      <p className='top-left'>TRUSTED BY THE STUDENTS AT</p>
-      <div className='logos'>
-        <div className='logos-slide'>
-          <img src={Ashoka} alt="Ashoka" />
-          <img src={Christ} alt="Christ" />
-          <img src={Flame} alt="Flame" />
-          <img src={Ahd} alt="Ahmedabad" />
-          <img src={Jinal} alt="Jindal" />
-          <img src={Krea} alt="Krea" />
-          <img src={Ashoka} alt="Ashoka" />
-          <img src={Christ} alt="Christ" />
-          <img src={Flame} alt="Flame" />
-          <img src={Ahd} alt="Ahmedabad" />
-          <img src={Jinal} alt="Jindal" />
-          <img src={Krea} alt="Krea" />
+     <div >
+     <p className='top-left'>TRUSTED BY THE STUDENTS AT</p>
+      <div className='slider'>
+        <div className='slide-track'>
+          {logos.map((logo, index) => (
+            <div className='slide' key={index}>
+              <img src={logo} alt="Logo" />
+            </div>
+          ))}
+          {logos.map((logo, index) => (
+            <div className='slide' key={index + logos.length}>
+              <img src={logo} alt="Logo" />
+            </div>
+          ))}
         </div>
       </div>
+     </div>
     </>
   );
 }

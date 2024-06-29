@@ -1,0 +1,29 @@
+.body1{
+    margin-top: 30vh;
+}
+.heading1{
+    align-items: center;
+    justify-content: center;
+    font-size: 10vh;
+    margin-left: 60vh;
+    margin-top: 20vh;
+}
+
+.heading2{
+    font-size: 6vh;
+    margin-left:70vh;
+}
+
+.heading3{
+    margin-left: 85vh;
+}
+.heading4{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10vh;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vh;
+}

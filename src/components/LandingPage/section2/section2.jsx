@@ -23,7 +23,7 @@ function Section2() {
       </div>
       <div className='para'>
         <p className='main-para'>
-          Caring for your mental health & wellness can be tough, but finding the right support doesn't have to be. Our upcoming newsletter will deliver valuable resources directly to your inbox, offering personalized tips to help you manage stress and anxiety, improve your sleep, and enhance your mindfulness. Relax your mind and <br />start each day feeling like the best version of yourself.
+          Caring for your mental health & wellness can be tough, but finding the right support doesn't have to be. Our upcoming newsletter will deliver valuable resources directly to your inbox, offering personalized tips to help you manage stress and anxiety, improve your sleep, and enhance your mindfulness. Relax your mind and start each day feeling like the best version of yourself.
         </p>
       </div>
       <div className='subscribe-section'>

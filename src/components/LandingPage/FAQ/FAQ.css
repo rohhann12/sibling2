@@ -22,7 +22,7 @@ body {
 
 }
 
-.category, .heading2 {
+.category, .category1 {
     font-family: "Montserrat", 'sans-serif';
     color: #0074D9;
     font-weight: 600;
@@ -79,7 +79,7 @@ body {
     .heading p {
         font-size: 2px;
     }
-    .category, .heading2 {
+    .category, .category1 {
         font-size: 18px;
         margin-left: 20px;
     }
@@ -94,7 +94,7 @@ body {
     max-width: 70vh;
   }
   .category,
-  .heading2{
+  .category1{
     margin-left: 12vh;
     padding-left: 10vh;
   }
