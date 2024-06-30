@@ -23,7 +23,7 @@ function Testimonial() {
   return (
     <>
       <div>
-      <p className='heading-top-left1'>INSIGHTS FROM OUR VALUABLE CLIENT</p>
+      <p className='heading-top-left1'>INSIGHTS FROM OUR VALUABLE MEMBERS</p>
         <p className='heading-top-left'>TESTIMONIAL</p>
         <p className='heading-center'>Experience it for yourself</p>
         <img src={Heading} alt="" className='heading' />

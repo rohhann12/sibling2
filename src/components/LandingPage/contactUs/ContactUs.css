@@ -68,10 +68,12 @@
   
   @media (max-width:600px) {
     .img-on-left{
-      margin-bottom: 600px;
-      width: 400px;
+      margin-bottom: 80vh;
+      width: 50%;
       height: 150px;
-      overflow-y: hidden;
+      transform: scale(1.5);
+      z-index: -999;
+      padding-left: 2vh;
     }
     .form-on-right{
       margin-bottom: 1vh;

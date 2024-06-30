@@ -9,6 +9,7 @@ import Yt from "../../assets/social/youtube.svg"
 function Footer() {
   return (
     <footer className="footer-container w-full bg-white">
+    <center>
       <div className="footer-top">
         <div className="footer-column">
           <h3 className="font-bold">Space By Sibling</h3>
@@ -74,6 +75,7 @@ function Footer() {
         </div>
         <p className="footer-copyright">© 2024 MindBridge Ventures. All Rights Reserved</p>
       </div>
+      </center>
     </footer>
   );
 }

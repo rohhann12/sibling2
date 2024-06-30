@@ -44,7 +44,7 @@ const publicKey = import.meta.env.VITE_PUBLIC_KEY;
     <div className="contact-us-container">
       
       <div className="img-on-left">
-        <img src={Left_img} alt="Contact Us" />
+        <img src={Left_img} alt="Contact Us" className='map' />
       </div>
       <div className="form-on-right">
         <h2 className='heading3 font-bold'>Contact Us</h2>

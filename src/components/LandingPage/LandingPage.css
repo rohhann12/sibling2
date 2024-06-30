@@ -77,9 +77,12 @@ body {
     font-size: 10vw; /* Adjust as needed */
   }
   #space-button1 {
-    margin-left: 14vh;
+    margin-left: 11vh;
     display: block;
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-content: center;
   }
 }
 
