@@ -80,8 +80,16 @@
   margin-left: 65vh;
   display: block;
 }
-
-@media (max-width: 600px) {
+@media (max-width:425px) {
+  .hide_this{
+    padding-right: 22vh;
+  }
+  
+  .footer-column {
+    display: none;
+  }
+}
+@media (min-width:426px) and (max-width: 600px) {
   .footer-container {
     padding: 20px;
   }
