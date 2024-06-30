@@ -21,7 +21,7 @@ const FAQ = () => {
       <div className="accordion-container">
         <Accordion
           title="What is Sibling?"
-          answer="Sibling is a mental health and wellness platform designed for teenagers. We provide comprehensive support to enhance student well-being and academic success."
+          answer="Sibling is a mental health and wellness community designed for teenagers. We provide comprehensive support to enhance student well-being and academic success."
         />
         <Accordion
           title="Do you charge any fees for your services?"
@@ -29,7 +29,7 @@ const FAQ = () => {
         />
         <Accordion
           title="How can I contact you if I have more questions?" 
-          answer="You can reach out to us via email at hqsibling@gmail.com"
+          answer="You can reach out to us via email at info@hqsibling.in"
         />
       </div>
       <p className="category1">Newsletter by Sibling</p>
@@ -44,11 +44,11 @@ const FAQ = () => {
         />
         <Accordion
           title="How can I subscribe to the newsletter?" 
-          answer="You can subscribe to the newsletter by visiting our website and signing up. The newsletter will be delivered directly to your inbox."
+          answer="Your institution can subscribe to our newsletter by visiting our website and signing up. The newsletter will be accessible to you on our school portal."
         />
         <Accordion
           title="Can I unsubscribe if I no longer want to receive the newsletter?" 
-          answer="Yes, you can unsubscribe from the newsletter directly from your email."
+          answer="Yes, you can unsubscribe from the newsletter by writing us an email."
         />
         <Accordion
           title="Who writes the articles in the newsletter?" 

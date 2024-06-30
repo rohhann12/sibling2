@@ -9,16 +9,16 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-100% / 3)); /* Adjusting based on the number of cards */
+    transform: translateX(calc(-100% / 3)); /* Adjust based on the number of cards */
   }
 }
 
 .testimonial-container {
-  overflow: hidden;
   padding: 60px 0;
   background: white;
   position: relative;
   background-color: #E5F1F7;
+  overflow: hidden;
 }
 
 .testimonial-container:hover .testimonial-container-slide {
@@ -62,19 +62,28 @@
   padding: 20px;
   text-align: center;
   flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.testimonial-card .message{
-  font-family:"Montserrat-med"
+
+.testimonial-card .message {
+  font-family: "Montserrat-med";
+  margin-bottom: 20px;
 }
+
 .testimonial-card img {
   border-radius: 50%;
-  margin-top: 0.5px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 .testimonial-card .name {
   font-family: "Montserrat-semibold";
   font-weight: bold;
-  margin-top: -60px;
+  margin-top: 10px;
 }
 
 .testimonial-card .occupation {
@@ -113,8 +122,9 @@
     overflow-x: hidden;
   }
 }
-@media (min-width:601px) and (max-width:768px) {
-  .testimonial-grid{
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .testimonial-grid {
     overflow: hidden;
   }
 }
