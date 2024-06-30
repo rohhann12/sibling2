@@ -1,75 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-.text-slider-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; 
-    height: 400px;
-    overflow: hidden;
-    font-weight: 900;
-  }
-  
-  .heading3 {
-    font-family: "Montserrat-semibold";
-    font-size: 14px;
-    text-align: start;
-    margin-left: 3vh;
-    padding-top: 2vh;
-  }
-  
-  .slider-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; 
-    height: 100%;
-    width: 300px;
-    position: relative;
-    font-family: "Manrope";
-  }
-  
-  .slider {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .slider-item {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    transition: opacity 0.5s;
-  }
-  
-  .slider-item {
-    font-weight: 900;
-    opacity: 1;
-  }
-  
-  .message-container {
-    padding: 10px;
-    width: 40%;
-    text-align: start;
-    font-family: "Montserrat-med";
-    font-size: 18px;
-    border-radius: 10px;  
-    margin-left: 40vh;
-  }
-  
-  .slider-item:nth-child(1) {
-    top: 10%;
-  }
-  
-  .slider-item:nth-child(2) {
-    top: 30%;
-  }
-  
-  .slider-item:nth-child(3) {
-    top: 50%;
-  }
-  
-  .slider-item:nth-child(4) {
-    top: 70%;
-  }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.outer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:20vh;
+  padding-right: 10vh;
+  width: 100%;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  margin-left: 20vh;
+  padding-left: 10vh;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.name {
+  font-size: 14px; /* Smaller font size to fit in one line */
+  color: #aaa;
+  transition: color 0.3s, font-size 0.3s;
+  margin-right: 20px; /* Add space between titles */
+}
+
+.name.active {
+  color: #000;
+  font-size: 16px; /* Slightly larger font for active title */
+}
+
+.description {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 14px;
+}

@@ -1,90 +1,55 @@
 import React, { useState, useEffect } from 'react';
 import './section3.css';
-import '../../../App.css'
-import '../../../fonts/gilroy/Gilroy-SemiBold.ttf'
-import '../../../fonts/gilroy/Gilroy-Bold.ttf'
-import "../../../fonts/Manrope/static/Manrope-Regular.ttf"
-import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
-import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
-import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
-const TextSlider = () => {
-  const texts = ['Confidence and Self Esteem', 'Healthy Familial Bonds', 'Social Relationships', 'Holistic Development'];
-  const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const word = [
+const VerticalCardSlider = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const contentArray = [
     {
-      id: 1,
-      term: "Holistic Development",
-      message: "We focus on nurturing all aspects of your well-being, including mental, emotional, and physical health, ensuring you grow into a well-rounded individual."
+      title: "Holistic Development",
+      description: "We focus on nurturing all aspects of your well-being, including mental, emotional, and physical health, ensuring you grow into a well-rounded individual."
     },
     {
-      id: 2,
-      term: "Social Relationships",
-      message: "Our resources help you build and maintain strong, healthy relationships with peers, enhancing your social skills and fostering a supportive community around you."
+      title: "Social Relationships",
+      description: "Our resources help you build and maintain strong, healthy relationships with peers, enhancing your social skills and fostering a supportive community around you."
     },
     {
-      id: 3,
-      term: "Healthy Familial Bonds",
-      message: "We provide guidance on improving communication and understanding within your family, helping to create a nurturing and harmonious home environment."
+      title: "Healthy Familial Bonds",
+      description: "We provide guidance on improving communication and understanding within your family, helping to create a nurturing and harmonious home environment."
     },
     {
-      id: 4,
-      term: "Confidence and Self Esteem",
-      message: "Through our content and support, we empower you to believe in yourself and boost your self-esteem, enabling you to face challenges with confidence and resilience."
-    }
+      title: "Confidence and Self Esteem",
+      description: "Through our content and support, we empower you to believe in yourself and boost your self-esteem, enabling you to face challenges with confidence and resilience."
+    },
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setSelectedIndex(prevIndex => (prevIndex + 1) % texts.length);
-    }, 4000); 
+      setActiveIndex((prevIndex) => (prevIndex + 1) % contentArray.length);
+    }, 3000); // Change slide every 3 seconds
 
     return () => clearInterval(interval);
-  }, [texts.length]);
-
-  const handleWheel = (event) => {
-    const newIndex = selectedIndex + (event.deltaY > 0 ? 1 : -1);
-    if (newIndex >= 0 && newIndex < texts.length) {
-      setSelectedIndex(newIndex);
-    }
-  };
-
-  const selectedWord = word.find(item => item.term === texts[selectedIndex]);
-
-  if (!selectedWord) {
-    return null; 
-  }
+  }, [contentArray.length]);
 
   return (
-   <>
-    <p className='heading3'>How can we help</p>
-    <div className="text-slider-container" onWheel={handleWheel}>
-       
-      <div className="slider-container">
-        <div className="slider">
-          {texts.map((text, index) => (
-            <div
+    <div className="wrapper">
+      <div className="outer">
+        <div className="titles">
+          {contentArray.map((item, index) => (
+            <h2
               key={index}
-              className={`slider-item font-bold ${
-                index === selectedIndex ? 'selected' : ''
-              }`}
-              style={{
-                transform: `translateY(${(index - selectedIndex) * 30}px)`,
-                fontWeight: index === selectedIndex ? 'bold' : 'bold',
-                opacity: index === selectedIndex ? 1 : 0.5,
-              }}
+              className={`name ${index === activeIndex ? 'active' : ''}`}
             >
-              {text}
-            </div>
+              {item.title}
+            </h2>
           ))}
         </div>
-      </div>
-      <div className="message-container">
-        <p>{selectedWord.message}</p>
+        <div className="description">
+          <p>{contentArray[activeIndex].description}</p>
+        </div>
       </div>
     </div>
-   </>
   );
 };
 
-export default TextSlider;
+export default VerticalCardSlider;
