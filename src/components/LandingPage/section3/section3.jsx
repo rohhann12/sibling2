@@ -20,7 +20,7 @@ const VerticalCardSlider = () => {
       description: "Our resources help you build and maintain strong, healthy relationships with peers, enhancing your social skills and fostering a supportive community around you."
     },
     {
-      title: "Healthy Familial Bonds",
+      title: "Healthy Family Bonds",
       description: "We provide guidance on improving communication and understanding within your family, helping to create a nurturing and harmonious home environment."
     },
     {

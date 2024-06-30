@@ -24,7 +24,6 @@
   padding-left: 10vh;
   flex-direction: column;
   white-space: nowrap;
-
 }
 
 .name {
@@ -56,4 +55,72 @@
     font-weight: 600;
     margin-top: 1vh;
     font-family: "Montserrat-med";
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70vh;
+      }
+      
+      .outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap:15vh;
+        padding-right: 25vh;
+        width: 100%;
+        margin-top: 2vh;
+      }
+      .description {
+        flex-grow: 1;
+        margin-left:20vh;
+        padding-left: 20px;
+        font-size: 2.1vh;
+        font-family: "Montserrat-med"; 
+      }
+      .name {
+        font-size: 2.5vh; 
+        color: #aaa;
+        font-family: "Manrope";
+        transition: color 1s, font-size 1s;
+        margin-right: 20px;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      
+      .name.active {
+        color: #000;
+        font-size: 3.5vh; 
+        font-family: "Manrope";
+        font-weight: 900;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .description {
+        flex-grow: 1;
+        padding-left: 25vh;
+        font-size: 2.1vh;
+        font-family: "Montserrat-med"; 
+        align-items: center;
+        justify-content: center;
+        margin-left: 4vh;
+      }
+      .heading_help{
+        font-size: 12px;
+        margin-left: 35vh;
+        font-weight: 600;
+        margin-top: 3vh;
+        font-family: "Montserrat-med";
+    }
 }
