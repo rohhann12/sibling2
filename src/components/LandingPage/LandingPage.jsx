@@ -5,6 +5,7 @@ import '../../App.css'
 import '../../fonts/gilroy/Gilroy-SemiBold.ttf'
 import Navbar from '../Navbar/Navbar'
 import Section2 from './section2/section2'
+import Section3 from './section3/section3'
 import Faq from './FAQ/FAQ'
 import ContactUs from './contactUs/ContactUs'
 import LogosSlider from './logo-slider/logo'
@@ -74,6 +75,7 @@ function LandingPage() {
         <button id="space-button1" onClick={redirect}>Join our community</button>
       </div>
       <Section2 />
+      <Section3/>
       <Offer />
       <Testimonial />
       <LogosSlider />
