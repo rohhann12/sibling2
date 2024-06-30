@@ -61,7 +61,6 @@ function Footer() {
           wellness journey
         </p>
         <div className="footer-social">
-          <a href="#"><img src={Fb} alt="Facebook" /></a>
           <a href="https://x.com/siblinghq"><img src={Twitter} alt="Twitter" /></a>
           <a href="https://www.instagram.com/hqsibling"><img src={Insta} alt="Instagram" /></a>
           <a href="https://www.linkedin.com/company/siblinghq"><img src={LinkedIn} alt="LinkedIn" /></a>
