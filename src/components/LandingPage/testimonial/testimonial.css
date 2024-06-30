@@ -96,7 +96,7 @@
   display: none;
 }
 
-@media (max-width: 600px) {
+@media  (max-width: 600px) {
   .heading-top-left {
     display: none;
   }
@@ -109,7 +109,7 @@
   .heading-top-left1 {
     display: block;
     font-size: 14px;
-    padding: 7vh 0 0 6vh;
+    padding: 7vh 0 0 4vh;
     font-weight: 600; 
   }
 
