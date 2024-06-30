@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './section3.css';
-
+import '../../../App.css'
+import '../../../fonts/gilroy/Gilroy-SemiBold.ttf'
+import '../../../fonts/gilroy/Gilroy-Bold.ttf'
+import "../../../fonts/Manrope/static/Manrope-Regular.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
+import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 const VerticalCardSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -26,12 +32,14 @@ const VerticalCardSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % contentArray.length);
-    }, 3000); // Change slide every 3 seconds
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, [contentArray.length]);
 
   return (
+    <>
+    <p className='heading_help'>HOW CAN WE HELP</p>
     <div className="wrapper">
       <div className="outer">
         <div className="titles">
@@ -49,6 +57,7 @@ const VerticalCardSlider = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,46 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 }
 
 .outer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:20vh;
+  gap:30vh;
   padding-right: 10vh;
   width: 100%;
 }
 
 .titles {
+
   display: flex;
   align-items: center;
   margin-left: 20vh;
   padding-left: 10vh;
   flex-direction: column;
   white-space: nowrap;
+
 }
 
 .name {
-  font-size: 14px; /* Smaller font size to fit in one line */
+  font-size: 3vh; 
   color: #aaa;
-  transition: color 0.3s, font-size 0.3s;
-  margin-right: 20px; /* Add space between titles */
+  font-family: "Manrope";
+  transition: color 1s, font-size 1s;
+  margin-right: 20px;
+  font-weight: 600;
+  
 }
 
 .name.active {
   color: #000;
-  font-size: 16px; /* Slightly larger font for active title */
+  font-size: 4vh; 
+  font-family: "Manrope";
+  font-weight: 900;
 }
 
 .description {
   flex-grow: 1;
   padding-left: 20px;
-  font-size: 14px;
+  font-size: 2.5vh;
+  font-family: "Montserrat-med"; 
+}
+.heading_help{
+    font-size: 12px;
+    margin-left: 3.5vh;
+    font-weight: 600;
+    margin-top: 1vh;
+    font-family: "Montserrat-med";
 }
