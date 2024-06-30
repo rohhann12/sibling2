@@ -8,6 +8,7 @@ import "../../../fonts/Manrope/static/Manrope-Regular.ttf"
 import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
 import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
 import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
+
 const FAQ = () => {
   return (
     <div className="body">
@@ -16,6 +17,7 @@ const FAQ = () => {
       </div>
       <div className="heading">
         <p>Answers to your Questions</p>
+        <p className="hide_this">Answers to your Questions</p>
       </div>
       <p className="category">General</p>
       <div className="accordion-container">
