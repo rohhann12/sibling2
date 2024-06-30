@@ -6,29 +6,27 @@
 
 @keyframes slide {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(calc(-100% / 3)); /* Adjust based on the number of cards */
+    transform: translateX(calc(-100%/3)); /* Adjusted translateX for 3 items per slide */
   }
 }
 
 .testimonial-container {
   padding: 60px 0;
-  background: white;
-  position: relative;
-  background-color: #F3F8FC;
+  background: #F3F8FC;
   overflow: hidden;
+  text-align: center; /* Added for centering content */
 }
-
 .testimonial-container:hover .testimonial-container-slide {
   animation-play-state: paused;
 }
 
 .testimonial-container-slide {
   display: flex;
-  animation: slide 8s linear infinite;
-  width: calc(100% * 2); 
+  animation: slide 10s linear infinite;
+  width: 500%; /* Make sure this is wide enough to show all items */
 }
 
 .heading-top-left {
@@ -65,6 +63,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 250px; /* Adjust as needed */
 }
 
 .testimonial-card .message {
@@ -88,7 +87,6 @@
 
 .testimonial-card .occupation {
   font-family: "Montserrat-semibold";
-  color: gray;
   margin-top: 5px;
 }
 
@@ -96,7 +94,7 @@
   display: none;
 }
 
-@media  (max-width: 600px) {
+@media (max-width: 600px) {
   .heading-top-left {
     display: none;
   }
@@ -115,7 +113,7 @@
 
   .testimonial-container-slide {
     flex-direction: row;
-    animation: slide 20s linear infinite;
+    animation: slide 10s linear infinite;
     font-family: "Montserrat";
   }
   * {
