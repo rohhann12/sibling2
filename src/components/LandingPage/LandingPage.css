@@ -1,120 +1,144 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background: #92b1df;
+  background-size: cover;
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-100% / 3)); /* Adjusting based on the number of cards */
-  }
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
 }
 
-.testimonial-container {
+.main-heading {
+  font-family: "Gilroy-bold"; 
+  font-size: 4vw;
+  color: black;
+}
+
+.typed-out-container {
+  display: flex;
+  align-items: center;
+  font-size: 4vw;
+  color: #2176F6;
+  font-family: "Gilroy-semibold";
+}
+
+.typed-out {
+  white-space: nowrap;
   overflow: hidden;
-  padding: 60px 0;
-  background: white;
-  position: relative;
-  background-color: #E5F1F7;
+  display: inline-block;
+  font: bold;
 }
 
-.testimonial-container:hover .testimonial-container-slide {
-  animation-play-state: paused;
+.cursor {
+  border-right: 0.01em solid rgb(255, 255, 255);
+  animation: blink 0.7s steps(1) infinite;
 }
 
-.testimonial-container-slide {
-  display: flex;
-  animation: slide 8s linear infinite;
-  width: calc(100% * 2); 
-}
-
-.heading-top-left {
-  font-size: 14px;
-  margin-left: 20px;
-  margin-top: 10px;
-  font-family: "Montserrat-semibold";
-}
-
-.heading-center {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 800;
-  font-family: "Montserrat-med";
-}
-
-.heading {
-  display: block;
-  margin: 20px auto;
-}
-
-.testimonial-grid {
-  display: flex;
-  gap: 20px;
-}
-
-.testimonial-card {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  flex: 0 0 auto;
-}
-.testimonial-card .message{
-  font-family:"Montserrat-med"
-}
-.testimonial-card img {
-  border-radius: 50%;
-  margin-top: 0.5px;
-}
-
-.testimonial-card .name {
-  font-family: "Montserrat-semibold";
-  font-weight: bold;
-  margin-top: -60px;
-}
-
-.testimonial-card .occupation {
-  font-family: "Montserrat-semibold";
-  color: gray;
-  margin-top: 5px;
-}
-
-.heading-top-left1 {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .heading-top-left {
-    display: none;
+@keyframes blink {
+  from, to {
+    border-color: transparent;
   }
-  .heading {
-    display: none;
+  50% {
+    border-color: black;
   }
-  .heading-center {
-    display: none;
+}
+
+#space-button1 {
+  background-color: #0056b3;
+  color: white;
+  font-family: "Gilroy-semibold";
+  padding: 2.3vh 2vw;
+  border-radius: 50px;
+  justify-items: center;
+  margin-left: 42%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  align-self: center;
+}
+
+#space-button1:hover {
+  background-color: #37b6ff;
+}
+
+#line-homepage {
+  margin-top: 2vh;
+  width: 120%;
+}
+
+
+@media  (max-width: 425px) {
+  .main-heading {
+    font-size: 8vw; /* Adjust as needed */
   }
-  .heading-top-left1 {
+  .typed-out-container {
+    font-size: 10vw; /* Adjust as needed */
+  }
+  #space-button1 {
+    margin-left: 10vh;
     display: block;
-    font-size: 14px;
-    padding: 7vh 0 0 2vh;
-    font-weight: 600; 
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-content: center;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 600px) {
+  .text-container {
+    font-weight: 500;
+    margin-top: 10vh;
+    overflow: hidden;
   }
 
-  .testimonial-container-slide {
-    flex-direction: row;
-    animation: slide 20s linear infinite;
-    font-family: "Montserrat";
+  .main-heading {
+    margin-left: 2vw;
+    margin-top: 12vh;
+    font-size: 8vw;
   }
-  * {
+
+  .typed-out-container {
+    font-size: 12vw;
+  }
+
+  #line-homepage {
+    height: 10vh;
+    margin-left: 1vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  #space-button1 {
+    margin-left: 13vh;
+    margin-top: 18vh;
+    padding: 2vh 2vh;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .text-container {
+    margin-top: 20vh;
+  }
+
+  .main-heading {
+    font-size: 6vw;
+  }
+
+  .typed-out-container {
+    font-size: 6vw;
+  }
+
+  #line-homepage {
+    margin-left: 1vh;
+    width: 100vw;
     overflow-x: hidden;
   }
-}
-@media (min-width:601px) and (max-width:768px) {
-  .testimonial-grid{
-    overflow: hidden;
+
+  #space-button1 {
+    margin-left: 40%;
+    margin-top: 15vh;
+    padding: 2.3vh 3vw;
   }
 }
