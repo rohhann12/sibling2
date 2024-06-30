@@ -1,12 +1,19 @@
-import React from 'react'
-import Home from './components/LandingPage/LandingPage'
-// import Newsletter from './components/Navbar/Newsletter'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Navbar from './Navbar';
+import Newsletter from './components/Navbar/Newsletter';
+import LandingPage from './components/LandingPage/LandingPage';
+// import View from './components/LandingPage/section3/section3'
 function App() {
   return (
-    <>
-    <Home/>
-    </>
-  )
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/newsletter" exact={false} element={<Newsletter />} />
+          <Route path="*" element={<h1>Route does not exist</h1>} />
+        </Routes>
+    </BrowserRouter> 
+  );
 }
 
-export default App
+export default App;
