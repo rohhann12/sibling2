@@ -68,22 +68,8 @@ body {
   width: 120%;
 }
 
-@media (max-width: 375px) {
-  .main-heading {
-    font-size: 6vw; /* Adjust as needed */
-  }
-  .typed-out-container {
-    font-size: 6vw; /* Adjust as needed */
-  }
-  #space-button1 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-  }
-}
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media  (max-width: 425px) {
   .main-heading {
     font-size: 8vw; /* Adjust as needed */
   }
@@ -91,7 +77,7 @@ body {
     font-size: 10vw; /* Adjust as needed */
   }
   #space-button1 {
-    margin-left: 16vh;
+    margin-left: 14vh;
     display: block;
     text-align: center;
   }
