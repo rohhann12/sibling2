@@ -21,29 +21,29 @@ import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
 import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 function Testimonial() {
   return (
-    <>
-      <div>
-      <p className='heading-top-left1'>INSIGHTS FROM OUR VALUABLE MEMBERS</p>
-        <p className='heading-top-left'>TESTIMONIAL</p>
-        <p className='heading-center'>Experience it for yourself</p>
-        <img src={Heading} alt="" className='heading' />
-      </div>
-      <div className='testimonial-container'>
-        <div className='testimonial-container-slide'>
-          <div className='testimonial-grid'>
-            {Array.from({ length: 3 }, (_, i) => (
-              <>
-                <Props key={i} message="Sibling acts like a lifeline for me. Their content on social media is not only engaging but also
-                incredibly supportive. The practical advice and feel-good stories help me stay grounded and
-                positive, no matter how tough things get." name="Mahi" occupation="College Junior" image={Mahi} />
+<>
+<div>
+<p className='heading-top-left1'>INSIGHTS FROM OUR VALUABLE MEMBERS</p>
+<p className='heading-top-left'>TESTIMONIAL</p>
+<p className='heading-center'>Experience it for yourself</p>
+<img src={Heading} alt="" className='heading' />
+</div>
+<div className='testimonial-container'>
+<div className='testimonial-container-slide'>
+<div className='testimonial-grid'>
+{Array.from({ length: 3 }, (_, i) => (
+<>
+<Props key={i} message="Sibling acts like a lifeline for me. Their content on social media is not only engaging but also
+incredibly supportive. The practical advice and feel-good stories help me stay grounded and
+positive, no matter how tough things get." name="Mahi" occupation="College Junior" image={Mahi} />
 
-              <Props key={i+1} message="Sibling has been a real game-changer for me. Content they put up is not only informative but
-              also incredibly supportive. I used to struggle with managing my stress, especially around exam
-              time. Now, thanks to their practical tips and positive messages, I feel more in control of my
-              emotions. It's comforting to know there's a platform dedicated to helping us teens navigate
-              mental health." name="Varun" occupation="12th Grade Student" image={Varun} />
+<Props key={i+1} message="Sibling has been a real game-changer for me. Content they put up is not only informative but
+also incredibly supportive. I used to struggle with managing my stress, especially around exam
+time. Now, thanks to their practical tips and positive messages, I feel more in control of my
+emotions. It's comforting to know there's a platform dedicated to helping us teens navigate
+mental health." name="Varun" occupation="12th Grade Student" image={Varun} />
 
-              <Props key={i+2} message="Discovering Sibling has been one of the best things for my mental well-being. Their content is
+<Props key={i+2} message="Discovering Sibling has been one of the best things for my mental well-being. Their content is
 always so relatable and packed with useful advice. The stories and tips they share have helped
 me better understand and manage my anxiety. It feels like having a supportive friend who
 always knows the right thing to say." name="Nirenjana" occupation="12th Grade Student" image={Niran} />  
@@ -74,12 +74,12 @@ together to support each other." name="Smit" occupation="Fresher at a job" image
 <Props key={i+8} message="Being a parent of a teenager can be challenging, but Sibling has been a great resource for
 understanding and supporting my child's mental health and wellness. Their articles and social
 media posts are insightful and practical, offering valuable advice that we can use at home." name="Deepika" occupation="Parent" image={Deepika} /> 
-              </>
-            ))}
-          </div>
-        </div>
-      </div>
-    </>
+</>
+))}
+</div>
+</div>
+</div>
+</>
   );
 }
 

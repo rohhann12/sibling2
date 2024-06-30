@@ -31,7 +31,7 @@ body {
 .slider .slide-track {
   display: flex;
   width: calc(250px * 14); 
-  animation: scroll 20s linear infinite;
+  animation: scroll 8s linear infinite;
   gap:6vh;
 }
 
@@ -61,7 +61,7 @@ body {
     width: 150px; /* Adjusted width for smallest screens */
   }
   .top-left{
-    margin-left: 7vh;
+    margin-left: 6vh;
     font-size: 2vh;
   }
 }
