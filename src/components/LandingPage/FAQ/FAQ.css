@@ -32,7 +32,7 @@ body {
 }
 
 .accordion-container {
-    text-align: start;
+    text-align: left;
     padding: 25px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -51,7 +51,8 @@ body {
     padding-bottom: 200vh;
     border-bottom: 10px solid #dcdcdc;
 }
-.heading .hide_this{
+
+.heading .hide_this {
     display: none;
 }
 
@@ -59,32 +60,45 @@ body {
     .heading-top_right {
        display: none;
     }
-    .heading .hide_this{
+
+    .heading .hide_this {
         display: block;
-    font-size: 14px;
-    font-family: 'Montserrat-med';
-    font-weight: 700;
-    color: #333;
-    flex-direction: row;
-margin-left: 15vh;
+        font-size: 14px;
+        font-family: 'Montserrat-med';
+        font-weight: 700;
+        color: #333;
+        flex-direction: row;
+        margin-left: 15vh;
     }
+
     .category, .category1 {
         font-size: 18px;
         margin-left: 20px;
+        justify-content: left;
+        text-align: left;
     }
+
     .accordion-container {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 2vh;
+        font-size: smaller;
+        justify-content: left;
+        text-align: left;
+        max-width: 600px; /* Set max-width to 600px for smaller screens */
     }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
     .accordion-container {
         max-width: 70vh;
+        justify-content: left;
+        text-align: left;
     }
+
     .category, .category1 {
         margin-left: 12vh;
         padding-left: 10vh;
+        justify-content: left;
+        text-align: left;
     }
 }
