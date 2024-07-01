@@ -30,7 +30,7 @@ const FAQ = () => {
           answer="No, all our services are free of charge."
         />
         <Accordion
-          title="How can I contact you if I have more questions?" 
+          title="How can I contact you?" 
           answer="You can reach out to us via email at info@hqsibling.in"
         />
       </div>
@@ -45,8 +45,8 @@ const FAQ = () => {
           answer="The newsletter is sent out once a month."
         />
         <Accordion
-          title="Can I unsubscribe if I no longer want to receive the newsletter?" 
-          answer="Yes, you can unsubscribe from the newsletter by writing us an email."
+          title="How can I subscribe to the newsletter?" 
+          answer="Your institution can subscribe to our newsletter by visiting our website and signing up. The newsletter will be accessible to you on our school portal."
         />
         <Accordion
           title="Who writes the articles in the newsletter?" 
