@@ -14,7 +14,7 @@
   width: 100%;
 }
 .main-heading {
-  font-family: "Gilroy-bold"; 
+  font-family: "Gilroy-semibold"; 
   font-weight: 900;
   font-size: 64px;
   margin-top: 20vh;
@@ -27,7 +27,7 @@
   align-items: center;
   font-size: 4vw;
   color: #2176F6;
-  font-family: "Gilroy-bold";
+  font-family: "Gilroy-semibold";
   font-weight: 900;
 }
 

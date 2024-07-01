@@ -93,8 +93,15 @@ line-height: 16px;
   }
 
   .para2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
+  font-family: "Montserrat-med";
+  font-weight: 600;
+  font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+    overflow-y: hidden;
   }
 
   .heading-2 .title {
@@ -113,7 +120,9 @@ line-height: 16px;
     flex-direction: row; /* Ensures the text and arrow are in a row even on small screens */
     justify-content: center; /* Centers the text and arrow */
   }
-
+  .subscribe-section{
+    overflow-y: hidden;
+  }
   .arrow-icon {
     width: 20px;
     height: 20px;

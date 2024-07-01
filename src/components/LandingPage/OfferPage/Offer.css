@@ -109,7 +109,11 @@ letter-spacing: 0.25px;
 .offer-button:hover {
   background-color: #0056b3;
 }
-
+@media (max-width:600px) {
+  .sub-header{
+  overflow-y: hidden;  
+  }
+}
 @media (max-width: 768px) {
   .offers {
     flex-direction: column;
