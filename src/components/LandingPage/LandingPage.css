@@ -69,24 +69,8 @@ body {
 }
 
 
-@media  (max-width: 425px) {
-  .main-heading {
-    font-size: 8vw; /* Adjust as needed */
-  }
-  .typed-out-container {
-    font-size: 10vw; /* Adjust as needed */
-  }
-  #space-button1 {
-    margin-left: 10vh;
-    display: block;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    align-content: center;
-  }
-}
 
-@media (min-width: 426px) and (max-width: 600px) {
+@media  (max-width: 600px) {
   .text-container {
     font-weight: 500;
     margin-top: 10vh;
@@ -112,6 +96,8 @@ body {
 
   #space-button1 {
     margin-left: 13vh;
+    align-items: center;
+    justify-content: center;
     margin-top: 18vh;
     padding: 2vh 2vh;
   }

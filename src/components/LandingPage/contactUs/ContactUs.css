@@ -1,82 +1,82 @@
 .contact-us-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 20vh;
-    margin-bottom: 15vh;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20vh;
+  margin-bottom: 15vh;
+}
 
-  .img-on-left {
-    flex: 1;
+.img-on-left {
+  flex: 1;
+}
+
+.img-on-left img {
+  max-width: 100%;
+  height: auto;
+}
+.heading3{
+  font:bold;
+}
+.form-on-right {
+  max-width: 500px;
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-on-right h2 {
+  margin-bottom: 10px;
+  margin-left: 0vh;
+}
+
+.form-on-right p {
+  margin-bottom: 20px;
+}
+
+.form-on-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-on-right label {
+  margin-bottom: 5px;
+}
+
+.form-on-right input,
+.form-on-right textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-on-right button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-on-right button:hover {
+  background: #0056b3;
+}
+
+@media (max-width:600px) {
+  .img-on-left{
+    margin-bottom: 80vh;
+    width: 50%;
+    height: 150px;
+    transform: scale(1.5);
+    z-index: -999;
+    padding-left: 2vh;
   }
-  
-  .img-on-left img {
-    max-width: 100%;
-    height: auto;
+  .form-on-right{
+    margin-bottom: 1vh;
+    margin-left: -40vh;
   }
-  .heading3{
-    font:bold;
-  }
-  .form-on-right {
-    max-width: 500px;
-    flex: 1;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form-on-right h2 {
-    margin-bottom: 10px;
-    margin-left: 0vh;
-  }
-  
-  .form-on-right p {
-    margin-bottom: 20px;
-  }
-  
-  .form-on-right form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-on-right label {
-    margin-bottom: 5px;
-  }
-  
-  .form-on-right input,
-  .form-on-right textarea {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .form-on-right button {
-    background: #007bff;
-    color: white;
-    padding: 10px;
-    border: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .form-on-right button:hover {
-    background: #0056b3;
-  }
-  
-  @media (max-width:600px) {
-    .img-on-left{
-      margin-bottom: 80vh;
-      width: 50%;
-      height: 150px;
-      transform: scale(1.5);
-      z-index: -999;
-      padding-left: 2vh;
-    }
-    .form-on-right{
-      margin-bottom: 1vh;
-      margin-left: -40vh;
-    }
-  }
+}

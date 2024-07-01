@@ -81,19 +81,10 @@
   display: block;
   
 }
-@media (max-width:425px) {
-  .hide_this{
-    padding-right: 17vh;
-    transform: scale(1.2);
 
-  }
-  .footer-column {
-    display: none;
-  }
-}
-@media (min-width:426px) and (max-width: 600px) {
+@media (max-width: 600px) {
   .footer-container {
-    padding: 20px;
+    padding: 20vh;
   }
 
   .footer-top {
@@ -128,7 +119,7 @@
 
   .hide_this {
     display: block;
-    padding-right: 20vh;
+    margin-right: auto;
     height: 5vh;
   }
 
@@ -230,5 +221,10 @@
   .footer-copyright {
     margin-bottom: 10px;
     font-size: 14px;
+  }
+}
+@media (max-width:1440px) {
+  .hide_this{
+    margin-left: 53vh;
   }
 }

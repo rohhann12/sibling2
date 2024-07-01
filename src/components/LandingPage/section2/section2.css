@@ -83,6 +83,13 @@ body {
 @media (max-width: 600px) {
     .section2-container {
         padding: 20px 10px; /* Adjust padding for smaller screens */
+        text-align: center;
+        height: 100vh;
+    }
+    .para2 {
+        font-size: 18px;
+        text-align: center;
+        margin: 5px 0;
     }
     .title {
         font-size: 18px;
@@ -93,18 +100,22 @@ body {
         font-size: 20px;
     }
     .image-onLeft {
-        display: none;
+        display: block;
         margin: 0 auto 10px;
-        max-width: 50%;
-        text-align: start;
+        max-width: 100%;
+        height: auto;
     }
     .para {
-        margin: 20px 0;
+        /* margin: 30px 0; */
+        margin-left: 0vh;
+        padding-left: 30vh;
         text-align: center;
         padding: 0 10px; /* Adjust padding for smaller screens */
     }
     .main-para {
         font-size: 14px;
+        padding-left: 20vh;
+        overflow-x: hidden;
     }
     .subscribe-section {
         margin-left: 0;
@@ -114,98 +125,24 @@ body {
     .subscribe-text {
         margin-left: 0;
         font-size: 12px;
-        justify-content: center; /* Center align the text and icon */
+        display: flex;
+        justify-content: center; 
+        align-items: center;
     }
-}
-
-@media (max-width: 768px) {
+    .arrow-icon {
+        margin-left: 5px;
+    }
     .heading-2 {
-        margin-left: 0;
         text-align: center;
-        margin-top: 20px;
-    }
-    .para2 {
-        display: none;
-    }
-    .title {
-        font-size: 34px;
-        text-align: center;
-        margin-left: 2px;
-        margin-top: -1vh;
-    }
-    .title-blue {
-        font-size: 34px;
-    }
-    .image-onLeft {
-        display: block;
-        margin: 20px auto;
-        max-width: 100%;
-        text-align: center;
-    }
-    .para {
-        margin-left: 0;
-        margin-top: 20px;
-        text-align: left;
-        padding: 0 20px;
-    }
-    .main-para {
-        margin-left: 2vh;
-        font-size: 2vh;
-    }
-    .subscribe-section {
-        margin-left: 0;
-        text-align: center;
-        margin-top: 20px;
-        padding-left: 0;
+        margin: 0;
     }
 }
 
-@media (max-width: 1440px) {
-    .section2-container {
-        padding: 40px;
-        flex-direction: column;
-        align-items: start;
-        justify-content: left;
+@media (min-width:1024px) and (max-width:1440px) {
+    .title{
+        margin-left: -10vh;
     }
-
-    .image-onLeft {
-        margin-bottom: 20px;
-        overflow: hidden;
-        float: left;
-        margin-top: -255px;
-        max-width: 100vh;
-        overflow: hidden;
-    }
-    .para2 {
-        display: block;
-        margin-left: 100vh;
-    }
-    .title {
-        font-size: 26px;
-    }
-
-    .title-blue {
-        font-size: 30px;
-    }
-
-    .para {
-        font-size: 14px;
-        text-align: left;
-        margin-left: 120vh;
-        white-space: wrap;
-        
-    }
-
-    .subscribe-text {
-        font-size: 14px;
-        margin-left: 5vh;
-    }
-    .section2-container {
-        padding-top: 20vh;
-        padding-bottom: 40vh;
-        margin-top: 0vh;
-    }
-    .heading-2{
-        margin-left: 106vh;
+    .subscribe-text{
+        margin-left: -33vh;
     }
 }

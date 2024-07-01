@@ -99,26 +99,18 @@
     display: none;
   }
   .heading {
-    display: none;
+    display: block;
   }
   .heading-center {
-    display: none;
-  }
-  .heading-top-left1 {
     display: block;
-    font-size: 14px;
-    padding: 7vh 0 0 4vh;
-    font-weight: 600; 
+    padding-top: 5vh;
   }
-
   .testimonial-container-slide {
     flex-direction: row;
     animation: slide 10s linear infinite;
     font-family: "Montserrat";
   }
-  * {
-    overflow-x: hidden;
-  }
+
 }
 
 @media (min-width: 601px) and (max-width: 768px) {

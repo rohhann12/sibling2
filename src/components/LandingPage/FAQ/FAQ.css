@@ -61,7 +61,7 @@ body {
     }
 
     .heading .hide_this {
-        display: block;
+        display: none;
         font-size: 10px;
         font-family: 'Montserrat-med';
         font-weight: 700;
@@ -70,6 +70,11 @@ body {
         margin-left: 15vh;
     }
 
+    .heading p{
+        font-size: 3vh;
+        padding-bottom: 1vh;
+    }
+    
     .category, .category1 {
         font-size: 18px;
         margin-left: 20px;
@@ -100,4 +105,9 @@ body {
         justify-content: left;
         text-align: left;
     }
+}
+@media (min-width:1024px) and (max-width:1440px) {
+    .category, .category1{
+       margin-left: 43vh;
+   }
 }
