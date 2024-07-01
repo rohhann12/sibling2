@@ -1,7 +1,6 @@
 body {
     background: #F3F8FC;
-    margin: 0;
-    padding: 0;
+
 }
 
 .heading-top_right {
@@ -32,8 +31,8 @@ body {
 }
 
 .accordion-container {
-    text-align: left;
-    padding: 25px;
+    text-align: start;
+    padding: 5px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -49,7 +48,7 @@ body {
 .accordion-item {
     margin-bottom: 20px;
     padding-bottom: 200vh;
-    border-bottom: 10px solid #dcdcdc;
+    border-bottom: 20px solid #dcdcdc;
 }
 
 .heading .hide_this {
@@ -63,7 +62,7 @@ body {
 
     .heading .hide_this {
         display: block;
-        font-size: 14px;
+        font-size: 10px;
         font-family: 'Montserrat-med';
         font-weight: 700;
         color: #333;
