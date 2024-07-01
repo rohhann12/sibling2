@@ -1,148 +1,108 @@
-body {
-    font-family: 'Montserrat-med';
-}
-
 .section2-container {
-    background-color: #fff;
-    padding: 200px 180px;
-    margin-top: 0vh;
-    padding-top: 20vh;
-}
-
-.subscribe-section {
-    margin-top: 20px;
-    margin-left: 940px;
-}
-
-.subscribe-text {
-    font-family: 'Montserrat-med';
-    font-weight: 700;
-    text-decoration: none;
-    color: #000; 
-    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: white;
+  }
+  
+  .video-section {
+    flex: 1;
     display: flex;
     align-items: center;
-    margin-left: -20vh;
-}
-
-.arrow-icon {
-    margin-left: 10px;
-}
-
-.title {
-    font-size: 30px; 
-    font-weight: 300;
-    letter-spacing: -0.5px;
-    margin-bottom: 10px;
-    margin-left: -7vh;
-    font-family: "Manrope";
-}
-
-.title-blue {
-    font-size: 34px; 
-    font-weight: 700;
-    color: #1E88E5; 
-}
-
-.para {
-    text-wrap: wrap;
-    margin-left: 120vh;
-    margin-top: 4vh;
-}
-.main-para{
-    font-family: "Manrope";
-    margin-top: 5vh;
+    justify-content: center;
+  }
+  
+  .video-tag {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .para2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .heading-2 .title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .title-blue {
+    color: blue;
+  }
+  
+  .para .main-para {
     font-size: 18px;
-    margin-left: -20vh;
-}
-.heading-2 {
-    margin-left: 72%;
-}
-
-.para2 {
-    font-family: "Montserrat";
-    margin-left: -18vh;
-    padding-bottom: 20px;
-    
-    font-size: 13px;
-}
-
-.image-onLeft {
-    float: left;
-    margin-top: -255px;
-    max-width: 90vh;
-    margin-left: -100px;
-    overflow: hidden;
-    
-}
-
-.hide_this{
-    display: none;
-}
-
-@media (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-section {
+    margin-top: 20px;
+  }
+  
+  .subscribe-text {
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Ensures the text and arrow are in a row */
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .arrow-icon {
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 600px) {
     .section2-container {
-        padding: 20px 10px; /* Adjust padding for smaller screens */
-        text-align: center;
-        height: 100vh;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
+  
+    .video-section, .text-section {
+      flex: none;
+      width: 100%;
+    }
+  
+    .video-tag {
+      width: 100%;
+      height: auto;
+    }
+  
     .para2 {
-        font-size: 18px;
-        text-align: center;
-        margin: 5px 0;
+      font-size: 20px;
+      margin-bottom: 10px;
     }
-    .title {
-        font-size: 18px;
-        text-align: center;
-        margin: 5px 0;
+  
+    .heading-2 .title {
+      font-size: 24px;
+      margin-bottom: 10px;
     }
-    .title-blue {
-        font-size: 20px;
+  
+    .para .main-para {
+      font-size: 16px;
+      margin-bottom: 20px;
     }
-    .image-onLeft {
-        display: block;
-        margin: 0 auto 10px;
-        max-width: 100%;
-        height: auto;
-    }
-    .para {
-        /* margin: 30px 0; */
-        margin-left: 0vh;
-        padding-left: 30vh;
-        text-align: center;
-        padding: 0 10px; /* Adjust padding for smaller screens */
-    }
-    .main-para {
-        font-size: 14px;
-        padding-left: 20vh;
-        overflow-x: hidden;
-    }
-    .subscribe-section {
-        margin-left: 0;
-        padding-left: 0;
-        text-align: center;
-    }
+  
     .subscribe-text {
-        margin-left: 0;
-        font-size: 12px;
-        display: flex;
-        justify-content: center; 
-        align-items: center;
+      font-size: 16px;
+      flex-direction: row; /* Ensures the text and arrow are in a row even on small screens */
+      justify-content: center; /* Centers the text and arrow */
     }
+  
     .arrow-icon {
-        margin-left: 5px;
+      width: 20px;
+      height: 20px;
     }
-    .heading-2 {
-        text-align: center;
-        margin: 0;
-    }
-}
-
-@media (min-width:1024px) and (max-width:1440px) {
-    .title{
-        margin-left: -10vh;
-    }
-    .subscribe-text{
-        margin-left: -33vh;
-    }
-}
+  }
+  

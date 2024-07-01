@@ -1,17 +1,17 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './LandingPage.css';
 import vectorImage from '../assets/line.svg'; 
-import '../../App.css'
-import '../../fonts/gilroy/Gilroy-SemiBold.ttf'
-import Navbar from '../Navbar/Navbar'
-import Section2 from './section2/section2'
-import Section3 from './section3/section3'
-import Faq from './FAQ/FAQ'
-import ContactUs from './contactUs/ContactUs'
-import LogosSlider from './logo-slider/logo'
-import Offer from './OfferPage/Offer'
-import Testimonial from './testimonial/testimonial'
-import Footer from './footer/footer'
+import '../../App.css';
+import '../../fonts/gilroy/Gilroy-SemiBold.ttf';
+import Navbar from '../Navbar/Navbar';
+import Section2 from './section2/section2';
+import Section3 from './section3/section3';
+import Faq from './FAQ/FAQ';
+import ContactUs from './contactUs/ContactUs';
+import LogosSlider from './logo-slider/logo';
+import Offer from './OfferPage/Offer';
+import Testimonial from './testimonial/testimonial';
+import Footer from './footer/footer';
 
 function LandingPage() {
   const [text, setText] = useState('');
@@ -63,7 +63,7 @@ function LandingPage() {
   return (
     <>
       <div>
-        <Navbar/>
+        <Navbar />
         <div className="text-container">
           <h1 className="main-heading">a sibling that makes you</h1>
           <div className="typed-out-container">
@@ -72,10 +72,12 @@ function LandingPage() {
           </div>
         </div>
         <img src={vectorImage} alt="line" id="line-homepage" />
-        <button id="space-button1" onClick={redirect}>Join our community</button>
+        <div className="button-container">
+          <button id="space-button1" onClick={redirect}>Join our community</button>
+        </div>
       </div>
       <Section2 />
-      <Section3/>
+      <Section3 />
       <Offer />
       <Testimonial />
       <LogosSlider />
