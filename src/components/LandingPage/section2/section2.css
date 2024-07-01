@@ -22,7 +22,6 @@ body {
     font-size: 1em;
     display: flex;
     align-items: center;
-    white-space: nowrap; /* Ensure the text stays on one line */
     margin-left: -20vh;
 }
 
@@ -158,5 +157,55 @@ body {
         text-align: center;
         margin-top: 20px;
         padding-left: 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .section2-container {
+        padding: 40px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+    }
+
+    .image-onLeft {
+        margin-bottom: 20px;
+        overflow: hidden;
+        float: left;
+        margin-top: -255px;
+        max-width: 100vh;
+        overflow: hidden;
+    }
+    .para2 {
+        display: block;
+        margin-left: 100vh;
+    }
+    .title {
+        font-size: 26px;
+    }
+
+    .title-blue {
+        font-size: 30px;
+    }
+
+    .para {
+        font-size: 14px;
+        text-align: left;
+        margin-left: 120vh;
+        white-space: wrap;
+        
+    }
+
+    .subscribe-text {
+        font-size: 14px;
+        margin-left: 5vh;
+    }
+    .section2-container {
+        padding-top: 20vh;
+        padding-bottom: 40vh;
+        margin-top: 0vh;
+    }
+    .heading-2{
+        margin-left: 106vh;
     }
 }
