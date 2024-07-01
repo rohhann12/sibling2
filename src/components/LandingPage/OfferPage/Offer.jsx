@@ -1,4 +1,5 @@
-import React ,{useNavigate} from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Heading from "../../assets/offer/heading.svg";
 import Newsletter from "../../assets/offer/newsletter.svg";
 import Right_img from "../../assets/offer/space_by.svg";
@@ -10,18 +11,19 @@ import "../../../fonts/Manrope/static/Manrope-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf";
-// const navigate = useNavigate();
-
-// const handleClick = () => {
-//   console.log("Navigating to /newsletter");
-//   navigate('/newsletter'); 
-// };
-// const forSpace = () => {
-//   console.log("Navigating to /space");
-//   navigate('/space'); 
-// };
 
 function Offer() {
+  const navigate = useNavigate();
+
+const handleClick1 = () => {
+  console.log("Navigating to /newsletter");
+  navigate('/newsletter'); 
+};
+const forSpace1 = () => {
+  console.log("Navigating to /space");
+  navigate('/space'); 
+};
+
   return (
     <div className='offer-container'>
       <div className='header'>
@@ -37,7 +39,7 @@ function Offer() {
             with valuable resources and insights designed to help you build resilience, manage stress, 
             and maintain overall well-being.
           </p>
-          <button className='offer-button' >Subscribe now</button>
+          <button className='offer-button' onClick={handleClick1} >Subscribe now</button>
         </div>
         <div className='offer-item'>
           <img src={Right_img} alt="Space by Sibling" className='offer-image' />
@@ -49,7 +51,7 @@ function Offer() {
             related to mental health and wellness. Share your experiences, insights, and learn from others 
             to foster well-being.
           </p>
-          <button className='offer-button'>Explore now</button>
+          <button className='offer-button' onClick={forSpace1}>Explore now</button>
         </div>
       </div>
     </div>
