@@ -10,16 +10,16 @@ import "../../../fonts/Manrope/static/Manrope-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf";
-const navigate = useNavigate();
+// const navigate = useNavigate();
 
-const handleClick = () => {
-  console.log("Navigating to /newsletter");
-  navigate('/newsletter'); 
-};
-const forSpace = () => {
-  console.log("Navigating to /space");
-  navigate('/space'); 
-};
+// const handleClick = () => {
+//   console.log("Navigating to /newsletter");
+//   navigate('/newsletter'); 
+// };
+// const forSpace = () => {
+//   console.log("Navigating to /space");
+//   navigate('/space'); 
+// };
 
 function Offer() {
   return (
@@ -37,7 +37,7 @@ function Offer() {
             with valuable resources and insights designed to help you build resilience, manage stress, 
             and maintain overall well-being.
           </p>
-          <button className='offer-button' onClick={handleClick}>Subscribe now</button>
+          <button className='offer-button' >Subscribe now</button>
         </div>
         <div className='offer-item'>
           <img src={Right_img} alt="Space by Sibling" className='offer-image' />
@@ -49,7 +49,7 @@ function Offer() {
             related to mental health and wellness. Share your experiences, insights, and learn from others 
             to foster well-being.
           </p>
-          <button className='offer-button' onClick={forSpace}>Explore now</button>
+          <button className='offer-button'>Explore now</button>
         </div>
       </div>
     </div>
