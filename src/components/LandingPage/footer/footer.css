@@ -72,13 +72,14 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  flex-wrap: wrap; /* Ensure elements wrap by default */
 }
 
 .footer-links a {
   margin: 0 10px;
   font-size: 14px;
   text-decoration: none;
-  color: #007bff;
+  color: black;
 }
 
 .footer-links a:hover {
@@ -102,8 +103,18 @@
   }
 }
 
-@media (max-width:600px) {
-  .footer-top{
+@media (max-width: 600px) {
+  .footer-top {
     display: none;
+  }
+
+  .footer-links {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
   }
 }
