@@ -1,6 +1,9 @@
 .offer-container {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
+  background-color: white;
 }
 
 .header {
@@ -9,109 +12,87 @@
 }
 
 .sub-header {
-  font-size: 12px;
-  margin-right: 173vh;
-  font-weight: 600;
-  font-family: "Montserrat-med";
+  font-size: 2vh;
+  font-family: 'Gilroy-SemiBold';
+  margin-bottom: 10px;
+  margin-left: -173vh;
 }
 
 .heading {
-  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
 }
 
 .offers {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  gap: 40px;
-  margin-top: 40px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 30px;
 }
 
 .offer-item {
-  flex: 1;
-  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
   text-align: center;
 }
 
 .offer-image {
-  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
 }
 
 .offer-title {
-  font-size: 32px;
-  font-weight: bold;
-  margin: 20px 0;
-  font-family: "Gilroy-semibold";
+  font-size: 24px;
+  font-family: 'Montserrat-SemiBold';
+  margin-bottom: 10px;
 }
+
 .offer-title1 {
-  font-size: 32px;
-  font-weight: bold;
-  margin: 20px 0;
-  font-family: "Gilroy-semibold";
+  font-size: 24px;
+  font-family: 'Montserrat-SemiBold';
+  margin-bottom: 10px;
 }
-.offer-description {
+
+.offer-description,
+.offer-description1 {
   font-size: 16px;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat";
+  font-family: 'Manrope-Regular';
+  text-align: center;
+  margin-bottom: 20px;
 }
-.offer-description1{
-  font-size: 16px;
-  margin-top: 1000px;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat";
+
+.text-blue {
+  color: #007bff;
 }
+
 .offer-button {
+  font-size: 16px;
+  font-family: 'Montserrat-Medium';
+  cursor: pointer;
+  align-self: center;
   background-color: #1E90FF;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
-  cursor: pointer;
-  font-size: 16px;
 }
 
 .offer-button:hover {
-  background-color: #1C86EE;
+  background-color: #0056b3;
 }
 
-.text-blue {
-  color: #1E90FF;
-}
-
-@media (max-width: 600px) {
-  .heading {
-    margin-right: 20vh;
-  }
+@media (max-width: 768px) {
   .offers {
-    display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .offer-title {
-    font-size: 2.5vh;
-  }
-  .offer-button {
-    border-radius: 50px;
-  }
-  .sub-header {
-    display: inline;
-    text-align: center;
-    padding: 0; 
-    margin: 0 auto; /* Center the text on smaller screens */
-  }
-}
-@media (min-width:601px) and (max-width:768px) {
-  .offer-description1{
-    margin-top: 6vh;
-  }
-  .offer-title1 {
-    margin-top: 5vh;
-  }
-}
-@media (max-width: 1440px) {
-  .sub-header {
-    display: inline-block;
-    margin:0 auto;
-    margin-left: -184vh;
-    text-align: center;
+
+  .offer-item {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

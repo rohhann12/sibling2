@@ -13,9 +13,10 @@ body {
 }
 .top-left {
   margin-bottom: 1vh;
-  font-weight: 800;
+  font-weight: 700;
   /* text-align: center; */
   margin-left: 40%;
+  padding:2vh 2vh;
 }
 
 .slider {
