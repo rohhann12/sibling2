@@ -1,15 +1,15 @@
 import './footer.css';
 import React from 'react';
-import Hidden from "../../assets/footer/footer.svg"
-import Fb from "../../assets/social/facebook.svg"
-import Twitter from "../../assets/social/x twitter.svg"
-import Insta from "../../assets/social/instagram.svg"
-import LinkedIn from "../../assets/social/linkedin.svg"
-import Yt from "../../assets/social/youtube.svg"
+import Hidden from "../../assets/footer/footer.svg";
+import Fb from "../../assets/social/facebook.svg";
+import Twitter from "../../assets/social/x twitter.svg";
+import Insta from "../../assets/social/instagram.svg";
+import LinkedIn from "../../assets/social/linkedin.svg";
+import Yt from "../../assets/social/youtube.svg";
+
 function Footer() {
   return (
-    <footer className="footer-container w-full bg-white">
-    <center>
+    <footer className="footer-container">
       <div className="footer-top">
         <div className="footer-column">
           <h3 className="font-bold">Space By Sibling</h3>
@@ -54,11 +54,13 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <img src={Hidden} alt="" className='hide_this' />
+        <div className="logo-container">
+          <img src={Hidden} alt="Hidden" className='hide_this' />
+        </div>
         <p className="footer-description">
           Sibling is a mental health support platform fostering community,
           connection, and shared experiences to empower individuals on their
-          wellness journey
+          wellness journey.
         </p>
         <div className="footer-social">
           <a href="https://x.com/siblinghq"><img src={Twitter} alt="Twitter" /></a>
@@ -74,7 +76,6 @@ function Footer() {
         </div>
         <p className="footer-copyright">© 2024 MindBridge Ventures. All Rights Reserved</p>
       </div>
-      </center>
     </footer>
   );
 }
