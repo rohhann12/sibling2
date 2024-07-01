@@ -4,8 +4,9 @@ body {
 
 .section2-container {
     background-color: #fff;
-    padding: 150px 150px;
-    margin-top: 5vh;
+    padding: 200px 180px;
+    margin-top: 0vh;
+    padding-top: 20vh;
 }
 
 .subscribe-section {
@@ -22,7 +23,7 @@ body {
     display: flex;
     align-items: center;
     white-space: nowrap; /* Ensure the text stays on one line */
-    margin-left: -10vh;
+    margin-left: -20vh;
 }
 
 .arrow-icon {
@@ -53,16 +54,18 @@ body {
     font-family: "Manrope";
     margin-top: 5vh;
     font-size: 18px;
-    margin-left: -10vh;
+    margin-left: -20vh;
 }
 .heading-2 {
-    margin-left: 75%;
+    margin-left: 72%;
 }
 
 .para2 {
     font-family: "Montserrat";
-    margin-left: 110vh;
+    margin-left: -18vh;
     padding-bottom: 20px;
+    
+    font-size: 13px;
 }
 
 .image-onLeft {
@@ -70,6 +73,8 @@ body {
     margin-top: -255px;
     max-width: 90vh;
     margin-left: -100px;
+    overflow: hidden;
+    
 }
 
 .hide_this{

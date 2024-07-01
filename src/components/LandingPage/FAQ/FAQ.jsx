@@ -45,10 +45,6 @@ const FAQ = () => {
           answer="The newsletter is sent out once a month."
         />
         <Accordion
-          title="How can I subscribe to the newsletter?" 
-          answer="Your institution can subscribe to our newsletter by visiting our website and signing up. The newsletter will be accessible to you on our school portal."
-        />
-        <Accordion
           title="Can I unsubscribe if I no longer want to receive the newsletter?" 
           answer="Yes, you can unsubscribe from the newsletter by writing us an email."
         />
