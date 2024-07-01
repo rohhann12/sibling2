@@ -61,7 +61,7 @@ body {
     width: 150px; /* Adjusted width for smallest screens */
   }
   .top-left{
-    margin-left: 6vh;
+    margin-left: 8vh;
     font-size: 2vh;
   }
 }
