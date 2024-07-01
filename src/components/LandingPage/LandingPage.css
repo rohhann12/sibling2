@@ -9,7 +9,9 @@
   height: 70vh;
 }
 #line-homepage{
-  margin-top: -5vh;
+  margin-top: -20vh;
+  /* margin-left: 10vh; */
+  width: 100%;
 }
 .main-heading {
   font-family: "Gilroy-bold"; 
