@@ -107,3 +107,12 @@
     margin-top: 5vh;
   }
 }
+@media (max-width: 1440px) {
+  .sub-header {
+    display: inline-block;
+    margin:0 auto;
+    margin-left: -155vh;
+    padding: 0;
+    text-align: center;
+  }
+}
