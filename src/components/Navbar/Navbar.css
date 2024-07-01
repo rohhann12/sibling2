@@ -21,10 +21,13 @@
   color: #333;
   font-weight: bold;
   padding: 0 2vh;
+  font-family: "Gilroy-semibold";
+  font-family: 400;
 }
 
 .navbar a:hover {
   color: #0056b3;
+  cursor: pointer;
 }
 
 #space-button {
@@ -34,6 +37,8 @@
   border-radius: 50px;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: "Gilroy-semibold";
+  font-family: 400;
 }
 
 #space-button:hover {

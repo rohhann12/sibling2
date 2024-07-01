@@ -59,6 +59,7 @@ export default function Newsletter() {
         />
         <br />
         <button onClick={handleSubmit} className='heading4'>Join Waitlist</button>
+        {/* <button onClick={goBack} className='heading4'>Go Back</button> */}
       </div>
     </>
   );

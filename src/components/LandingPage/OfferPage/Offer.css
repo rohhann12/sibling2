@@ -12,11 +12,20 @@
 }
 
 .sub-header {
-  font-size: 2vh;
   font-family: 'Gilroy-SemiBold';
   margin-bottom: 10px;
-  margin-left: -173vh;
+  font-family: "Montserrat-med";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left; 
+  margin-left: 0; 
+  padding-left: 0;
+  width: 100%;
 }
+
+
 
 .heading {
   width: 100%;
@@ -37,6 +46,7 @@
   align-items: center;
   width: 45%;
   text-align: center;
+  
 }
 
 .offer-image {
@@ -46,23 +56,34 @@
 }
 
 .offer-title {
-  font-size: 24px;
-  font-family: 'Montserrat-SemiBold';
   margin-bottom: 10px;
+  font-family: 'Gilroy-semibold';
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 125% */
+letter-spacing: -0.5px;
 }
 
 .offer-title1 {
-  font-size: 24px;
-  font-family: 'Montserrat-SemiBold';
+  font-family: 'Gilroy-semibold';
   margin-bottom: 10px;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: -0.5px;
 }
 
 .offer-description,
 .offer-description1 {
-  font-size: 16px;
-  font-family: 'Manrope-Regular';
-  text-align: center;
-  margin-bottom: 20px;
+text-align: center;
+margin-bottom: 20px;
+font-family: "Montserrat-med";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
 }
 
 .text-blue {
@@ -70,8 +91,6 @@
 }
 
 .offer-button {
-  font-size: 16px;
-  font-family: 'Montserrat-Medium';
   cursor: pointer;
   align-self: center;
   background-color: #1E90FF;
@@ -79,6 +98,12 @@
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
+  font-family: "Gilroy-bold";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.25px;
 }
 
 .offer-button:hover {

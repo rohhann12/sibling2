@@ -25,7 +25,7 @@
 
 .testimonial-container-slide {
   display: flex;
-  animation: slide 10s linear infinite;
+  animation: slide 15s linear infinite;
   width: 500%; /* Make sure this is wide enough to show all items */
 }
 
@@ -107,7 +107,7 @@
   }
   .testimonial-container-slide {
     flex-direction: row;
-    animation: slide 10s linear infinite;
+    animation: slide 15s linear infinite;
     font-family: "Montserrat";
   }
 

@@ -1,4 +1,4 @@
-/* Base styles */
+
 .body1 {
     margin-top: 30vh;
   }
@@ -14,6 +14,7 @@
   .heading2 {
     font-size: 6vh;
     margin-left: 70vh;
+    color: #37B6FF;
   }
   
   .heading3 {
@@ -22,7 +23,7 @@
   
   .heading4 {
     padding: 10px;
-    background-color: black;
+    background-color: #37B6FF;
     color: white;
     border-radius: 10vh;
     margin-top: 5vh;
@@ -31,6 +32,9 @@
     margin-left: 3vh;
   }
   
+  .heading4:hover{
+    background-color: #2176F6;
+  }
   /* Media query for 768px */
   @media (max-width: 768px) {
     .body1 {

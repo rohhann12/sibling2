@@ -15,6 +15,10 @@ function Navbar() {
     console.log("Navigating to /newsletter");
     navigate('/newsletter'); 
   };
+  const forSpace = () => {
+    console.log("Navigating to /space");
+    navigate('/space'); 
+  };
   
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
@@ -30,8 +34,8 @@ function Navbar() {
       </div>
       <div className={`clickables ${menuOpen ? 'open' : ''}`}>
         <a href="https://www.instagram.com/hqsibling">Join Us</a>
-        <a onClick={handleClick}>Newsletter</a>
-        <a href="#" id="space-button">Space By Sibling</a>
+        <a onClick={handleClick} >Newsletter</a>
+        <a onClick={forSpace} id="space-button">Space By Sibling</a>
       </div>
     </div>
   );
