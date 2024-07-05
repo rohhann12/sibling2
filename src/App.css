@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "Gilroy-bold";   
   src:url("./fonts/gilroy/Gilroy-Bold.ttf") format("truetype");

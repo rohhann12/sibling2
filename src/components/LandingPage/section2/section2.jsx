@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './section2.css';
 import Arrow from '../../assets/Vector.svg';
 import '../../../App.css';
@@ -8,8 +9,15 @@ import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf";
 
 function Section2() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    console.log("Navigating to /newsletter");
+    navigate('/newsletter'); 
+  };
+
   return (
-    <div className="section2-container flex-container">
+    <div className="section2-container flex-container" id="About">
       <div className="video-section">
         <video 
           src="https://d1jj76g3lut4fe.cloudfront.net/processed/thumb/75dKj8REUeZ9wqr0H4.mp4?Expires=1718819005&Signature=HPBoGEu0ZSivI2V4tkTLdGMmUEmuqyfNqCuLC4L96qEpgvzhB6Lr-YVo~HimkKR50jnDVmCOdJjAEUEO2Ck~5LFCPWmQ8oKRquxb9uDxLyk1IfNW6kk7OV4BjVYc-sfZC~CK6HiSb1qVbtNapqJSPijISOp4uyyJp077hbYH6huF7PbWVNtQ2tCH~9WQfPMIzFhY2pNJhsY-qFSgwsVvEYSk075sjvE1lHKpwvKzDP3UN9Wf5zAiux9K8cGm7w~OdHX3d-zgR9okY4h6A0v5zRwlYGjD-~mqy84VRAGYiNa2XAFdbwOXZdxinB~CL9VM5SkZOBX8h1WYJ7irtfabfw__&Key-Pair-Id=K2YEDJLVZ3XRI#t=0.001" 
@@ -37,7 +45,7 @@ function Section2() {
           </p>
         </div>
         <div className="subscribe-section">
-          <a href="#" className="subscribe-text">
+          <a onClick={handleClick} className="subscribe-text cursor-pointer">
             ACCESS OUR LATEST NEWSLETTER
             <img src={Arrow} alt="Arrow" className="arrow-icon" />
           </a>
