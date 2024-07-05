@@ -55,6 +55,11 @@ const VerticalCardSlider = () => {
         <div className="description">
           <p>{contentArray[activeIndex].description}</p>
         </div>
+        <div className='hide_this'>
+          <p>
+          We focus on nurturing all aspects of your well-being, including mental, emotional, and physical health, ensuring you grow into a well-rounded individual.
+          </p>
+        </div>
       </div>
     </div>
     </>

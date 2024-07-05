@@ -117,6 +117,8 @@ line-height: 16px;
 
   .subscribe-text {
     font-size: 16px;
+    overflow: hidden;
+    display: flex;
     flex-direction: row; /* Ensures the text and arrow are in a row even on small screens */
     justify-content: center; /* Centers the text and arrow */
   }

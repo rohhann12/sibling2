@@ -1,46 +1,43 @@
-
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 50vh;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding: 0; /* Removed padding to ensure no extra space */
 }
 
 .outer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:30vh;
-  padding-right: 10vh;
+  gap: 5vh; /* Reduced the gap between the elements */
   width: 100%;
+  margin-top: 0; /* Removed margin to ensure no extra space */
 }
 
 .titles {
-
   display: flex;
   align-items: center;
-  margin-left: 20vh;
-  padding-left: 10vh;
+  margin-left: 0; /* Removed margin to ensure no extra space */
+  padding-left: 0; /* Removed padding to ensure no extra space */
   flex-direction: column;
   white-space: nowrap;
 }
 
 .name {
-  font-size: 3vh; 
+  font-size: 3vh;
   color: #aaa;
   font-family: "Manrope";
   transition: color 1s, font-size 1s;
   margin-right: 20px;
   font-weight: 600;
-  
+  margin-top: -1vh; /* Adjusted negative margin */
 }
 
 .name.active {
   color: #000;
-  font-size: 4vh; 
+  font-size: 4vh;
   font-family: "Manrope";
   font-weight: 900;
 }
@@ -49,81 +46,103 @@
   flex-grow: 1;
   padding-left: 20px;
   font-size: 2.5vh;
-  font-family: "Montserrat-med"; 
+  font-family: "Montserrat-med";
+  text-align: left; /* Ensuring text starts from the left */
+  width: 100%; /* Taking full width */
+  max-width: 600px; /* Set a max-width for better readability */
+  margin: 0 auto; /* Center the text */
+  line-height: 1.6; /* Improve line height for readability */
 }
-.heading_help{
-    font-size: 12px;
-    margin-left: 3.5vh;
-    font-weight: 600;
-    margin-top: 1vh;
+
+.heading_help {
+  font-size: 12px;
+  margin-left: 0; /* Adjusted margin */
+  font-weight: 600;
+  margin-top: 0; /* Adjusted margin */
+  font-family: "Montserrat-med";
+  padding: 0; /* Removed padding to ensure no extra space */
+}
+
+.hide_this {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .hide_this {
+    display: contents;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-left: 200px;
+    width: 120%;
+    height: auto;
+  }
+
+  .wrapper {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vh;
+    padding-right: 25vh;
+    width: 100%;
+    margin-top: 2vh;
+  }
+
+  .description {
+    flex-grow: 1;
+    margin-left: 18vh;
+    padding-left: 20px;
+    font-size: 2vh;
+    display: none;
     font-family: "Montserrat-med";
-}
+  }
 
-@media (min-width:0px) and (max-width:600px) {
-    .wrapper {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 90vh;
-      }
-      
-      .outer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap:15vh;
-        padding-right: 25vh;
-        width: 100%;
-        margin-top: 2vh;
-      }
-      .description {
-        flex-grow: 1;
-        margin-left:18vh;
-        padding-left: 20px;
-        font-size: 2vh;
-        font-family: "Montserrat-med"; 
-      }
-      .name {
-        font-size: 2.5vh; 
-        color: #aaa;
-        font-family: "Manrope";
-        transition: color 1s, font-size 1s;
-        margin-right: 40px;
-        font-weight: 600;
-        
-      }
-      
-      .name.active {
-        color: #000;
-        font-size: 3.1vh; 
-        font-family: "Manrope";
-        font-weight: 900;
+  .name {
+    font-size: 2vh;
+    color: #aaa;
+    font-family: "Manrope";
+    transition: color 1s, font-size 1s;
+    margin-right: 40px;
+    font-weight: 600;
+    padding: 0vh;
+    margin-left: 200px;
+  }
 
-      }
-      .heading_help{
-        display: none;
-      }
-      .description {
-        flex-grow: 1;
-        padding-left: 5vh; /* Remove padding-left for centering */
-        margin-left: 18vh; /* Remove margin-left for centering */
-        font-size: 16px; /* Adjust font size as needed */
-        font-family: "Montserrat-med";
-        line-height: 1.3; /* Adjust line height for better readability */
-        text-align: center; /* Center the text */
-        margin-bottom: 2vh; /* Add margin-bottom if needed for spacing */
-    }
-    
-      .heading_help{
-        font-size: 14px;
-        margin-left: 15.5vh;
-        font-weight: 600;
-        margin-top: 3.3vh;
-        font-family: "Montserrat-med";
-    }
+  .name.active {
+    color: #000;
+    font-size: 3.1vh;
+    font-family: "Manrope";
+    font-weight: 900;
+  }
+
+  .description {
+    flex-grow: 1;
+    padding-left: 5vh;
+    margin-left: 18vh;
+    font-size: 16px;
+    font-family: "Montserrat-med";
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+
+  .heading_help {
+    font-size: 14px;
+    margin-left: 15.5vh;
+    font-weight: 600;
+    margin-top: 2vh;
+    display: none;
+    font-family: "Montserrat-med";
+  }
 }
