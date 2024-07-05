@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import './Newsletter.css';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 export default function Newsletter() {
+  const navigate = useNavigate();
+  const goBack = () => {
+    navigate('/');
+  };
   const [email, setEmail] = useState('');
 
   const validateEmail = (email) => {
@@ -32,7 +37,6 @@ export default function Newsletter() {
       },
     };
 
-    // Send the email using EmailJS
     try {
       const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
       console.log(res.data);
@@ -55,11 +59,13 @@ export default function Newsletter() {
           placeholder='Your email Address'
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className='w-64 h-12 border border-gray-900 rounded-xl p-6 ml-[-5vh]'
+          className='w-64 h-12 border border-gray-900 rounded-xl p-6'
         />
         <br />
-        <button onClick={handleSubmit} className='heading4'>Join Waitlist</button>
-        {/* <button onClick={goBack} className='heading4'>Go Back</button> */}
+        <div className='container'>
+          <button onClick={handleSubmit} className='heading4'>Join Waitlist</button>
+          <button onClick={goBack} className='heading4'>Go Back</button>
+        </div>
       </div>
     </>
   );
