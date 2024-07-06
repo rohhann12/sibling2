@@ -1,0 +1,76 @@
+body {
+    background: white;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.heading{
+    font-family: "Gilroy-bold";
+    font-size: 52px;
+    letter-spacing: -1px;
+}
+.heading2{
+    font-family: "Gilroy-bold";
+    font-size: 52px;
+}
+.left-side {
+    flex: 1;
+    min-width: 300px; 
+    max-width: 600px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.heading-top_right {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Montserrat-semibold', sans-serif;
+    margin-bottom: 1px;
+}
+
+.below-left-main {
+    font-family: 'Montserrat-med';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.accordion-container {
+    flex: 2;
+    min-width: 300px; 
+    max-width: 800px; 
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Gilroy-SemiBold';
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .faq-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side, .accordion-container {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .accordion-container {
+        max-width: 70vh;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .left-side, .accordion-container {
+        max-width: 50%;
+    }
+}

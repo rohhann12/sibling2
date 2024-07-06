@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import Navbar from './Navbar';
-import Newsletter from './components/Navbar/Newsletter';
+import Newsletter from './components/LandingPage/Newsletter/Main-2';
 import LandingPage from './components/LandingPage/LandingPage';
 import ComingSoon from './components/Navbar/ComingSoon';
 // import View from './components/LandingPage/section3/section3'
