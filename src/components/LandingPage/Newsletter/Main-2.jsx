@@ -4,17 +4,23 @@ import Navbar from './Navbar/Navbar'
 import Hero from './Hero/Hero'
 import Footer from './footer/footer'
 import Faq from './FAQ/FAQ'
+import Contact from './contactUs/contact'
 import Logo_slider from './logo-slider/logo'
-import Contactus from './contactUs/ContactUs'
+import Explore from './explore/explore'
+import Bento from './bento/bento'
 function Main() {
   return (
     <>
+    <div className='home2'>
     <Navbar/>
     <Hero/>
-    <Contactus/>
+    <Bento/>
+    <Explore/>
+    <Contact/>
     <Logo_slider/>
     <Faq/>
     <Footer/>
+    </div>
     </>
   )
 }

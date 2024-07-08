@@ -9,7 +9,11 @@ import "../../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
 import "../../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
 import "../../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 const FAQ = () => {
+  function navigateToSection() {
+    window.location.href = "#contacT";
+}
   return (
+    <>
     <div className="faq-container">
       <div className="left-side">
         <div className="heading-top_right">
@@ -36,6 +40,12 @@ const FAQ = () => {
         />
       </div>
     </div>
+    <div className="bottom-text">
+    <p>Still have questions?</p>
+    <p>Can't find the answer you're looking for? Please get in touch with us</p>
+    <button className="b-bottom" onClick={navigateToSection} >Get in touch</button>
+  </div>
+    </>
   );
 };
 
