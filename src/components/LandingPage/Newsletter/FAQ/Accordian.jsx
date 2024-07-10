@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import './FAQ2.css';
 const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
@@ -8,7 +8,7 @@ const Accordion = ({ title, answer }) => {
     <div className="py-2">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full"
+        className="md:text-[18px] text-[14px] flex justify-between w-full"
       >
         <span>{title}</span>
         {accordionOpen ? <span>-</span> : <span>+</span>}

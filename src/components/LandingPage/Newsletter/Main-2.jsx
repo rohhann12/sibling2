@@ -8,13 +8,17 @@ import Contact from './contactUs/contact'
 import Logo_slider from './logo-slider/logo'
 import Explore from './explore/explore'
 import Bento from './bento/bento'
+import Testi from './Testimonial-newsletter/testi'
+import Sec2 from './Section2-Newsletter/sec2'
 function Main() {
   return (
     <>
     <div className='home2'>
     <Navbar/>
     <Hero/>
+    <Sec2/>
     <Bento/>
+    <Testi/>
     <Explore/>
     <Contact/>
     <Logo_slider/>

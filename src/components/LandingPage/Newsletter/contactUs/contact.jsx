@@ -10,7 +10,7 @@ const EmailRestAPI = () => {
   const [IName, setIName] = useState('');
   const [IEmail, setIEmail] = useState('');
   const [IContact, setIContact] = useState('');
-  const [Auth, setAuth] = useState('');
+  const [authType, setAuthType] = useState(''); // State for the selected authentication type
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,6 +27,7 @@ const EmailRestAPI = () => {
         from_email: email,
         to_name: 'Viney',
         message: message,
+        auth_type: authType, // Include the selected authentication type in the template params
       },
     };
 
@@ -36,6 +37,10 @@ const EmailRestAPI = () => {
       setName('');
       setEmail('');
       setMessage('');
+      setIName('');
+      setIEmail('');
+      setIContact('');
+      setAuthType('');
       alert('Your message has been sent');
     } catch (error) {
       console.error(error);
@@ -105,10 +110,21 @@ const EmailRestAPI = () => {
               placeholder="Contact of the contact person"
               required
             />
-            <label >
-                <input type="radio" />
-                Principal
-            </label>
+            <label className="font-bold1">Institute Authority Designation *</label>
+            <select
+              value={authType}
+              onChange={(e) => setAuthType(e.target.value)}
+              required
+              className="border rounded-md p-2"
+            >
+              <option value="">Select...</option>
+              <option value="Parent">Parent</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Student">Student</option>
+              <option value="Other">Other</option>
+              <option value="Staff">Staff</option>
+            </select>
+            <br />
             <button type="submit" className="font-bold1">Get me on board!</button>
           </form>
         </div>

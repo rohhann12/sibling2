@@ -7,7 +7,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap; 
-    padding-bottom: 30vh;
+    padding-bottom: 8vh;
 }
 .heading{
     font-family: "Gilroy-bold";
@@ -74,6 +74,27 @@ body {
 
 .b-bottom:hover{
     background-color:#37B6FF ;
+}
+@media (max-width:600px) {
+    .faq-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap; 
+        padding-bottom: 30vh;
+    }
+    .accordion-container {
+        flex: 2;
+        min-width: 300px; 
+        max-width: 800px; 
+        padding: 10px;
+        font-size: 200px;
+        box-sizing: border-box;
+        font-family: 'Gilroy-SemiBold';
+        font-weight: 800;
+        border-radius: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
 }
 @media (max-width: 768px) {
     .faq-container {

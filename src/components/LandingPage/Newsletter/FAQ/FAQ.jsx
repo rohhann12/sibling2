@@ -31,13 +31,26 @@ const FAQ = () => {
           answer="Schools can reach out to us through our contact page to discuss partnership opportunities and get set up with a dedicated portal."
         />
         <Accordion
-          title="Do you charge any fees for your services?"
-          answer="No, all our services are free of charge."
+          title="What benefits does the newsletter offer to our students?"
+          answer="The newsletter provides valuable mental health resources, productivity tips, and personal growth strategies tailored specifically for teenagers."
         />
         <Accordion
-          title="How can I contact you?" 
-          answer="You can reach out to us via email at info@hqsibling.in"
+          title=" Can we provide feedback or suggest topics for future editions?" 
+          answer="Absolutely! We welcome feedback and topic suggestions from our partnered schools to better serve our student community."
         />
+        <Accordion
+          title="Is there a cost associated with subscribing to the newsletter?" 
+          answer="No, the newsletter is free of cost for all students from partnered schools."
+        />
+        <Accordion
+          title="How is the privacy of our students protected?" 
+          answer="We take privacy seriously. We do not collect any student information nor do we ask schools for any student data. All access is managed through the school’s dedicated portal, ensuring privacy and security."
+        />
+        <Accordion
+          title="Can our school contribute content to the newsletter?" 
+          answer="Yes, we encourage contributions from our partnered schools. Students and teachers can submit articles, stories, and other content for consideration."
+        />
+
       </div>
     </div>
     <div className="bottom-text">
