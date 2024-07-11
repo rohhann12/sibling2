@@ -19,15 +19,17 @@ const FAQ = () => {
         <div className="heading-top_right">
           <p>FAQ</p>
         </div>
-        <p className="heading">Got Questions?</p>
-        <p className="heading2">We have the Answers</p>
+        <div className="Main-heading1">
+        <p className="heading">Got Questions? <br />
+        We have the Answers</p>
+        </div>
         <div className="below-left-main">
-          <p>Everything you need to know about The Sibling Newsletter</p>
+          <p>Everything you need to know about <span className="conti">The Sibling Newsletter</span></p>
         </div>
       </div>
       <div className="accordion-container">
         <Accordion
-          title="How can our school partner with Sibling to receive the newsletter?"
+          title="How can our school partner with Sibling?"
           answer="Schools can reach out to us through our contact page to discuss partnership opportunities and get set up with a dedicated portal."
         />
         <Accordion

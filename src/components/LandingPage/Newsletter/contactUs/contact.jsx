@@ -50,9 +50,11 @@ const EmailRestAPI = () => {
   return (
     <div className="outer-container1" id='contacT'>
       <div className="top-heading1">
-        <h1>Let's Start Reading</h1>
+        <p>Let's Start Reading</p>
+        </div>
+        <div className='top-heading-below1'>
         <p>Subscribe Your Organization to The Sibling Newsletter</p>
-      </div>
+        </div>
       <div className="contact-us-container1">
         <div className="img-on-left1">
           <img src={Left_img} alt="Contact Us" className="map1" />

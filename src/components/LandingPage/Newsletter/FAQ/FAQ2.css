@@ -8,14 +8,9 @@ body {
     justify-content: space-between;
     flex-wrap: wrap; 
     padding-bottom: 8vh;
+    padding-top: 10vh;
 }
-.heading{
-    font-family: "Gilroy-bold";
-    font-size: 46px;
-    letter-spacing: -1px;
-}
-.heading2{
-    margin-top: -8vh;
+.Main-heading1{
     font-family: "Gilroy-bold";
     font-size: 46px;
 }
@@ -79,21 +74,29 @@ body {
     .faq-container {
         display: flex;
         flex-direction: row;
-        justify-content: start;
+        justify-content: left;
+        align-items: left;
         flex-wrap: wrap; 
-        padding-bottom: 30vh;
+        padding-bottom: 5vh;
+    }
+    .conti{
+        color:#37B6FF ;
     }
     .accordion-container {
         flex: 2;
         min-width: 300px; 
         max-width: 800px; 
-        padding: 10px;
         font-size: 200px;
         box-sizing: border-box;
         font-family: 'Gilroy-SemiBold';
         font-weight: 800;
         border-radius: 10px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    .below-left-main{
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 5vh;
     }
 }
 @media (max-width: 768px) {
