@@ -27,7 +27,13 @@ function Hero() {
         </div>
       </div>
       <div className="right-side">
+       <div className='for-mobile'>
+        <p>The Newsletter to <br/> Target All Your Needs</p>
+       </div>
         <img src={RightSideImg} alt="Newsletter Preview" />
+      </div>
+      <div>
+        <button className='b3' onClick={contactusprscroll}>Get Started</button>
       </div>
     </div>
   );

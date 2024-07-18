@@ -42,3 +42,9 @@
 .button3:hover{
     background-color: cadetblue;
 }
+
+@media (max-width:600px) {
+    .for_img{
+        max-width: 400px;
+    }
+}
