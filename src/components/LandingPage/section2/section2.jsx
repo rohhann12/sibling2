@@ -7,7 +7,7 @@ import "../../../fonts/Manrope/static/Manrope-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf";
-
+import Img from '../section2/20240715_105230000_iOS.png'
 function Section2() {
   const navigate = useNavigate();
 
@@ -19,16 +19,7 @@ function Section2() {
   return (
     <div className="section2-container flex-container" id="About">
       <div className="video-section">
-        <video 
-          src="https://d1jj76g3lut4fe.cloudfront.net/processed/thumb/75dKj8REUeZ9wqr0H4.mp4?Expires=1718819005&Signature=HPBoGEu0ZSivI2V4tkTLdGMmUEmuqyfNqCuLC4L96qEpgvzhB6Lr-YVo~HimkKR50jnDVmCOdJjAEUEO2Ck~5LFCPWmQ8oKRquxb9uDxLyk1IfNW6kk7OV4BjVYc-sfZC~CK6HiSb1qVbtNapqJSPijISOp4uyyJp077hbYH6huF7PbWVNtQ2tCH~9WQfPMIzFhY2pNJhsY-qFSgwsVvEYSk075sjvE1lHKpwvKzDP3UN9Wf5zAiux9K8cGm7w~OdHX3d-zgR9okY4h6A0v5zRwlYGjD-~mqy84VRAGYiNa2XAFdbwOXZdxinB~CL9VM5SkZOBX8h1WYJ7irtfabfw__&Key-Pair-Id=K2YEDJLVZ3XRI#t=0.001" 
-          alt="Description of the video" 
-          autoPlay 
-          loop 
-          muted 
-          playsInline 
-          controls={false}
-          className="video-tag"
-        />
+       <img src={Img} alt="" />
       </div>
       <div className="text-section">
         <div className="para2 font-bold">

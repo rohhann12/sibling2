@@ -1,4 +1,4 @@
-import './logo.css';
+
 import React from 'react';
 import Ashoka from "../../../assets/logos/Ashoka BW.svg";
 import Christ from "../../../assets/logos/Chrsit BW.svg";

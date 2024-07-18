@@ -25,7 +25,7 @@
 
 .testimonial-container-slide {
   display: flex;
-  animation: slide 15s linear infinite;
+  animation: slide 70s linear infinite;
   width: 500%; /* Make sure this is wide enough to show all items */
 }
 

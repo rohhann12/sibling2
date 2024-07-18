@@ -32,7 +32,7 @@ body {
 .slider .slide-track {
   display: flex;
   width: calc(250px * 14); 
-  animation: scroll 8s linear infinite;
+  animation: scroll 20s linear infinite;
   gap:6vh;
 }
 

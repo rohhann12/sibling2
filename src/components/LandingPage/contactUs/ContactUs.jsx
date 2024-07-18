@@ -52,7 +52,7 @@ const EmailRestAPI = () => {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Wahiq Iqbal"
+            placeholder="Enter your name"
             required
           />
           <label className="font-bold">Email</label>

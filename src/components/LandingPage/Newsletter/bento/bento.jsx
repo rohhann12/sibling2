@@ -7,7 +7,7 @@ import Img4 from '../assets/bento/people-relaxing-at-home 1.svg';
 function Bento() {
   return (
     <>
-      <div className='h-[250vh] w-full bg-white text-zinc-900 pt-[10vh] overflow-hidden md:h-[150vh]'>
+      <div id="bento" className='h-[250vh] w-full bg-white text-zinc-900 pt-[10vh] overflow-hidden md:h-[150vh]'>
         <div className='flex flex-col md:mx-auto pb-[5vh] md:max-w-4xl md:grid md:grid-cols-8 md:grid-rows-15 md:gap-5 md:w-auto'>
           <div className='col-span-4 row-span-5 bg-[#EDF8FF] rounded-xl'>
             <img src={Img4} alt="" className='h-[40vh] pl-10 md:h-[20vh] md:pl-[22vh]'/>

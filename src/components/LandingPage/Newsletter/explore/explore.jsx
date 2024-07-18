@@ -1,5 +1,5 @@
 import React from "react";
-import Img from '../assets/explore/iPad Pro mockup 13-inch top view 1.svg';
+import Img from '../assets/explore/take a look at sneak peek.png';
 import './explore.css';
 
 export default function App() {

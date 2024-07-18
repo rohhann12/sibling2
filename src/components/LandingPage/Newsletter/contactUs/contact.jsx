@@ -1,7 +1,7 @@
 import './contact.css';
 import React, { useState } from 'react';
 import axios from 'axios';
-import Left_img from '../assets/contactus/newspaper.svg';
+import Left_img from '../assets/contactus/newsletter site png.png';
 
 const EmailRestAPI = () => {
   const [name, setName] = useState('');
@@ -55,10 +55,12 @@ const EmailRestAPI = () => {
         <div className='top-heading-below1'>
         <p>Subscribe Your Organization to The Sibling Newsletter</p>
         </div>
+        
       <div className="contact-us-container1">
         <div className="img-on-left1">
           <img src={Left_img} alt="Contact Us" className="map1" />
         </div>
+
         <div className="form-on-right1">
           <p className="font-semibold heading1-1">
             You can reach us anytime via <span className='blue-email1'>support@hqsibling.in</span>
