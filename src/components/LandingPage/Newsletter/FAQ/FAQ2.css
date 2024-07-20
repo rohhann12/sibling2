@@ -8,7 +8,6 @@ body {
     justify-content: space-between;
     flex-wrap: wrap; 
     padding-bottom: 8vh;
-    padding-top: 10vh;
 }
 .Main-heading1{
     font-family: "Gilroy-bold";
@@ -41,7 +40,7 @@ body {
     flex: 2;
     min-width: 300px; 
     max-width: 800px; 
-    padding: 10px;
+    padding: 5px;
     box-sizing: border-box;
     font-family: 'Gilroy-SemiBold';
     font-weight: 800;
@@ -92,12 +91,23 @@ body {
         font-family: 'Gilroy-SemiBold';
         font-weight: 800;
         border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        flex-wrap: wrap; 
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
     .below-left-main{
         font-size: 25px;
         font-weight: 700;
         padding-bottom: 5vh;
+    }
+    .heading{
+        font-size:3.5vh;
+    }
+    .below-left-main{
+        font-size: 2.5vh;
     }
 }
 @media (max-width: 768px) {

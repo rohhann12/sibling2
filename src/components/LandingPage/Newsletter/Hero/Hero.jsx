@@ -1,16 +1,16 @@
 import React from 'react';
 import './Hero.css';
-import RightSideImg from '../assets/Herosection/v3.png'
+import RightSideImg from '../assets/Herosection/v3.png';
 
 function Hero() {
   const contactusprscroll = () => {
     document.getElementById('contacT').scrollIntoView();
   }
-  
+
   const bentogridpr = () => {
     document.getElementById('bento').scrollIntoView();
   }
-  
+
   return (
     <div className="hero9-container">
       <div className="left9-side">
@@ -29,7 +29,12 @@ function Hero() {
         </div>
       </div>
       <div className="right9-side">
+        <div className='new'>
+        <p>The Newsletter to Target</p>
+        <p className="title101">All Your <span className="blue-title101">Needs</span></p>
+        </div>
         <img src={RightSideImg} alt="Newsletter Preview" />
+        <button className="left-button911" onClick={contactusprscroll}>Get Started</button>
       </div>
     </div>
   );

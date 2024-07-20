@@ -20,7 +20,7 @@ const FAQ = () => {
           <p>FAQ</p>
         </div>
         <div className="Main-heading1">
-        <p className="heading">Got Questions? <br />
+        <p className="heading">Got any Questions? <br />
         We have the Answers</p>
         </div>
         <div className="below-left-main">
