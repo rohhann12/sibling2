@@ -61,9 +61,10 @@ body {
 .b-bottom{
     background-color: #2176F6;
     border-radius: 200px;
-    padding: 2vh 1vh;
-    margin-top:1vh;
+    padding: 1.3vh 1vh;
+    margin-top:2vh;
     margin-bottom: 8vh;
+    font-weight: 500;
     scroll-behavior: smooth;
 } 
 

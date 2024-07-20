@@ -1,4 +1,4 @@
-.outer-container1 {
+.outer-container11 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,22 +9,24 @@
     padding-top: 2vh;
 }
 
-.top-heading1 {
+.top-heading11 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 10vh;
+    font-size:8vh;
     font-family: "Gilroy-bold";
 }
-.top-heading-below1{
+
+.top-heading-below11 {
     margin-bottom: 20px;
     text-align: center;
+    font-size: 2.7vh;
 }
 
-.blue-email1 {
+.blue-email11 {
     color: #2176F6;
 }
 
-.heading1-1 {
+.heading11-1 {
     font-size: 18px;
     margin-left: 1vh;
     padding-top: 1vh;
@@ -33,16 +35,7 @@
     font-family: "Gilroy-semibold";
 }
 
-.top-heading1 h1 {
-    font-size: 56px;
-    font-weight: bold;
-}
-
-.top-heading1 p {
-    font-size: 1.2vm;
-}
-
-.contact-us-container1 {
+.contact-us-container11 {
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -50,54 +43,43 @@
     gap: 15vw;
 }
 
-.img-on-left1 {
+.img-on-left11 {
     border-radius: 20px;
 }
 
-.map1 {
+.map11 {
     margin-top: 20px;
     height: 750px;
     width: 600px;
 }
 
-.form-on-right1 {
+.form-on-right11 {
     max-width: 600px;
     height: 20vh;
     flex: 1;
-    margin-top: 5vh;
+    margin-top: 7vh;
 }
 
-.form-on-right1 label {
+.form-on-right11 label {
     justify-content: start;
     align-items: start;
 }
 
-.form-on-right1 h2 {
-    margin-bottom: 10px;
-}
-
-.form-on-right1 p {
-    margin-bottom: 20px;
-}
-
-.form-on-right1 form {
+.form-on-right11 form {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
 }
 
-.form-on-right1 input,
-.form-on-right1 textarea {
-    margin-bottom: 15px;
+.form-on-right11 input{
     border: 2px solid #ccc;
     border-radius: 5px;
-}
-
-.form-on-right1 input {
+    margin-bottom: 20px;
+    margin-top:4px;
     height: 40px;
 }
 
-.form-on-right1 button {
+.form-on-right11 button {
     background: #007bff;
     color: white;
     padding: 10px;
@@ -106,29 +88,30 @@
     cursor: pointer;
 }
 
-.form-on-right1 button:hover {
+.form-on-right11 button:hover {
     background: #0056b3;
 }
 
 @media (max-width: 600px) {
-    .contact-us-container1 {
+    .contact-us-container11 {
         flex-direction: column;
         font-size: smaller;
     }
-    .img-on-left1{
+
+    .img-on-left11 {
         display: none;
     }
 
-    .form-on-right1 {
+    .form-on-right11 {
         width: 100%;
     }
-    
-    .top-heading-below1{
+
+    .top-heading-below11 {
         font-size: 2.5vh;
     }
-    .top-heading1{
+
+    .top-heading11 {
         font-size: 6vh;
         font-weight: 700;
     }
 }
-

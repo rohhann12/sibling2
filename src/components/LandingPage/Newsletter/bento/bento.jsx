@@ -10,21 +10,21 @@ function Bento() {
       <div id="bento" className='h-[320vh] w-full bg-white text-zinc-900 pt-[10vh] pb-10 overflow-hidden md:h-[150vh]'>
         <div className='flex flex-col pb-10 md:mx-auto md:max-w-4xl md:grid md:grid-cols-8 md:grid-rows-15 md:gap-5 md:w-auto'>
           <div className='col-span-4 row-span-5 bg-[#EDF8FF] rounded-xl'>
-            <img src={Img4} alt="" className='h-[40vh] ml-[20vh] md:h-[20vh] md:pl-[22vh]'/>
+            <img src={Img4} alt="" className='h-[40vh] pl-[10vh] md:h-[20vh] md:pl-[22vh]'/>
             <div className='Text p-10'>
               <h1 className='font-bold text-[4vh]'>Personalized Tips</h1>
               <p className='text-wrap'>Receive tailored advice and practical strategies designed to address your wellbeing and productivity needs.</p>
             </div>
           </div>
           <div className='col-span-4 row-span-10 bg-[#EDF8FF] rounded-3xl'>
-            <img src={Img1} alt="" className='h-[40vh] ml-[20vh]' />
+            <img src={Img1} alt="" className='h-[60vh]' />
             <div className='p-4'>
               <h1 className='font-bold text-[4vh] '>Read anytime</h1>
               <p className='align-middle'>Sign up on behalf of your school or institution. Access our newsletter directly on your browser for easy and convenient reading.</p>
             </div>
           </div>
           <div className='col-span-4 row-span-5 bg-[#EDF8FF] rounded-3xl'>
-            <img src={Img2} alt="" className='h-[25vh] ml-[20vh]' />
+            <img src={Img2} alt="" className='[15vh] pl-[22vh]' />
             <div className='Text p-10'>
               <h1 className='font-bold text-[4vh]'>Expert-Led Content</h1>
               <p>Includes contributions from experts in mental health, science, and sociology, complemented by student stories and anecdotes.</p>

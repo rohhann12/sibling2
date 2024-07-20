@@ -11,7 +11,7 @@ export default function App() {
                 </div>
 
                 <div className="text">
-                    <div className="heading">
+                    <div className="heading5">
                         <p>Take a look at our exclusive sneak peek!</p>
                     </div>
                     <div>

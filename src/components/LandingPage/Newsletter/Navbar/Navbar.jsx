@@ -14,10 +14,10 @@ function Navbar() {
   return (
     <>
     <div className='header-container'>
-        <div className='logo'>
+        <div className='logo5'>
             <img src={Logo} alt="logo" onClick={handleC}  className='cursor-pointer'/>
         </div>
-        <div className='button'>
+        <div className='button5'>
             <button className='button2' onClick={contactusprscroll}>Get Started</button>
         </div>
     </div>

@@ -48,25 +48,25 @@ const EmailRestAPI = () => {
   };
 
   return (
-    <div className="outer-container1" id='contacT'>
-      <div className="top-heading1">
+    <div className="outer-container11" id='contacT'>
+      <div className="top-heading11">
         <p>Let's Start Reading</p>
-        </div>
-        <div className='top-heading-below1'>
+      </div>
+      <div className='top-heading-below11'>
         <p>Subscribe Your Organization to The Sibling Newsletter</p>
-        </div>
+      </div>
         
-      <div className="contact-us-container1">
-        <div className="img-on-left1">
-          <img src={Left_img} alt="Contact Us" className="map1" />
+      <div className="contact-us-container11">
+        <div className="img-on-left11">
+          <img src={Left_img} alt="Contact Us" className="map11" />
         </div>
 
-        <div className="form-on-right1">
-          <p className="font-semibold heading1-1">
-            You can reach us anytime via <span className='blue-email1'>support@hqsibling.in</span>
+        <div className="form-on-right11">
+          <p className="font-semibold heading11-1">
+            You can reach us anytime via <span className='blue-email11'>support@hqsibling.in</span>
           </p>
           <form onSubmit={handleSubmit}>
-            <label className="font-bold1">Name *</label>
+            <label className="font-semibold">Name *</label>
             <input
               type="text"
               value={name}
@@ -74,7 +74,7 @@ const EmailRestAPI = () => {
               placeholder="Your name"
               required
             />
-            <label className="font-bold1">Email *</label>
+            <label className="font-semibold">Email *</label>
             <input
               type="email"
               value={email}
@@ -82,7 +82,7 @@ const EmailRestAPI = () => {
               placeholder="Your email"
               required
             />
-            <label className="font-bold1">Institute Name *</label>
+            <label className="font-semibold">Institute Name *</label>
             <input
               type="text"
               value={IName}
@@ -90,7 +90,7 @@ const EmailRestAPI = () => {
               placeholder="Your Institute Name"
               required
             />
-            <label className="font-bold1">Institute Authority Name *</label>
+            <label className="font-semibold">Institute Authority Name *</label>
             <input
               type="text"
               value={IName}
@@ -98,7 +98,7 @@ const EmailRestAPI = () => {
               placeholder="Name of the contact person"
               required
             />
-            <label className="font-bold1">Institute Authority Email *</label>
+            <label className="font-semibold">Institute Authority Email *</label>
             <input
               type="email"
               value={IEmail}
@@ -106,19 +106,17 @@ const EmailRestAPI = () => {
               placeholder="Email address of the contact person"
               required
             />
-            <label className="font-bold1">Institute Authority Contact *</label>
+            <label className="font-semibold">Institute Authority Contact </label>
             <input
               type="text"
               value={IContact}
               onChange={(e) => setIContact(e.target.value)}
               placeholder="Contact of the contact person"
-              required
             />
-            <label className="font-bold1">Institute Authority Designation *</label>
+            <label className="font-semibold">Institute Authority Designation</label>
             <select
               value={authType}
               onChange={(e) => setAuthType(e.target.value)}
-              required
               className="border rounded-md p-2"
             >
               <option value="">Select...</option>
@@ -129,7 +127,7 @@ const EmailRestAPI = () => {
               <option value="Staff">Staff</option>
             </select>
             <br />
-            <button type="submit" className="font-bold1">Get me on board!</button>
+            <button type="submit" className="font-semibold">Get me on board!</button>
           </form>
         </div>
       </div>

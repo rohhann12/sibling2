@@ -11,10 +11,13 @@
     max-width: 500px;
 }
 
-.text .heading {
+.text .heading5 {
     display: inline;
     padding-top: 3vh;
-    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 6vh;
     font-weight: bold;
 }
 
@@ -30,10 +33,11 @@
     background-color: #2176F6; 
     color: white;
     border: none;
-    padding: 10px 10px;
+    align-items: center; 
+    padding: 12px 12px;
     font-weight: 600;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 2.5vh;
     border-radius: 25px;
     align-items: center;
     margin-top: 2vh;

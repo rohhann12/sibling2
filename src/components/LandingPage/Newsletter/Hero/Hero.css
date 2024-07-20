@@ -1,40 +1,49 @@
-.hero-container {
+.hero9-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 100vh;
-    width: 100%;
+    padding: 0 5%;
 }
 
-.text-container {
+.left9-side {
+    flex: 1;
+}
+
+.text9-container {
     max-width: 100%;
+    margin-bottom: 30vh;
 }
 
-.heading {
+.heading9 {
+    
     line-height: 1.2;
+    font-size: 5vh;
+    font-weight: bold;
 }
 
-.title {
+.title9 {
     font-weight: bold;
     justify-content: start;
 }
 
-.blue-title {
+.blue-title9 {
     color: #4285f4;
 }
 
-.small-text {
+.small-text9 {
     font-size: 1rem;
     color: #6c757d;
     margin-bottom: 2rem;
 }
 
-.for-buttons {
+.for-buttons9 {
     display: flex;
     gap: 1rem;
 }
 
-.left-button,
-.right-button {
+.left-button9,
+.right-button9 {
     padding: 0.75rem 1.5rem;
     border: none;
     cursor: pointer;
@@ -42,44 +51,50 @@
     border-radius: 200px;
 }
 
-.left-button {
+.left-button9 {
     background-color: #4285f4;
     color: white;
 }
 
-.right-button {
+.right-button9 {
     background-color: white;
     color: #4285f4;
     border: 1px solid #4285f4;
 }
 
-.right-side {
+.right9-side {
     flex: 1;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.right-side img {
-    max-width: 80%;
+.right9-side img {
+    max-width: 100%;
     height: auto;
 }
-.b3{
+
+.b39 {
     display: none;
 }
-.for-mobile{
+
+.for-mobile9 {
     display: none;
 }
-@media (max-width:600px) {
-    .small-text{
+
+@media (max-width: 600px) {
+    .small-text9 {
         display: none;
     }
-    .left-side{
+    .left9-side {
         display: none;
     }
-    .hero-container{
+    .hero9-container {
         flex-direction: column;
+        align-items: center;
     }
-    .right-side{
+    .right9-side {
         justify-content: center;
         margin-left: 2vh;
         align-items: center;
@@ -88,28 +103,22 @@
         font-size: 8vh;
         flex-direction: column;
     }
-    .right-side p{
+    .right9-side p {
         justify-content: center;
         overflow-y: hidden;
         padding-bottom: 20vh;
     }
-    .for-mobile{
+    .for-mobile9 {
         display: flex;
     }
-    .b3 {
+    .b39 {
         display: flex;
         gap: 1rem;
-    }
-    
-    .b3 {
         padding: 0.75rem 1.5rem;
         border: none;
         cursor: pointer;
         font-size: 1rem;
         border-radius: 200px;
-    }
-    
-    .b3 {
         background-color: #4285f4;
         color: white;
     }

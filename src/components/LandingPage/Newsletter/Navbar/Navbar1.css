@@ -1,28 +1,20 @@
 .header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px auto;
+  max-width: 1200px;
 }
 
-.logo {
-    margin-top: 50px;
-    margin-left: 100px; 
+.button5 {
+background-color: #2176F6;
+color: white;
+border-radius: 50px;
+font-family: "Gilroy-semibold";
+font-family: 400;
+padding: 1.3vh 1.5vh;
 }
 
-.button {
-    margin-right: 150px; 
-    padding: 1.5vh 1vh;
-}
-
-.button2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px 1px; 
-}
 
 @media (max-width: 600px) {
     .header-container {

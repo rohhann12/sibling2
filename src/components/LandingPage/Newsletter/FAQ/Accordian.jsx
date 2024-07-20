@@ -14,13 +14,13 @@ const Accordion = ({ title, answer }) => {
         {accordionOpen ? <span>-</span> : <span>+</span>}
       </button>  
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm mt-3 font-bold ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-700 text-sm mt-3 font-bold ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden">{answer}</div>
+        <div className="overflow-hidden text-[2vh]">{answer}</div>
       </div>
     </div>
    </>

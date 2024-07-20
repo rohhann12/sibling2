@@ -5,8 +5,8 @@ function Number({ n }) {
   const { number } = useSpring({
     from: { number: 0 },
     number: n,
-    delay: 200,
-    config: { mass: 1, tension: 20, friction: 10 }
+    delay: 1000,
+    config: { mass: 1, tension: 10, friction: 10 }
   });
 
   return <animated.span>{number.to((n) => n.toFixed(0))}</animated.span>;
@@ -14,7 +14,7 @@ function Number({ n }) {
 
 function Sec2() {
   return (
-    <div className='m-container mt-[10vh] mb-[10vh]'>
+    <div className='m-container mt-[-20vh] mb-[1vh] pb-[5vh]'>
       <div className='grid md:grid-cols-4 grid-cols-1 gap-4 text-center'>
         <div className='part-1 row-span-1 col-span-1'>
           <h1 className='font-bold text-[10vh]'>
