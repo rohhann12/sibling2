@@ -14,7 +14,7 @@ function Number({ n }) {
 
 function Sec2() {
   return (
-    <div className='m-container mt-[-20vh] mb-[1vh] pb-[5vh]'>
+    <div className='m-container mt-5 md:mt-[-10vh] mb-[1vh] pb-[5vh]'>
       <div className='grid md:grid-cols-4 grid-cols-1 gap-4 text-center'>
         <div className='part-1 row-span-1 col-span-1'>
           <h1 className='font-bold text-[10vh]'>

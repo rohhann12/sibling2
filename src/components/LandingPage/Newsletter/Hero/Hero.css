@@ -78,16 +78,22 @@
     max-width: 100%;
     height: auto;
 }
-
+.new p {
+    color: white; /* Default color for larger screens */
+    font-size: 3.5vh;
+    overflow: hidden;
+}
 @media (max-width: 600px) {
     .left9-side {
         display: none;
     }
-    .new p{
-        font-size: 3.5vh;
+    .new p{    
+    color: black; /* Color for smaller screens */
+    font-size: 4vh;
     }
     .right9-side{
-        margin-bottom: 30vh;
+        height: 100vh;
+        overflow-y: hidden;
     }
     .left-button911 {
         display: block;
