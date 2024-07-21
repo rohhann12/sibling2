@@ -1,13 +1,16 @@
 import React from "react";
 import Img from '../assets/explore/take a look at sneak peek.png';
 import './explore.css';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 export default function App() {
-    const navigate=useNavigate()
-    const handleClick11 = () => {
-        console.log("Navigating to sample");
-        navigate('/newsletter/sample'); 
-      };
+    // const navigate=useNavigate()
+    // const handleClick11 = () => {
+    //     console.log("Navigating to sample");
+    //     navigate('/newsletter/sample'); 
+    //   };
+    const gotoHq=()=>{
+        window.location.href = "https://www.hqsibling.in/";
+    }
     return (
         <>
             <div className="main-contain">
@@ -25,7 +28,7 @@ export default function App() {
                    
                 </div>
                 <div className="click">
-                <button className="button3" onClick={handleClick11}>Let's explore it together</button>
+                <button className="button3" onClick={gotoHq}>Let's explore it together</button>
                 </div>
             </div>
         </>
