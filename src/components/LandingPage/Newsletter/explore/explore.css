@@ -48,11 +48,16 @@
 }
 
 @media (max-width:600px) {
+    .main-contain{
+        max-width: 500px;
+        padding: 0 4%;
+    }
     .for_img{
         max-width: 400px;
     }
     .heading5 h2{
-        font-size: 5vh;
+        max-width: 600px;
+        font-size: 3.8vh;
     }
     .text p{
         padding-top: 2vh;

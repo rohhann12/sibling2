@@ -17,9 +17,8 @@
 }
 
 .top-heading-below11 {
-    margin-bottom: 20px;
     text-align: center;
-    font-size: 2.7vh;
+    font-size: 2.5vh;
 }
 
 .blue-email11 {
@@ -99,7 +98,9 @@
         font-size: smaller;
         display: flex;
     }
-
+    .top-heading-below11{
+        margin-top: -2vh;
+    }
     .img-on-left11 {
         display: none;
     }
