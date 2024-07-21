@@ -65,7 +65,7 @@ const EmailRestAPI = () => {
           <p className="font-semibold heading11-1">
             You can reach us anytime via <span className='blue-email11'>support@hqsibling.in</span>
           </p>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className='form1'>
             <label className="font-semibold">Name *</label>
             <input
               type="text"

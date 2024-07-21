@@ -90,7 +90,10 @@
 .form-on-right11 button:hover {
     background: #0056b3;
 }
-
+.form-on-right11 label{
+    padding-bottom: 0.5vh;
+    padding-left: 0.5vh;
+}
 @media (max-width: 600px) {
     .contact-us-container11 {
         max-width: 600px;
@@ -128,5 +131,8 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    .form-on-right11 label{
+        padding-bottom: 2vh;
     }
 }
