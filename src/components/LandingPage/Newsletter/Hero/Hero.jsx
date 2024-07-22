@@ -1,7 +1,13 @@
 import React from 'react';
 import './Hero.css';
 import RightSideImg from '../assets/Herosection/v3.png';
-
+import '../../../../App.css'
+import '../../../../fonts/gilroy/Gilroy-SemiBold.ttf'
+import '../../../../fonts/gilroy/Gilroy-Bold.ttf'
+import "../../../../fonts/Manrope/static/Manrope-Regular.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 function Hero() {
   const contactusprscroll = () => {
     document.getElementById('contacT').scrollIntoView();

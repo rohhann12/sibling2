@@ -2,7 +2,13 @@ import './contact.css';
 import React, { useState } from 'react';
 import axios from 'axios';
 import Left_img from '../assets/contactus/newsletter site png.png';
-
+import '../../../../App.css'
+import '../../../../fonts/gilroy/Gilroy-SemiBold.ttf'
+import '../../../../fonts/gilroy/Gilroy-Bold.ttf'
+import "../../../../fonts/Manrope/static/Manrope-Regular.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 const EmailRestAPI = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -62,7 +68,7 @@ const EmailRestAPI = () => {
         </div>
 
         <div className="form-on-right11">
-          <p className="font-semibold heading11-1">
+          <p className="font-[Gilroy-semibold] heading11-1">
             You can reach us anytime via <span className='blue-email11'>support@hqsibling.in</span>
           </p>
           <form onSubmit={handleSubmit} className='form1'>

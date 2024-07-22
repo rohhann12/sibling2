@@ -12,13 +12,14 @@
 .top-heading11 {
     margin-bottom: 20px;
     text-align: center;
-    font-size:8vh;
+    font-size:4.5vh;
     font-family: "Gilroy-bold";
 }
 
 .top-heading-below11 {
     text-align: center;
     font-size: 2.5vh;
+    /* padding: 2vh; */
 }
 
 .blue-email11 {
@@ -56,12 +57,13 @@
     max-width: 600px;
     height: 20vh;
     flex: 1;
-    margin-top: 7vh;
+    margin-top: 3vh;
 }
 
 .form-on-right11 label {
     justify-content: start;
     align-items: start;
+    font-family: "Montserrat-med";
 }
 
 .form-on-right11 form {

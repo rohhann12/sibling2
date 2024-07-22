@@ -1,6 +1,12 @@
 import React from 'react';
 import { animated, useSpring } from '@react-spring/web';
-
+import '../../../../App.css'
+import '../../../../fonts/gilroy/Gilroy-SemiBold.ttf'
+import '../../../../fonts/gilroy/Gilroy-Bold.ttf'
+import "../../../../fonts/Manrope/static/Manrope-Regular.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
+import "../../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 function Number({ n }) {
   const { number } = useSpring({
     from: { number: 0 },
@@ -14,7 +20,7 @@ function Number({ n }) {
 
 function Sec2() {
   return (
-    <div className='m-container mt-5 md:mt-[-10vh] mb-[1vh] pb-[5vh]'>
+    <div className='m-container mt-5 md:mt-[-10vh] mb-[1vh] pb-[5vh] font-[Montserrat-med]'>
       <div className='grid md:grid-cols-4 grid-cols-1 gap-4 text-center'>
         <div className='part-1 row-span-1 col-span-1'>
           <h1 className='font-bold text-[10vh]'>
@@ -38,7 +44,7 @@ function Sec2() {
           <h1 className='font-bold text-[10vh]'>
             <Number n={500} /> <span>+</span>
           </h1>
-          <p>Comprehensive articles written by mental health professionals</p>
+          <p>Comprehensive articles written by <br /> mental health professionals</p>
         </div>
       </div>
     </div>

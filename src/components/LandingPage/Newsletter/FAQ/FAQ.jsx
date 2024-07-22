@@ -58,7 +58,7 @@ const FAQ = () => {
     <div className="bottom-text">
     <p>Still have questions?</p>
     <p>Can't find the answer you're looking for? Please get in touch with us</p>
-    <button className="b-bottom" onClick={navigateToSection} >Get in touch</button>
+    <button className="b-bottom font-[Gilroy-SemiBold]" onClick={navigateToSection} >Get in touch</button>
   </div>
     </>
   );
