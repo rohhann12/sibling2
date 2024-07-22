@@ -1,4 +1,3 @@
-
 .wrapper {
   display: flex;
   align-items: center;
@@ -13,13 +12,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:30vh;
+  gap: 30vh;
   padding-right: 10vh;
   width: 100%;
 }
 
 .titles {
-
   display: flex;
   align-items: center;
   margin-left: 20vh;
@@ -35,7 +33,6 @@
   transition: color 1s, font-size 1s;
   margin-right: 20px;
   font-weight: 600;
-  
 }
 
 .name.active {
@@ -51,48 +48,48 @@
   font-size: 2.5vh;
   font-family: "Montserrat-med"; 
 }
-.heading_help{
-    font-size: 12px;
-    margin-left: 3.5vh;
-    font-weight: 600;
-    margin-top: 1vh;
-    font-family: "Montserrat-med";
+
+.heading_help {
+  font-size: 12px;
+  margin-left: 3.5vh;
+  font-weight: 600;
+  margin-top: 1vh;
+  font-family: "Montserrat-med";
 }
-.static{
-  display: none;
-}
-@media (min-width:0px) and (max-width:600px) {
+
+@media (max-width: 600px) {
   .wrapper {
-      flex-direction: column;
-      margin-top: 1vh;
-      width: 100%;
-      height: 100vh;
+    flex-direction: column;
+    margin-top: 1vh;
+    height: 120vh;
   }
-  .titles {
-      font-size: 2vh;
-  }
+
   .outer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding-right: 25vh;
-      width: 100%;
-      margin-top: 2vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2vh;
   }
+
+  .titles {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
   .description {
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      font-size: 3vh;
-      font-family: "Montserrat-med"; 
-      padding-bottom: 2vh;
+    text-align: center;
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
   }
+
   .heading_help {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      font-size: 3.5vh;
+    text-align: center;
+    font-size: 2vh;
+    margin-left: 0;
   }
 }

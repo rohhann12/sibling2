@@ -53,7 +53,7 @@ const VerticalCardSlider = () => {
               </h2>
             ))}
           </div>
-          <div className="description">
+          <div className=" description">
             <p>{contentArray[activeIndex].description}</p>
           </div>
         </div>
