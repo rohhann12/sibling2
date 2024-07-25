@@ -19,7 +19,7 @@
   max-width: 600px;
   padding: 0;
   font-size: 10vh;
-  margin-top: 20vh;
+  margin-top: 12vh;
   padding-left: 1.5vh;
   box-sizing: border-box;
 }
@@ -69,6 +69,7 @@ color: #2176F6;
   font-family: "Montserrat-med";
   text-align: center;
   margin-bottom: 5vh;
+  margin-top: 10vh;
 }
 
 .faq1-b-bottom {
