@@ -118,17 +118,20 @@
     }
 
     .top-heading-below11 {
-        font-size: 2.8vh;
+        font-size: 2.2vh;
     }
 
     .top-heading11 {
-        font-size: 5.2vh;
-        font-weight: 700;
+        font-size: 4vh;
+        font-weight: 500;
     }
     .heading11-1{
-        font-size: 3vh;
+        font-size: 2.5vh;
         margin-top: -1vh;
         padding-bottom: 2vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .blue-email11{
         align-items: center;

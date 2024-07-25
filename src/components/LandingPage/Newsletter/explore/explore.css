@@ -58,11 +58,25 @@
     }
     .heading5 h2{
         max-width: 600px;
-        font-size: 3.8vh;
+        font-size: 3.4vh;
     }
     .text p{
         padding-top: 2vh;
-        font-size: 2.5vh;
+        font-size: 2vh;
     }
    
+    .button3 {
+        background-color: #2176F6; 
+        color: white;
+        border: none;
+        align-items: center; 
+        padding: 14px 14px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 2.0vh;
+        border-radius: 25px;
+        align-items: center;
+        margin-top: 2vh;
+    
+    }
 }

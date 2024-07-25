@@ -103,7 +103,8 @@
     font-size: 4vh;
     }
     .right9-side{
-        height: 100vh;
+        margin-top: -20vh;
+        height: 50vh;
         overflow-y: hidden;
     }
     .left-button911 {

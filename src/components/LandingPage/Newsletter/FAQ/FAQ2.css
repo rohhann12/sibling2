@@ -70,6 +70,8 @@ color: #2176F6;
   text-align: center;
   margin-bottom: 5vh;
   margin-top: 10vh;
+  font-size: 2vh;
+  font-weight: 700;
 }
 
 .faq1-b-bottom {
@@ -87,6 +89,7 @@ color: #2176F6;
   background-color: #37B6FF;
 }
 
+
 @media (max-width: 600px) {
   .faq1-container {
     flex-direction: column;
@@ -94,7 +97,7 @@ color: #2176F6;
     padding-bottom: 5vh;
     justify-content: center;
     text-align: center;
-    margin: 0%;
+    margin-top: -20vh;
   }
 
   .faq1-heading-top_right {
@@ -122,6 +125,6 @@ color: #2176F6;
 
   .faq1-accordion-container > div {
     width: 100%;
-    max-width: 80%;
+    max-width: 90%;
   }
 }
