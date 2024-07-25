@@ -3,7 +3,6 @@ import Img1 from '../assets/bento/image 11.svg';
 import Img2 from '../assets/bento/image 13.svg';
 import Img3 from '../assets/bento/image 14.svg';
 import Img4 from '../assets/bento/people-relaxing-at-home 1.svg';
-import './bento.css'
 import '../../../../App.css'
 import '../../../../fonts/gilroy/Gilroy-SemiBold.ttf'
 import '../../../../fonts/gilroy/Gilroy-Bold.ttf'
@@ -37,13 +36,15 @@ function Bento() {
               <p>Includes contributions from experts in mental health, science, and sociology, complemented by student stories and anecdotes.</p>
             </div>
           </div>
-          <div className='md:col-span-8 md:bg-[#EDF8FF] md:rounded-xl'>
-            <img src={Img3} alt="" className=' bg-[#EDF8FF] h-[40vw] w-[100%] align-center  justify-center pl-[1vh] md:h-[22vh] md:pl-[60vh] md:mt-[2vh]' />
-            <div className='Text bg-[#EDF8FF] p-4'>
-              <h1 className='text-[3vh] font-[Gilroy-bold] font-bold md:font-bold md:text-[4vh]'>Interactive resources for you to cheer-up</h1>
-              <p>Engage with quizzes, exercises, and worksheets designed to support your mental wellness journey. These resources help you manage your mental health with practical activities for growth and resilience. Whether enhancing mindfulness, reducing stress, or improving emotional regulation, our tools provide hands-on strategies for your daily routine.</p>
-            </div>
+          <div className="md:col-span-8 bg-[#EDF8FF] md:rounded-xl flex flex-col md:flex-row-reverse items-center">
+          <div className="w-full md:w-1/4 flex justify-center">
+            <img src={Img3} alt="" className="h-[40vw] w-[100%] md:h-[25vh]" />
           </div>
+          <div className="w-full md:w-3/4 Text bg-[#EDF8FF] p-4 mt-4 md:mt-0 md:ml-4">
+            <h1 className="text-[2.9vh] md:text-[4vh] font-[Gilroy-bold] font-bold md:font-extrabold">Interactive resources for you to cheer-up</h1>
+            <p className=" align-middle justify-center text-align-center md:text-[2vh]">Engage with quizzes, exercises, and worksheets designed to support your mental wellness journey. These resources help you manage your mental health with practical activities for growth and resilience. Whether enhancing mindfulness, reducing stress, or improving emotional regulation, our tools provide hands-on strategies for your daily routine.</p>
+          </div>
+        </div>
         </div>
       </div>
     </>

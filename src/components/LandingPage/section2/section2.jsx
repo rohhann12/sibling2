@@ -11,7 +11,7 @@ import Img from '../section2/20240715_105230000_iOS.png'
 function Section2() {
   const navigate = useNavigate();
 
-  const handleClick = () => {
+  const handleClick2 = () => {
     console.log("Navigating to /newsletter");
     navigate('/newsletter'); 
   };
@@ -36,7 +36,7 @@ function Section2() {
           </p>
         </div>
         <div className="subscribe-section">
-          <a onClick={handleClick} className="subscribe-text cursor-pointer">
+          <a onClick={handleClick2} className="subscribe-text cursor-pointer">
             ACCESS OUR LATEST NEWSLETTER
             <img src={Arrow} alt="Arrow" className="arrow-icon" />
           </a>

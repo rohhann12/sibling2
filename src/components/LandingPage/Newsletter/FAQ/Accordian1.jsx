@@ -5,10 +5,10 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2">
+    <div className="py-2 align-middle">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="md:text-[18px] text-[14px] flex justify-between w-full text-left"
+        className="md:text-[18px] text-[16px] flex justify-between w-3/4  text-left"
       >
         <span>{title}</span>
         {accordionOpen ? <span>-</span> : <span>+</span>}
@@ -20,7 +20,7 @@ const Accordion = ({ title, answer }) => {
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden text-[2vh] text-left">{answer}</div> 
+        <div className="overflow-hidden text-[3vh] md:text-[1.5vh] w-3/4  text-left">{answer}</div> 
       </div>
     </div>
   );

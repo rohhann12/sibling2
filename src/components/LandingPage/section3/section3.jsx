@@ -25,8 +25,8 @@ const VerticalCardSlider = () => {
       description: "We provide guidance on improving communication and understanding within your family, helping to create a nurturing and harmonious home environment."
     },
     {
-      title: "Confidence and Self Esteem",
-      description: "Through our content and support, we empower you to believe in yourself and boost your self-esteem, enabling you to face challenges with confidence and resilience."
+      title: "Confidence & Self Esteem",
+      description:"Through our support,we empower you to believe in yourself and boost your self-confidence,enabling you to face challenges with confidence"
     },
   ];
 

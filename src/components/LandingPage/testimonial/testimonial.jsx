@@ -39,8 +39,7 @@ positive, no matter how tough things get." name="Mahi" occupation="College Junio
 
 <Props key={i+1} message="Sibling has been a real game-changer for me. Content they put up is not only informative but
 also incredibly supportive. I used to struggle with managing my stress, especially around exam
-time. Now, thanks to their practical tips and positive messages, I feel more in control of my
-emotions. It's comforting to know there's a platform dedicated to helping us teens navigate
+time.It's comforting to know there's a platform dedicated to helping us teens navigate
 mental health." name="Varun" occupation="12th Grade Student" image={Varun} />
 
 <Props key={i+2} message="Discovering Sibling has been one of the best things for my mental well-being. Their content is

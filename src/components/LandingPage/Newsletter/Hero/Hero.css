@@ -4,6 +4,9 @@
     justify-content: space-between;
     height: 100vh;
     padding: 0 5%;
+    margin-top: -5vh;
+    padding-bottom: 5vh;
+
 }
 
 .left9-side {
@@ -13,6 +16,7 @@
 .text9-container {
     max-width: 100%;
     margin-bottom: 30vh;
+    padding-left: 2vh;
 }
 
 .left-button911 {
@@ -61,7 +65,11 @@
     background-color: #4285f4;
     color: white;
 }
-
+.news-img{
+    justify-content: center;
+    align-items: center;
+    padding-left:2vh;
+}
 .right-button9 {
     background-color: white;
     color: #4285f4;

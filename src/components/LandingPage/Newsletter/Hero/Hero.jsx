@@ -35,11 +35,11 @@ function Hero() {
         </div>
       </div>
       <div className="right9-side">
-        <div className='new'>
+        <div className='new md:hidden'>
         <p>The Newsletter to Target</p>
         <p className="title101">All Your <span className="blue-title101">Needs</span></p>
         </div>
-        <img src={RightSideImg} alt="Newsletter Preview" />
+        <img src={RightSideImg} alt="Newsletter Preview" className='news-img'/>
         <button className="left-button911" onClick={contactusprscroll}>Get Started</button>
       </div>
     </div>
