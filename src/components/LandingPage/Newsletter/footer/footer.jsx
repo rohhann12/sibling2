@@ -66,7 +66,6 @@ function Footer() {
           <a href="https://x.com/siblinghq"><img src={Twitter} alt="Twitter" /></a>
           <a href="https://www.instagram.com/hqsibling"><img src={Insta} alt="Instagram" /></a>
           <a href="https://www.linkedin.com/company/siblinghq"><img src={LinkedIn} alt="LinkedIn" /></a>
-          <a href="#"><img src={Yt} alt="YouTube" /></a>
         </div>
         <div className="footer-links">
           <a href="#">Privacy</a>
