@@ -25,7 +25,7 @@ const FAQ = () => {
             <p className="faq1-heading">Got Questions?<br />We Have the Answers</p>
           </div>
           <div className="faq1-below-left-main">
-            <p>Everything you need to know about <span className="faq1-conti">The Sibling Newsletter</span></p>
+            <p>Everything you need to know about <span className="faq1-conti"> <br/>The Sibling Newsletter</span></p>
           </div>
         </div>
         <div className="faq1-accordion-container">
@@ -38,7 +38,7 @@ const FAQ = () => {
             answer="The newsletter provides valuable mental health resources, productivity tips, and personal growth strategies tailored specifically for teenagers."
           />
           <Accordion
-            title="Can we provide feedback or suggest topics for future editions?"
+            title="Can you provide feedback or suggest topics for future editions?"
             answer="Absolutely! We welcome feedback and topic suggestions from our partnered schools to better serve our student community."
           />
           <Accordion

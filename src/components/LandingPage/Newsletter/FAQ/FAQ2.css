@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
-  padding-bottom: 8vh;
   padding-left: 1.5vh;
+  margin-top: 10vh;
+  gap:10vh;
+
 }
 
 .faq1-Main-heading1 {
@@ -17,10 +18,14 @@
   min-width: 300px;
   max-width: 600px;
   padding: 0;
+  font-size: 10vh;
+  margin-top: 20vh;
   padding-left: 1.5vh;
   box-sizing: border-box;
 }
-
+.faq1-conti{
+color: #2176F6;
+}
 .faq1-heading-top_right {
   font-size: 14px;
   font-weight: 600;
@@ -38,16 +43,25 @@
   font-size: 20px;
   font-weight: 500;
   margin-top: 1vh;
+  display: inline;
 }
 
 .faq1-accordion-container {
   flex: 2;
+  padding-left: 5%;
   min-width: 300px;
   max-width: 800px;
-  padding: 5px;
+  margin-top: -2vh;
   box-sizing: border-box;
   font-family: 'Gilroy-SemiBold';
   font-weight: 800;
+  
+}
+
+.faq1-accordion-container > div {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .faq1-bottom-text {
@@ -79,6 +93,7 @@
     padding-bottom: 5vh;
     justify-content: center;
     text-align: center;
+    margin: 0%;
   }
 
   .faq1-heading-top_right {
@@ -86,10 +101,9 @@
   }
 
   .faq1-heading {
-    font-size: 5vh;
+    font-size: 3vh;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  
   }
 
   .faq1-below-left-main {
@@ -100,23 +114,13 @@
 
   .faq1-accordion-container {
     width: 100%;
+    margin-left: 0;
     align-items: center;
-    text-align: center; /* Center align text */
+    text-align: center; 
   }
 
   .faq1-accordion-container > div {
-    margin: 0 auto; /* Center the accordion items */
-    max-width: 90%; /* Ensure the accordion items are centered */
-  }
-}
-
-@media (max-width: 768px) {
-  .faq1-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .faq1-left-side, .faq1-accordion-container {
-    max-width: 100%;
-    text-align: center;
+    width: 100%;
+    max-width: 80%;
   }
 }
