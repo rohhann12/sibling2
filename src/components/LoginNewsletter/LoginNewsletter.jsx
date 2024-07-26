@@ -4,11 +4,32 @@ import './LoginNewsletter.css';
 import Navbar from './Navbar/Navbar2';
 import Photo from './newsletter site png (1).png';
 import NewsPhoto from './assets/newsletter.svg'
+
 const UniversityLogin = () => {
   const [selectedUniversity, setSelectedUniversity] = useState('');
+  const [password, setPassword] = useState('');
 
   const handleUniversityChange = (event) => {
     setSelectedUniversity(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (selectedUniversity === "Ashoka" && password === "Ashoka") {
+      window.location.href = "https://www.hqsibling.in/";
+    } else if (selectedUniversity === "Christ" && password === "Christ") {
+      window.location.href = "https://www.hqsibling.in/";
+    } else if (selectedUniversity === "Flame" && password === "Flame") {
+      window.location.href = "https://www.hqsibling.in/";
+    } else if (selectedUniversity === "Ahd" && password === "Ahd") {
+      window.location.href = "https://www.hqsibling.in/";
+    } else if (selectedUniversity === "Jindal" && password === "Jindal") {
+      window.location.href = "https://www.hqsibling.in/";
+    } else if (selectedUniversity === "Krea" && password === "Krea") {
+      window.location.href = "https://www.hqsibling.in/";
+    } else {
+      alert("Invalid password or university.");
+    }
   };
 
   return (
@@ -23,7 +44,7 @@ const UniversityLogin = () => {
             <Logo selectedUniversity={selectedUniversity} />
           </div>
           <div className="form-container w-full max-w-[500px]">
-            <form className='w-full'>
+            <form className='w-full' onSubmit={handleSubmit}>
               <div className="form-group mb-5">
                 <label htmlFor="university" className="block mb-2">Select Institute</label>
                 <select id="university" onChange={handleUniversityChange} className="w-full p-2 border rounded">
@@ -38,7 +59,13 @@ const UniversityLogin = () => {
               </div>
               <div className="form-group mb-5">
                 <label htmlFor="password" className="block mb-2">Password</label>
-                <input type="password" id="password" placeholder="Enter Password" className="w-full p-2 border rounded" />
+                <input type="password" 
+                id="password" 
+                placeholder="Enter Password" 
+                className="w-full p-2 border rounded" 
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                />
               </div>
               <button type="submit" className="w-full p-3 bg-blue-500 text-white rounded">Let's Read</button>
             </form>
