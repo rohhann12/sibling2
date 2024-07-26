@@ -8,9 +8,12 @@ import "../../../../fonts/Manrope/static/Manrope-Regular.ttf"
 import "../../../../fonts/Montserrat/static/Montserrat-Regular.ttf"
 import "../../../../fonts/Montserrat/static/Montserrat-Medium.ttf"
 import "../../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
+import { useNavigate } from 'react-router-dom';
+
 function Hero() {
+  const navigate=useNavigate();
   const contactusprscroll = () => {
-    document.getElementById('contacT').scrollIntoView();
+    navigate("/login")
   }
 
   const bentogridpr = () => {
