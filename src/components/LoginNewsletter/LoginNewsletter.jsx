@@ -4,11 +4,12 @@ import './LoginNewsletter.css';
 import Navbar from './Navbar/Navbar2';
 import Photo from './newsletter site png (1).png';
 import NewsPhoto from './assets/newsletter.svg'
+import {useNavigate} from 'react-router-dom'
+
 
 const UniversityLogin = () => {
   const [selectedUniversity, setSelectedUniversity] = useState('');
   const [password, setPassword] = useState('');
-
   const handleUniversityChange = (event) => {
     setSelectedUniversity(event.target.value);
   };
@@ -31,14 +32,17 @@ const UniversityLogin = () => {
       alert("Invalid password or university.");
     }
   };
-
+  const navigate=useNavigate();
+  const toHomeScreen = ()=>{
+    navigate('/newsletter')
+  }
   return (
     <>
       <Navbar />
       <div className='main-container-login w-full flex'>
         <div className='left-side w-1/2 flex flex-col items-center justify-center p-10'>
           <div>
-            <img src={NewsPhoto} alt="Newsletter Logo" />
+            <img src={NewsPhoto} alt="Newsletter Logo" onClick={toHomeScreen}  className='cursor-pointer'  />
           </div>
           <div className="logos mb-5 w-full max-w-[900px]">
             <Logo selectedUniversity={selectedUniversity} />
@@ -71,7 +75,7 @@ const UniversityLogin = () => {
             </form>
           </div>
         </div>
-        <div className='right-side w-1/2 flex items-center justify-center'>
+        <div className='right-side w-1/2 flex items-center justify-center bg-[#37B6FF]'>
           <img src={Photo} alt="Illustration" className="max-w-full h-auto" />
         </div>
       </div>
