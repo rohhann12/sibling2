@@ -56,8 +56,8 @@ const UniversityLogin = () => {
                   <option value="Krea">Krea University</option>
                 </select>
               </div>
-              <div className="form-group mb-5">
-                <label htmlFor="password" className="block mb-2">Pa.ssword</label>
+              <div className="form-group">
+                <label htmlFor="password" className="block mb-2">Password</label>
                 <input type="password" 
                   id="password" 
                   placeholder="Enter Password" 
