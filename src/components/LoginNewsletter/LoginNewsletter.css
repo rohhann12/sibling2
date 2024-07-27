@@ -1,82 +1,82 @@
-  .main-container-login {
-    display: flex;
-    height: 85vh;
-  }
+.main-container-login {
+  display: flex;
+  height: 85vh;
+}
 
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.logos {
+  width: 100%;
+  max-width: 900px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #37B6FF;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side img {
+  max-width: 100%;
+  margin-top: -5vh;
+  height: 70vh;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
   .left-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  .logos {
     width: 100%;
-    max-width: 900px;
   }
-
-  .form-container {
-    width: 100%;
-    max-width: 500px;
+  .nav {
+    display: none;
   }
-
-  .form-group {
-    margin-bottom: 1rem;
-  }
-
-  .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-
-  .form-group select,
-  .form-group input {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-  }
-
-  button[type="submit"] {
-    width: 100%;
-    padding: 0.75rem;
-    background-color: #37B6FF;
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-
   .right-side {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none;
   }
-
-  .right-side img {
-    max-width: 100%;
-    margin-top: -5vh;
-    height: 70vh;
+  .right-side {
+    display: none !important;
   }
-
-  /* Mobile Styles */
-  @media (max-width: 600px) {
-    .left-side {
-      width: 100%;
-    }
-    .nav {
-      display: none;
-    }
-    .right-side {
-      display: none;
-    }
-    .right-side {
-      display: none !important;
-    }
-  }
+}

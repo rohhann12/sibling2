@@ -21,12 +21,12 @@ const FAQ = () => {
           <div className="faq1-heading-top_right">
             <p>FAQ</p>
           </div>
-          <div className="faq1-Main-heading1">
-            <p className="faq1-heading">Got Questions?<br />We Have the Answers</p>
-          </div>
-          <div className="faq1-below-left-main">
-            <p>Everything you need to know about <span className="faq1-conti"> <br/>The Sibling Newsletter</span></p>
-          </div>
+            <div className="faq1-Main-heading1">
+              <p className="faq1-heading">Got Questions?<br />We Have the Answers</p>
+            </div>
+            <div className="faq1-below-left-main">
+              <p>Everything you need to know about <span className="faq1-conti"> <br />The Sibling Newsletter</span></p>
+            </div>
         </div>
         <div className="faq1-accordion-container">
           <Accordion
@@ -55,10 +55,10 @@ const FAQ = () => {
           />
         </div>
       </div>
-      <div className="faq1-bottom-text">
-        <p className="faq1-mt-2">Still have questions?</p>
-        <p className="pt-2 pb-">Can't find the answer you're looking for? <span className=""> Please get in touch with us </span></p>
-        <button className="faq1-b-bottom font-[Gilroy-SemiBold] font-white" onClick={navigateToSection}>Get in touch</button>
+      <div className="faq1-bottom-text text-[Montserrat-Semibold] text-[1.6vh]">
+        <p className="faq1 pt-2 font-bold">Still have questions?</p>
+        <p className="pt-2 font-semibold">Can't find the answer you're looking for? Please get in touch with us </p>
+        <div className="pt-4"><button className="faq1-b-bottom pt-2 font-[Gilroy-SemiBold] font-white" onClick={navigateToSection}>Get in touch</button></div>
       </div>
     </>
   );
