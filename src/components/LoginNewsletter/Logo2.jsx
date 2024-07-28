@@ -44,6 +44,11 @@ const LogoSlider = ({ selectedUniversity }) => {
                 <img src={logos[key]} alt={`${key} Logo`} className="logo" />
               </div>
             ))}
+            {Object.keys(logos).map((key, index) => (
+              <div className="slide" key={index + Object.keys(logos).length}>
+                <img src={logos[key]} alt={`${key} Logo`} className="logo" />
+              </div>
+            ))}
           </div>
         </div>
       )}

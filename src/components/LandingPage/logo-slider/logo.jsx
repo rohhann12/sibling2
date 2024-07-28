@@ -28,6 +28,11 @@ function Logo() {
               <img src={logo} alt="Logo" />
             </div>
           ))}
+           {logos.map((logo, index) => (
+            <div className='slide' key={index + logos.length}>
+              <img src={logo} alt="Logo" />
+            </div>
+          ))}
         </div>
       </div>
      </div>
