@@ -8,13 +8,13 @@ const Accordion = ({ title, answer }) => {
     <div className="py-2 w-full">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full text-left"
+        className="flex justify-between w-full text-left font-bold"
       >
         <span>{title}</span>
         {accordionOpen ? <span>-</span> : <span>+</span>}
       </button>  
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-md mt-3 font-bold ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-md mt-3  ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
