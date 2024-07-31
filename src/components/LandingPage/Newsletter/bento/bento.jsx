@@ -32,7 +32,7 @@ function Bento() {
           <div className='col-span-4 row-span-5 bg-[#EDF8FF] rounded-3xl'>
             <img src={Img2} alt="" className='h-[15vh] pl-[10vh] md:h-[15vh] md:pl-[20vh]' />
             <div className='Text p-10 pl-4'>
-              <h1 className='font-bold text-left text-[3.5vh] font-[Gilroy-bold]'>Expert-Led Content</h1>
+              <h1 className='font-bold text-left text-[4vh] font-[Gilroy-bold]'>Expert-Led Content</h1>
               <p>Includes contributions from experts in mental health, science, and sociology, complemented by student stories and anecdotes.</p>
             </div>
           </div>
@@ -41,7 +41,7 @@ function Bento() {
             <img src={Img3} alt="" className="h-[40vw] w-[100%] md:h-[25vh]" />
           </div>
           <div className="w-full md:w-3/4 Text bg-[#EDF8FF] p-4 mt-4 md:mt-0 md:ml-4">
-            <h1 className="text-[2.9vh] md:text-[4vh] font-[Gilroy-bold] font-bold md:font-extrabold">Interactive resources for you to cheer-up</h1>
+            <h1 className="text-[3.5vh] font-[Gilroy-bold] font-bold md:font-extrabold">Interactive resources for you to cheer-up</h1>
             <p className=" align-middle justify-center text-align-center md:text-[2vh]">Engage with quizzes, exercises, and worksheets designed to support your mental wellness journey. These resources help you manage your mental health with practical activities for growth and resilience. Whether enhancing mindfulness, reducing stress, or improving emotional regulation, our tools provide hands-on strategies for your daily routine.</p>
           </div>
         </div>

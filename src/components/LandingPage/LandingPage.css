@@ -6,11 +6,11 @@
   align-items: center;
   text-align: center;
   margin-top: 30px;
-  height: 50vh;
+  height: 20vh;
 }
 
 #line-homepage {
-  margin-top:-12vh;
+  margin-top:-20vh;
   bottom: 15%;
   display: flex;
   width: 100%; 
@@ -85,6 +85,14 @@
 }
 
 @media (max-width: 600px) {
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    height: 50vh;
+  }
   .main-heading {
     font-size: 8vw;
   }
