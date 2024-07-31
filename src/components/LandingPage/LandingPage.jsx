@@ -67,7 +67,7 @@ function LandingPage() {
         <div className="text-container">
           <h1 className="main-heading">a sibling that makes you</h1>
           <div className="typed-out-container">
-            <span className="typed-out">{text}</span>
+            <span className="typed-out italic">{text}</span>
             <span ref={cursorRef} className="cursor">.</span>
           </div>
         </div>
