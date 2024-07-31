@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../assets/sibling.svg';
 import './Navbar3.css';
 import {useNavigate} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 // import { a } from "@react-email/components";
 function Navbar2() {
   const navigate=useNavigate();
@@ -9,7 +10,8 @@ function Navbar2() {
     navigate('/')
   }
   const handleMailTo = () => {
-    window.location.href = 'mailto:hello@gmail.com';
+    navigate('/newsletter#contacT');
+    
   };
   const handleClick = () => {
     console.log("Navigating to /newsletter");
@@ -28,9 +30,9 @@ function Navbar2() {
       </div>
       <div className='buttons cursor-pointer text-black'>
         <a href="https://www.instagram.com/hqsibling">The Sibling Community</a>
-        <a onClick={toHomeScreen}>About</a>
+        <HashLink to="/#About">About</HashLink>
         <a onClick={handleClick}>Newsletter</a>
-        <button onClick={handleMailTo}  className='highlighted'>Join Us</button>
+        <HashLink to="/newsletter#contacT" className='highlighted'>Join Us</HashLink>
       </div>
     </div>
   );
