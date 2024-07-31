@@ -14,6 +14,7 @@ const EmailRestAPI = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [IName, setIName] = useState('');
+  const [InstiName, setInstiName] = useState('');
   const [IEmail, setIEmail] = useState('');
   const [IContact, setIContact] = useState('');
   const [authType, setAuthType] = useState(''); // State for the selected authentication type
@@ -91,8 +92,8 @@ const EmailRestAPI = () => {
             <label className="font-semibold">Institute Name *</label>
             <input
               type="text"
-              value={IName}
-              onChange={(e) => setIName(e.target.value)}
+              value={InstiName}
+              onChange={(e) => setInstiName(e.target.value)}
               placeholder="Your Institute Name"
               required
             />
@@ -126,7 +127,7 @@ const EmailRestAPI = () => {
               className="border rounded-md p-2"
             >
               <option value="">Select...</option>
-              <option value="Parent">Parent</option>
+              <option value="Parent">Principal</option>
               <option value="Teacher">Teacher</option>
               <option value="Student">Student</option>
               <option value="Other">Other</option>

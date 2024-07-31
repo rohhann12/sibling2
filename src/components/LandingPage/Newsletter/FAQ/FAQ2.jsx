@@ -55,7 +55,7 @@ const FAQ = () => {
           />
         </div>
       </div>
-      <div className="faq1-bottom-text text-[Montserrat-Semibold] text-[1.6vh]">
+      <div className="faq1-bottom-text text-[Montserrat-Semibold] text-[2vh]">
         <p className="faq1 pt-2 font-bold">Still have questions?</p>
         <p className="pt-2 font-semibold">Can't find the answer you're looking for? Please get in touch with us </p>
         <div className="pt-4"><button className="faq1-b-bottom pt-2 font-[Gilroy-SemiBold] font-white" onClick={navigateToSection}>Get in touch</button></div>
