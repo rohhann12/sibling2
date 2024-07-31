@@ -1,5 +1,5 @@
-
 import React from 'react';
+import './logo-newsletter.css'
 import Ashoka from "../../../../components/assets/logos/Ashoka BW.svg";
 import Christ from "../../../../components/assets/logos/Chrsit BW.svg";
 import Flame from "../../../../components/assets/logos/Flame BW.svg";
@@ -13,30 +13,28 @@ function Logo() {
   ];
 
   return (
-    <>
-     <div >
-     <p className='top-left pt-5 pl-0'>TRUSTED BY THE STUDENTS AT</p>
-      <div className='slider'>
-        <div className='slide-track'>
+    <div>
+      <p className='newsletter-top-left pt-5 pl-0'>TRUSTED BY THE STUDENTS AT</p>
+      <div className='newsletter-slider'>
+        <div className='newsletter-slide-track'>
           {logos.map((logo, index) => (
-            <div className='slide' key={index}>
+            <div className='newsletter-slide' key={index}>
               <img src={logo} alt="Logo" />
             </div>
           ))}
           {logos.map((logo, index) => (
-            <div className='slide' key={index + logos.length}>
+            <div className='newsletter-slide' key={index + logos.length}>
               <img src={logo} alt="Logo" />
             </div>
           ))}
-           {logos.map((logo, index) => (
-            <div className='slide' key={index + logos.length}>
+          {logos.map((logo, index) => (
+            <div className='newsletter-slide' key={index + logos.length * 2}>
               <img src={logo} alt="Logo" />
             </div>
           ))}
         </div>
       </div>
-     </div>
-    </>
+    </div>
   );
 }
 

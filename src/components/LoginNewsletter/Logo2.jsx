@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './logo.css';
+import './logo-logim.css';
 import Ashoka from "../assets/logos/Ashoka BW.svg";
 import Christ from "../assets/logos/Chrsit BW.svg";
 import Flame from "../assets/logos/Flame BW.svg";
@@ -28,25 +28,25 @@ const LogoSlider = ({ selectedUniversity }) => {
   }, [selectedUniversity]);
 
   return (
-    <div className="logo-slider">
+    <div className="newsletter-logo-slider">
       {selectedUniversity ? (
-        <img src={logos[selectedUniversity]} alt={`${selectedUniversity} Logo`} className="selected-logo" />
+        <img src={logos[selectedUniversity]} alt={`${selectedUniversity} Logo`} className="newsletter-selected-logo" />
       ) : (
-        <div className={isRunning ? 'slider running' : 'slider'}>
-          <div className="slide-track">
+        <div className={isRunning ? 'newsletter-slider newsletter-running' : 'newsletter-slider'}>
+          <div className="newsletter-slide-track">
             {Object.keys(logos).map((key, index) => (
-              <div className="slide" key={index}>
-                <img src={logos[key]} alt={`${key} Logo`} className="logo" />
+              <div className="newsletter-slide" key={index}>
+                <img src={logos[key]} alt={`${key} Logo`} className="newsletter-logo" />
               </div>
             ))}
             {Object.keys(logos).map((key, index) => (
-              <div className="slide" key={index + Object.keys(logos).length}>
-                <img src={logos[key]} alt={`${key} Logo`} className="logo" />
+              <div className="newsletter-slide" key={index + Object.keys(logos).length}>
+                <img src={logos[key]} alt={`${key} Logo`} className="newsletter-logo" />
               </div>
             ))}
             {Object.keys(logos).map((key, index) => (
-              <div className="slide" key={index + Object.keys(logos).length}>
-                <img src={logos[key]} alt={`${key} Logo`} className="logo" />
+              <div className="newsletter-slide" key={index + Object.keys(logos).length}>
+                <img src={logos[key]} alt={`${key} Logo`} className="newsletter-logo" />
               </div>
             ))}
           </div>

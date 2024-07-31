@@ -13,30 +13,23 @@ function Logo() {
   ];
 
   return (
-    <>
-     <div >
-     <p className='top-left pt-5'>TRUSTED BY THE STUDENTS AT</p>
-      <div className='slider'>
-        <div className='slide-track'>
+    <div>
+      <p className='main-page-top-left pt-5'>TRUSTED BY THE STUDENTS AT</p>
+      <div className='main-page-slider'>
+        <div className='main-page-slide-track'>
           {logos.map((logo, index) => (
-            <div className='slide' key={index}>
+            <div className='main-page-slide' key={index}>
               <img src={logo} alt="Logo" />
             </div>
           ))}
           {logos.map((logo, index) => (
-            <div className='slide' key={index + logos.length}>
-              <img src={logo} alt="Logo" />
-            </div>
-          ))}
-           {logos.map((logo, index) => (
-            <div className='slide' key={index + logos.length}>
+            <div className='main-page-slide' key={index + logos.length}>
               <img src={logo} alt="Logo" />
             </div>
           ))}
         </div>
       </div>
-     </div>
-    </>
+    </div>
   );
 }
 
