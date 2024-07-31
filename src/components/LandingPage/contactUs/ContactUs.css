@@ -74,9 +74,10 @@
     transform: scale(1.5);
     z-index: -999;
     padding-left: 2vh;
+    overflow: hidden;
   }
   .form-on-right{
     margin-bottom: 1vh;
-    margin-left: -40vh;
+    margin-left: -50vh;
   }
 }
