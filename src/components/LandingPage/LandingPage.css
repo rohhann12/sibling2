@@ -6,15 +6,15 @@
   align-items: center;
   text-align: center;
   margin-top: 30px;
-  height: 70vh;
+  height: 20vh;
 }
 
 #line-homepage {
-  margin-top: -20vh;
+  margin-top:-12vh;
   bottom: 15%;
   display: flex;
   width: 100%; 
-  position: absolute;
+  position: relative;
   overflow-x: hidden; 
 }
 
@@ -64,11 +64,11 @@
   justify-content: center;
   width: 100%;
   padding-bottom: 20vh;
+  margin-top: -20vh5;
 }
 
 #space-button1 {
   margin-top: 30px;
-  padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
   background-color: #0056b3;

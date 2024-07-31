@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Logo from './Logo2';
 import './LoginNewsletter.css';
 import Navbar from './Navbar/Navbar2';
-import Photo from './assets/hero/qxebyvR5aI (1).json';
+import Photo from './newsletter site png (1).png';
 import NewsPhoto from './assets/newsletter.svg';
 import { useNavigate } from 'react-router-dom';
-import { Link } from "@react-email/components";
+
 const UniversityLogin = () => {
   const [selectedUniversity, setSelectedUniversity] = useState('');
   const [password, setPassword] = useState('');

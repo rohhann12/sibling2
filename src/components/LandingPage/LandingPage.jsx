@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './LandingPage.css';
-import vectorImage from '../assets/line.svg'; 
+import vectorImage from '../assets/hero/Black Line.gif'; 
 import '../../App.css';
 import '../../fonts/gilroy/Gilroy-SemiBold.ttf';
 import Navbar from '../Navbar/Navbar';
