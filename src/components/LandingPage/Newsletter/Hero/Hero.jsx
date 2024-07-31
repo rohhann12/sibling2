@@ -23,7 +23,7 @@ function Hero() {
   return (
     <div className="hero9-container">
       <div className="left9-side">
-        <div className="text9-container mt-[30vh]">
+        <div className="text9-container mt-[20vh]">
           <div className="heading9">
             <p>The Newsletter to Target</p>
             <p className="title9">All Your <span className="blue-title9">Needs</span></p>
@@ -38,7 +38,7 @@ function Hero() {
         </div>
       </div>
       <div className="right9-side">
-        <div className='new md:hidden'>
+        <div className='new md:hidden font-[Gilroy-semibold]'>
         <p>The Newsletter to Target</p>
         <p className="title101">All Your <span className="blue-title101">Needs</span></p>
         </div>
