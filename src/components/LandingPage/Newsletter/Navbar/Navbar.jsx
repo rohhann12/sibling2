@@ -15,9 +15,8 @@ function Navbar() {
     navigate('/')
   }
   const contactusprscroll=()=>{
-    document.getElementById('contacT').scrollIntoView( )
+    navigate('/login')
   }
- 
   return (
     <>
     <div className='header-container'>
@@ -25,7 +24,7 @@ function Navbar() {
             <img src={Logo} alt="logo" onClick={handleC}  className='cursor-pointer'/>
         </div>
         <div className='button5'>
-            <button className='button2' onClick={contactusprscroll}>Get Started</button>
+            <button className='button2' onClick={contactusprscroll}>Institute Login</button>
         </div>
     </div>
     </>
