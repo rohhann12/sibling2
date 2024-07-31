@@ -14,7 +14,7 @@ function Logo() {
 
   return (
     <div>
-      <p className='newsletter-top-left pt-5 pl-0'>TRUSTED BY THE STUDENTS AT</p>
+      <p className='newsletter-top-left pt-5'>TRUSTED BY THE STUDENTS AT</p>
       <div className='newsletter-slider'>
         <div className='newsletter-slide-track'>
           {logos.map((logo, index) => (

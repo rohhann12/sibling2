@@ -28,25 +28,25 @@ const LogoSlider = ({ selectedUniversity }) => {
   }, [selectedUniversity]);
 
   return (
-    <div className="newsletter-logo-slider">
+    <div className="login-logo-slider">
       {selectedUniversity ? (
-        <img src={logos[selectedUniversity]} alt={`${selectedUniversity} Logo`} className="newsletter-selected-logo" />
+        <img src={logos[selectedUniversity]} alt={`${selectedUniversity} Logo`} className="login-selected-logo" />
       ) : (
-        <div className={isRunning ? 'newsletter-slider newsletter-running' : 'newsletter-slider'}>
-          <div className="newsletter-slide-track">
+        <div className={isRunning ? 'login-slider login-running' : 'login-slider'}>
+          <div className="login-slide-track">
             {Object.keys(logos).map((key, index) => (
-              <div className="newsletter-slide" key={index}>
-                <img src={logos[key]} alt={`${key} Logo`} className="newsletter-logo" />
+              <div className="login-slide" key={index}>
+                <img src={logos[key]} alt={`${key} Logo`} className="login-logo" />
               </div>
             ))}
             {Object.keys(logos).map((key, index) => (
-              <div className="newsletter-slide" key={index + Object.keys(logos).length}>
-                <img src={logos[key]} alt={`${key} Logo`} className="newsletter-logo" />
+              <div className="login-slide" key={index + Object.keys(logos).length}>
+                <img src={logos[key]} alt={`${key} Logo`} className="login-logo" />
               </div>
             ))}
             {Object.keys(logos).map((key, index) => (
-              <div className="newsletter-slide" key={index + Object.keys(logos).length}>
-                <img src={logos[key]} alt={`${key} Logo`} className="newsletter-logo" />
+              <div className="login-slide" key={index + Object.keys(logos).length}>
+                <img src={logos[key]} alt={`${key} Logo`} className="login-logo" />
               </div>
             ))}
           </div>

@@ -15,8 +15,9 @@ body {
 .main-page-top-left {
   margin-bottom: 1vh;
   font-weight: 700;
-  margin-left: 40%;
-  padding: 2vh 2vh;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
 }
 
 .main-page-slider {
@@ -42,18 +43,6 @@ body {
   flex: none;
 }
 
-@media (max-width: 768px) {
-  .main-page-slider .main-page-slide-track {
-    width: calc(200px * 12);
-  }
-  .main-page-slider .main-page-slide {
-    width: 150px;
-  }
-  .main-page-top-left {
-    margin-left: 35%;
-  }
-}
-
 @media (max-width: 600px) {
   .main-page-top-left{
     flex: 1;
@@ -65,9 +54,5 @@ body {
   }
   .main-page-slider .main-page-slide {
     width: 150px;
-  }
-  .main-page-top-left {
-    margin-left: 5vh;
-    font-size: 2vh;
   }
 }
