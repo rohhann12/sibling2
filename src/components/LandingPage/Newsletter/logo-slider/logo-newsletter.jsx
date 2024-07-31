@@ -1,11 +1,11 @@
+import './logo-newsletter.css';
 import React from 'react';
-import './logo-newsletter.css'
-import Ashoka from "../../../../components/assets/logos/Ashoka BW.svg";
-import Christ from "../../../../components/assets/logos/Chrsit BW.svg";
-import Flame from "../../../../components/assets/logos/Flame BW.svg";
-import Ahd from "../../../../components/assets/logos/ahemdabad BW.svg";
-import Jindal from "../../../../components/assets/logos/Jindal BW.svg";
-import Krea from "../../../../components/assets/logos/Krea BW.svg";
+import Ashoka from "../../../assets/logos/Ashoka BW.svg";
+import Christ from "../../../assets/logos/Chrsit BW.svg";
+import Flame from "../../../assets/logos/Flame BW.svg";
+import Ahd from "../../../assets/logos/ahemdabad BW.svg";
+import Jindal from "../../../assets/logos/Jindal BW.svg";
+import Krea from "../../../assets/logos/Krea BW.svg";
 
 function Logo() {
   const logos = [
@@ -14,21 +14,16 @@ function Logo() {
 
   return (
     <div>
-      <p className='newsletter-top-left pt-5'>TRUSTED BY THE STUDENTS AT</p>
-      <div className='newsletter-slider'>
-        <div className='newsletter-slide-track'>
+      <p className='main1-page-top-left'>TRUSTED BY THE STUDENTS AT</p>
+      <div className='main1-page-slider'>
+        <div className='main1-page-slide-track'>
           {logos.map((logo, index) => (
-            <div className='newsletter-slide' key={index}>
+            <div className='main1-page-slide' key={index}>
               <img src={logo} alt="Logo" />
             </div>
           ))}
           {logos.map((logo, index) => (
-            <div className='newsletter-slide' key={index + logos.length}>
-              <img src={logo} alt="Logo" />
-            </div>
-          ))}
-          {logos.map((logo, index) => (
-            <div className='newsletter-slide' key={index + logos.length * 2}>
+            <div className='main1-page-slide' key={index + logos.length}>
               <img src={logo} alt="Logo" />
             </div>
           ))}

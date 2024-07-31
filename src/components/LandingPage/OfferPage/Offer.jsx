@@ -11,6 +11,7 @@ import "../../../fonts/Manrope/static/Manrope-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Regular.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-Medium.ttf";
 import "../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf";
+import { HashLink } from 'react-router-hash-link';
 
 function Offer() {
   const navigate = useNavigate();
@@ -39,7 +40,7 @@ const forSpace1 = () => {
             with valuable resources and insights designed to help you build resilience, manage stress, 
             and maintain overall well-being.
           </p>
-          <button className='offer-button' onClick={handleClick1} >Subscribe now</button>
+          <HashLink className='offer-button' to="/newsletter#hero1" >Subscribe now</HashLink>
         </div>
         <div className='offer-item'>
           <img src={Right_img} alt="Space by Sibling" className='offer-image' />

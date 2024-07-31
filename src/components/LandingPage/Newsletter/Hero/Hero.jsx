@@ -21,7 +21,7 @@ function Hero() {
   }
 
   return (
-    <div className="hero9-container">
+    <div className="hero9-container" id='hero1'>
       <div className="left9-side">
         <div className="text9-container mt-[20vh]">
           <div className="heading9">
