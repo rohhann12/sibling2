@@ -32,7 +32,7 @@ function Hero() {
             <p>Join our supportive community for monthly tips, expert <br />advice, and inspiring stories delivered straight to your inbox.</p>
           </div>
           <div className="for-buttons9">
-            <button className="left-button9" onClick={contactusprscroll}>Let’s start reading</button>
+            <button className="left-button9" onClick={contactusprscroll}>Get Started</button>
             <button className="right-button9" onClick={bentogridpr}>Learn More</button>
           </div>
         </div>
