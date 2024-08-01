@@ -70,11 +70,10 @@ function LandingPage() {
             <span className="typed-out">{text}</span>
             <span ref={cursorRef} className="cursor">.</span>
           </div>
+          <img src={vectorImage} alt="line" id="line-homepage" />
         </div>
-        <img src={vectorImage} alt="line" id="line-homepage" />
-        
         <div className="button-container">
-          <button id="space-button1" onClick={redirect}>Join our community</button>
+          <button id="space-button11" onClick={redirect}>Join our community</button>
         </div>
       </div>
       <Section2 />
