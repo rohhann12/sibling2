@@ -34,18 +34,13 @@ const LogoSlider = ({ selectedUniversity }) => {
       ) : (
         <div className={isRunning ? 'login-slider login-running' : 'login-slider'}>
           <div className="login-slide-track">
-            {Object.keys(logos).map((key, index) => (
+            {[...Object.keys(logos), ...Object.keys(logos)].map((key, index) => (
               <div className="login-slide" key={index}>
                 <img src={logos[key]} alt={`${key} Logo`} className="login-logo" />
               </div>
             ))}
-            {Object.keys(logos).map((key, index) => (
-              <div className="login-slide" key={index + Object.keys(logos).length}>
-                <img src={logos[key]} alt={`${key} Logo`} className="login-logo" />
-              </div>
-            ))}
-            {Object.keys(logos).map((key, index) => (
-              <div className="login-slide" key={index + Object.keys(logos).length}>
+            {[...Object.keys(logos), ...Object.keys(logos)].map((key, index) => (
+              <div className="login-slide" key={index}>
                 <img src={logos[key]} alt={`${key} Logo`} className="login-logo" />
               </div>
             ))}

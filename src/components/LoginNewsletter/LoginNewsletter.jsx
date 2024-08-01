@@ -1,32 +1,15 @@
 import React, { useState } from 'react';
-import Logo from './Logo2';
+import LogoSlider from './Logo2'; // Make sure to use the correct component name
 import './LoginNewsletter.css';
 import Navbar from './Navbar/Navbar2';
-import Photo from './newsletter site png (1).png';
-import NewsPhoto from './assets/newsletter.svg';
-import { useNavigate } from 'react-router-dom';
+import Header from './assets/newsletter.svg';
+import VideoT from './assets/hero/video.mp4';
 
 const UniversityLogin = () => {
   const [selectedUniversity, setSelectedUniversity] = useState('');
-  const [password, setPassword] = useState('');
 
-  const handleUniversityChange = (event) => {
+  const handleSelectChange = (event) => {
     setSelectedUniversity(event.target.value);
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const universities = ["Ashoka", "Christ", "Flame", "Ahd", "Jindal", "Krea"];
-    if (universities.includes(selectedUniversity) && password === selectedUniversity) {
-      window.location.href = "https://www.hqsibling.in/";
-    } else {
-      alert("Invalid password or university.");
-    }
-  };
-
-  const navigate = useNavigate();
-  const toHomeScreen = () => {
-    navigate('/newsletter');
   };
 
   return (
@@ -34,44 +17,35 @@ const UniversityLogin = () => {
       <div className='nav'>
         <Navbar />
       </div>
-      <div className='main-container-login w-full flex'>
-        <div className='left-side w-full md:w-1/2 flex flex-col items-center justify-center p-10'>
-          <div>
-            <img src={NewsPhoto} alt="Newsletter Logo" onClick={toHomeScreen} className='cursor-pointer' />
+      <div className='login-main w-full h-[82.5vh] flex'>
+        <div className='side-left w-1/2 flex flex-col items-center justify-center p-8'>
+          <img src={Header} alt="" />
+          <div className='logos-carousel mb-4 w-[200%] flex justify-center align-middle'>
+            <LogoSlider selectedUniversity={selectedUniversity} />
           </div>
-          <div className="logos mb-5 w-full max-w-[900px]">
-            <Logo selectedUniversity={selectedUniversity} />
-          </div>
-          <div className="form-container w-full max-w-[500px]">
-            <form className='w-full' onSubmit={handleSubmit}>
-              <div className="form-group mb-5">
-                <label htmlFor="university" className="block mb-2">Select Institute</label>
-                <select id="university" onChange={handleUniversityChange} className="w-full p-2 border rounded">
-                  <option value="">Select Institute</option>
-                  <option value="Ashoka">Ashoka University</option>
-                  <option value="Christ">Christ University</option>
-                  <option value="Flame">Flame University</option>
-                  <option value="Ahd">Ahmedabad University</option>
-                  <option value="Jindal">Jindal University</option>
-                  <option value="Krea">Krea University</option>
-                </select>
-              </div>
-              <div className="form-group">
-                <label htmlFor="password" className="block mb-2">Password</label>
-                <input type="password" 
-                  id="password" 
-                  placeholder="Enter Password" 
-                  className="w-full p-2 border rounded" 
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </div>
-              <button type="submit" className="w-full p-3 bg-blue-500 text-white rounded">Let's Read</button>
-            </form>
+          <form className='w-full max-w-sm'>
+            <div className='mb-4'>
+              <select className='form-select w-full p-2 rounded text-black' onChange={handleSelectChange}>
+                <option value="">Select Institute</option>
+                <option value="Krea">Krea University</option>
+                <option value="Flame">Flame University</option>
+                {/* Add other options as needed */}
+              </select>
+            </div>
+            <div className='mb-4'>
+              <input type='password' className='form-input w-full p-2 rounded' placeholder='Enter Password' />
+            </div>
+            <div className='mb-4'>
+              <button type='submit' className='w-full p-2 rounded bg-blue-700 text-white'>Let's Read</button>
+            </div>
+          </form>
+          <div className='text-center text-black mt-4'>
+            <p>or</p>
+            <a href='#' className='underline'>Get your School/Institute on board</a>
           </div>
         </div>
-        <div className='right-side  md:w-1/2 flex items-center justify-center'>
-          <img src={Photo} alt="Illustration" className="hello max-w-full h-auto" />
+        <div className='side-right w-1/2 flex items-center justify-center'>
+          <video src={VideoT} alt='Illustration' className='w-3/4 h-auto' />
         </div>
       </div>
     </>

@@ -1,6 +1,7 @@
 body {
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 @keyframes login-scroll {
@@ -15,25 +16,21 @@ body {
 .login-logo-slider {
   position: relative;
   padding: 5vh 0 10vh 0; /* Adjusted padding */
-}
-
-.login-top-left {
-  margin-bottom: 1vh;
-  font-weight: 700;
-  margin-left: 40%;
-  padding: 2vh 2vh;
+  width: 50%; /* Limit width to 50% */
+  margin: auto; /* Center the slider */
+  overflow: hidden; /* Prevent horizontal overflow */
 }
 
 .login-slider {
   height: 150px; /* Adjust height */
-  margin: auto;
   position: relative;
-  width: 100%;
+  width: 100%; /* Ensure the slider container fills the parent width */
+  overflow: hidden; /* Prevent horizontal overflow */
 }
 
 .login-slider .login-slide-track {
   display: flex;
-  width: calc(300px * 14);
+  width: calc(300px * 14); /* Adjust according to the number of logos */
   animation: login-scroll 20s linear infinite;
   gap: 2vh;
 }
@@ -49,9 +46,10 @@ body {
 }
 
 .login-selected-logo {
-  display: block;
+  display: flex;
+  flex: 1;
+  justify-content: center;
   margin: auto;
-  height: 100px; /* Adjust height */
+  margin-top: -5vh;
+  height: 150px; /* Adjust height */
 }
-
-
