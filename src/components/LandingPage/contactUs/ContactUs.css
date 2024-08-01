@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding: 20px;
   margin-top: 20vh;
-  margin-bottom: 15vh;
+  margin-bottom: 5vh;
 }
 
 .img-on-left {
@@ -77,7 +77,7 @@
     overflow: hidden;
   }
   .form-on-right{
-    margin-bottom: 1vh;
     margin-left: -40vh;
   }
+  
 }
