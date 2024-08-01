@@ -90,10 +90,10 @@
     }
     .navbar {
       padding: 1vh 1vh;
-      flex-direction: row; /* Ensure items are in the same row */
+      flex-direction: row; 
       justify-content: space-between;
       align-items: center;
-      box-shadow: none; /* Remove shadow on mobile */
+      box-shadow: none; 
     }
     .clickables {
       display: none;
