@@ -4,7 +4,7 @@ import './LoginNewsletter.css';
 import Navbar from './Navbar/Navbar2';
 import Header from './assets/newsletter.svg';
 import VideoT from './assets/hero/video.mp4';
-
+import { HashLink } from 'react-router-hash-link';
 const UniversityLogin = () => {
   const [selectedUniversity, setSelectedUniversity] = useState('');
   const [password, setPassword] = useState('');
@@ -64,7 +64,7 @@ const UniversityLogin = () => {
           </form>
           <div className='text-center text-black mt-4'>
             <p>or</p>
-            <a href='#' className='underline'>Get your School/Institute on board</a>
+            <HashLink to="/newsletter#contacT" className='underline'>Get your School/Institute on board</HashLink>
           </div>
         </div>
         <div className='side-right w-1/2 flex items-center justify-center'>
