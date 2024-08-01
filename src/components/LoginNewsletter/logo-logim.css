@@ -1,10 +1,9 @@
 body {
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
-@keyframes login-scroll {
+@keyframes login-scroll-custom {
   0% {
     transform: translateX(0);
   }
@@ -13,7 +12,7 @@ body {
   }
 }
 
-.login-logo-slider {
+.login-logo-slider-custom {
   position: relative;
   padding: 5vh 0 10vh 0; /* Adjusted padding */
   width: 50%; /* Limit width to 50% */
@@ -21,31 +20,31 @@ body {
   overflow: hidden; /* Prevent horizontal overflow */
 }
 
-.login-slider {
+.login-slider-custom {
   height: 150px; /* Adjust height */
   position: relative;
   width: 100%; /* Ensure the slider container fills the parent width */
   overflow: hidden; /* Prevent horizontal overflow */
 }
 
-.login-slider .login-slide-track {
+.login-slider-custom .login-slide-track-custom {
   display: flex;
   width: calc(300px * 14); /* Adjust according to the number of logos */
-  animation: login-scroll 20s linear infinite;
+  animation: login-scroll-custom 20s linear infinite;
   gap: 2vh;
 }
 
-.login-slider .login-slide-track img {
+.login-slider-custom .login-slide-track-custom img {
   height: 100px; /* Adjusted height */
 }
 
-.login-slider .login-slide {
+.login-slider-custom .login-slide-custom {
   height: 100px; /* Adjusted height */
   width: 200px; /* Adjusted width */
   flex: none;
 }
 
-.login-selected-logo {
+.login-selected-logo-custom {
   display: flex;
   flex: 1;
   justify-content: center;
@@ -53,8 +52,9 @@ body {
   margin-top: -5vh;
   height: 150px; /* Adjust height */
 }
-@media (max-width:600px) {
-  .login-logo-slider{
+
+@media (max-width: 600px) {
+  .login-logo-slider-custom {
     width: 200%;
   }
 }

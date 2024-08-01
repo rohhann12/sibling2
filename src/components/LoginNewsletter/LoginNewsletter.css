@@ -1,39 +1,39 @@
-.nav{
+.nav-custom {
   margin-top: -2vh;
 }
-.login-main {
+
+.login-main-custom {
   display: flex;
 }
 
-.side-left {
+.side-left-custom {
   padding: 20px;
   color: white;
   text-align: center;
 }
 
-.side-left h1 {
+.side-left-custom h1 {
   font-size: 2rem;
 }
 
-.side-left .logos-carousel {
+.side-left-custom .logos-carousel-custom {
   margin-bottom: 20px;
   overflow: hidden;
 }
 
-.side-left form {
+.side-left-custom form {
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
 }
 
-.form-select,
-.form-input {
+.form-select-custom,
+.form-input-custom {
   width: 100%;
   border-radius: 5px;
   border: none;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-
 
 button {
   width: 100%;
@@ -50,37 +50,37 @@ button:hover {
   background-color: #0056b3;
 }
 
-.side-right {
+.side-right-custom {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.side-right img {
+.side-right-custom img {
   max-width: 100%;
   height: auto;
 }
+
 @media (max-width: 600px) {
-  .login-main{
+  .login-main-custom {
     padding-top: 1vh;
   }
-  .nav {
+  .nav-custom {
     display: none;
   }
-  .side-left {
+  .side-left-custom {
     width: 100%;
   }
-  .side-right {
+  .side-right-custom {
     display: none;
   }
-  .logos-carousel{
+  .logos-carousel-custom {
     width: 200%;
   }
-  .text-center{
+  .text-center-custom {
     overflow: hidden;
   }
-  .field1{
-    /* height: 5]vh; */
+  .field1-custom {
     overflow: hidden;
   }
 }
