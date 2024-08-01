@@ -5,6 +5,7 @@ import Navbar from './Navbar/Navbar2';
 import Header from './assets/newsletter.svg';
 import VideoT from './assets/hero/video.mp4';
 import { HashLink } from 'react-router-hash-link';
+
 const UniversityLogin = () => {
   const [selectedUniversity, setSelectedUniversity] = useState('');
   const [password, setPassword] = useState('');
@@ -25,19 +26,21 @@ const UniversityLogin = () => {
 
   return (
     <>
-      <div className='nav'>
+      <div className='nav hidden md:block'>
         <Navbar />
       </div>
-      <div className='login-main w-full h-[82.5vh] flex'>
+      <div className='login-main w-full h-[82.5vh] flex flex-col md:flex-row'>
         <div className='side-left w-full md:w-1/2 flex flex-col items-center justify-center'>
+          <HashLink to="/newsletter" className='overflow-hidden'>
           <img src={Header} alt="" />
-          <div className='logos-carousel mb-4 w-[200%] flex justify-center align-middle'>
+          </HashLink>
+          <div className='logos-carousel mb-4 w-full flex justify-center align-middle'>
             <LogoSlider selectedUniversity={selectedUniversity} />
           </div>
-          <form className='w-full max-w-sm' onSubmit={handleSubmit}>
+          <form className=' field1 w-full max-w-sm' onSubmit={handleSubmit}>
             <div className='mb-4'>
-              <p className='text-black flex'>Select Institute</p>
-              <select className='form-select w-full p-2 rounded text-black' onChange={handleSelectChange} value={selectedUniversity}>
+              <p className='text-black flex font-bold mb-3'>Select Institute</p>
+              <select className='form-select w-full rounded text-black' onChange={handleSelectChange} value={selectedUniversity}>
                 <option value="">Select Institute</option>
                 <option value="Krea">Krea University</option>
                 <option value="Flame">Flame University</option>
@@ -48,14 +51,13 @@ const UniversityLogin = () => {
               </select>
             </div>
             <div className='mb-4'>
-              <p className='text-black flex'>Enter Password</p>
+              <p className='text-black flex font-bold mb-3'>Enter Password</p>
               <input 
                 type='password' 
                 className='form-input w-full p-2 rounded text-black' 
                 placeholder='Enter Password' 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-
               />
             </div>
             <div className='mb-4'>
@@ -67,8 +69,8 @@ const UniversityLogin = () => {
             <HashLink to="/newsletter#contacT" className='underline'>Get your School/Institute on board</HashLink>
           </div>
         </div>
-        <div className='side-right w-1/2 flex items-center justify-center'>
-          <video src={VideoT} alt='Illustration' className=' w-0 md:w-3/4 h-auto' autoPlay loop muted playsInline />
+        <div className='side-right hidden md:flex w-1/2 items-center justify-center'>
+          <video src={VideoT} alt='Illustration' className='w-3/4 h-auto' autoPlay loop muted playsInline />
         </div>
       </div>
     </>

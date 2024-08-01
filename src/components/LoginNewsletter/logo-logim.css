@@ -53,3 +53,8 @@ body {
   margin-top: -5vh;
   height: 150px; /* Adjust height */
 }
+@media (max-width:600px) {
+  .login-logo-slider{
+    width: 200%;
+  }
+}
