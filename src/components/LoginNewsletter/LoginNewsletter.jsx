@@ -18,13 +18,14 @@ const UniversityLogin = () => {
         <Navbar />
       </div>
       <div className='login-main w-full h-[82.5vh] flex'>
-        <div className='side-left w-1/2 flex flex-col items-center justify-center p-8'>
+        <div className='side-left w-1/2 flex flex-col items-center justify-center'>
           <img src={Header} alt="" />
           <div className='logos-carousel mb-4 w-[200%] flex justify-center align-middle'>
             <LogoSlider selectedUniversity={selectedUniversity} />
           </div>
           <form className='w-full max-w-sm'>
             <div className='mb-4'>
+            <p className='text-black flex'>Select Institute</p>
               <select className='form-select w-full p-2 rounded text-black' onChange={handleSelectChange}>
                 <option value="">Select Institute</option>
                 <option value="Krea">Krea University</option>
@@ -33,9 +34,11 @@ const UniversityLogin = () => {
               </select>
             </div>
             <div className='mb-4'>
+            <p className='text-black flex'>Enter Password</p>
               <input type='password' className='form-input w-full p-2 rounded' placeholder='Enter Password' />
             </div>
             <div className='mb-4'>
+             
               <button type='submit' className='w-full p-2 rounded bg-blue-700 text-white'>Let's Read</button>
             </div>
           </form>
@@ -45,8 +48,10 @@ const UniversityLogin = () => {
           </div>
         </div>
         <div className='side-right w-1/2 flex items-center justify-center'>
-          <video src={VideoT} alt='Illustration' className='w-3/4 h-auto' />
+          <video src={VideoT} alt='Illustration' className='w-3/4 h-auto' autoPlay loop muted playsInline />
         </div>
+
+
       </div>
     </>
   );
