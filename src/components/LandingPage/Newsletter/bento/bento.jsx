@@ -13,7 +13,7 @@ import "../../../../fonts/Montserrat/static/Montserrat-SemiBold.ttf"
 function Bento() {
   return (
     <>
-      <div id="bento" className='h-[235vh] w-full bg-white text-zinc-900 pt-[10vh]  overflow-hidden md:h-[150vh]'>
+      <div id="bento" className='h-[241vh]  w-full bg-white text-zinc-900 pt-[10vh]  overflow-hidden md:h-[140vh]'>
         <div className='flex flex-col md:mx-auto md:max-w-4xl md:grid md:grid-cols-8 md:grid-rows-15 md:gap-5 md:w-auto'>
           <div className='col-span-4 row-span-5 bg-[#EDF8FF] rounded-xl'>
             <img src={Img4} alt="" className='h-[30vh] pl-[5vh] md:h-[20vh] md:pl-[22vh]'/>
