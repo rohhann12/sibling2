@@ -40,6 +40,7 @@ const VerticalCardSlider = () => {
 
   return (
     <>
+      <div className='finalC'>
       <p className='heading_help'>HOW CAN WE HELP</p>
       <div className="wrapper">
         <div className="outer">
@@ -57,6 +58,7 @@ const VerticalCardSlider = () => {
             <p>{contentArray[activeIndex].description}</p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
