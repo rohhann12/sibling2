@@ -62,7 +62,7 @@ function LandingPage() {
 
   return (
     <>
-      <div>
+        <div>
         <Navbar />
         <div className="text-container">
           <h1 className="main-heading">a sibling that makes you</h1>
