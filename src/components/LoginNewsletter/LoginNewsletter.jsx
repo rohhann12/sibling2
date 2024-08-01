@@ -29,7 +29,7 @@ const UniversityLogin = () => {
         <Navbar />
       </div>
       <div className='login-main w-full h-[82.5vh] flex'>
-        <div className='side-left w-1/2 flex flex-col items-center justify-center'>
+        <div className='side-left w-full md:w-1/2 flex flex-col items-center justify-center'>
           <img src={Header} alt="" />
           <div className='logos-carousel mb-4 w-[200%] flex justify-center align-middle'>
             <LogoSlider selectedUniversity={selectedUniversity} />
@@ -68,7 +68,7 @@ const UniversityLogin = () => {
           </div>
         </div>
         <div className='side-right w-1/2 flex items-center justify-center'>
-          <video src={VideoT} alt='Illustration' className='w-3/4 h-auto' autoPlay loop muted playsInline />
+          <video src={VideoT} alt='Illustration' className=' w-0 md:w-3/4 h-auto' autoPlay loop muted playsInline />
         </div>
       </div>
     </>

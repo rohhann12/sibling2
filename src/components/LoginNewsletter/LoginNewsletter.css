@@ -60,3 +60,14 @@ button:hover {
   max-width: 100%;
   height: auto;
 }
+@media (max-width:600px) {
+    .side-right {
+      display: none;
+    }
+    .side-left {
+      width: 100%;
+    }
+  .nav{
+      display: none;
+  }
+}
