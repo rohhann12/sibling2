@@ -63,7 +63,9 @@
         .heading-top_right {
         display: none;
         }
-
+        .body{
+            margin-top: -10vh;
+        }
         .heading .hide_this {
             display: none;
             font-size: 10px;
