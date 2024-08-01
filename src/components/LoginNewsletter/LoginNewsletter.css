@@ -70,6 +70,9 @@ button[type="submit"]:hover {
 
 /* Mobile Styles */
 @media (max-width: 600px) {
+  .main-container-login{
+    height: 120vh;
+  }
   .left-side {
     width: 100%;
   }
@@ -79,4 +82,5 @@ button[type="submit"]:hover {
   .right-side {
     display: none !important;
   }
+
 }

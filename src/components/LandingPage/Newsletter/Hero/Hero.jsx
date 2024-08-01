@@ -15,7 +15,9 @@ function Hero() {
   const contactusprscroll = () => {
   document.getElementById('contacT').scrollIntoView()
   }
-
+  const navigateToLogin =() =>{
+    navigate("/login")
+  }
   const bentogridpr = () => {
     document.getElementById('bento').scrollIntoView();
   }
@@ -43,7 +45,10 @@ function Hero() {
         <p className="title101">All Your <span className="blue-title101">Needs</span></p>
         </div>
         <img src={RightSideImg} alt="Newsletter Preview" className='news-img'/>
+        <div className='hey'>
+        <button className="left-button911" onClick={navigateToLogin}>Insitute Login</button>
         <button className="left-button911" onClick={contactusprscroll}>Let’s start reading</button>
+        </div>
       </div>
     </div>
   );

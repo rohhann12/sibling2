@@ -125,4 +125,12 @@
         border-radius: 200px;
         margin-top: 2rem;
     }
+    .hey{
+        display: flex;
+        margin-top: -7vh;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+        padding: 8vh 2.5vh;
+    }
 }

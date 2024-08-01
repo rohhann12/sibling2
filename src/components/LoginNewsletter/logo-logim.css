@@ -27,7 +27,6 @@ body {
 .login-slider {
   height: 150px; /* Adjust height */
   margin: auto;
-  overflow: hidden;
   position: relative;
   width: 100%;
 }
@@ -55,16 +54,4 @@ body {
   height: 100px; /* Adjust height */
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
-  .login-slider .login-slide-track {
-    width: calc(200px * 12);
-  }
-  .login-slider .login-slide {
-    width: 200px;
-    height: 100px;
-  }
-  .login-top-left {
-    margin-left: 35%;
-  }
-}
+
