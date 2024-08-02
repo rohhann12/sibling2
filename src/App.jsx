@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Newsletter from './components/LandingPage/Newsletter/Main-2';
 import LandingPage from './components/LandingPage/LandingPage';
 import ComingSoon from './components/Navbar/ComingSoon';
-import LoginPage from './components/LoginNewsletter/LoginNewsletter'
+import LoginPage from './components/LoginNewsletter/final'
 function App() {
   return (
     <BrowserRouter>
