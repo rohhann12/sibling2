@@ -91,7 +91,7 @@
     align-items: center;
     text-align: center;
     margin-top: 30px;
-    height: 50vh;
+    height: 85vh;
   }
   .main-heading {
     font-size: 8vw;
@@ -102,11 +102,11 @@
   }
 
   #line-homepage{
-    margin-top: -40vw;
+    margin-top: 10vh;
   }
 
   #space-button11 {
-  margin-top: 15vh;
+  margin-top: 5vh;
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
