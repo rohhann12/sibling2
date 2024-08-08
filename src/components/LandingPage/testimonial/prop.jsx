@@ -8,7 +8,7 @@ function Props({ message, name, occupation, image }) {
       </div>
       <div>
         {image && <img src={image} alt="" className='photo mt-auto' />}
-        {name && <p className='name mt-auto'>{name}</p>}
+        {name && <p className='name mt-auto ml-3'>{name}</p>}
         {occupation && <p className='occupation'>{occupation}</p>}
       </div>
     </div>
