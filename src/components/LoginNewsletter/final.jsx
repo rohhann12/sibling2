@@ -3,7 +3,7 @@ import LogoSlider from './Logo2';
 import './final.css';
 import Navbar from './Navbar/Navbar2';
 import Header from './assets/newsletter.svg';
-import VideoT from './assets/hero/video.mp4';
+import VideoT from '../LandingPage/Newsletter/assets/contactus/newsletter site png.png';
 import { HashLink } from 'react-router-hash-link';
 
 const UniversityLogin = () => {
@@ -70,7 +70,7 @@ const UniversityLogin = () => {
           </div>
         </div>
         <div className='side-right-custom1 hidden md:flex w-1/2 items-center justify-center'>
-          <video src={VideoT} alt='Illustration' className='w-3/4 h-auto' autoPlay loop muted playsInline />
+          <img src={VideoT} alt='Illustration' className='w-1/2 h-[10vh]' />
         </div>
       </div>
     </>
