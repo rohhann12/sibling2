@@ -29,7 +29,7 @@ const UniversityLogin = () => {
       <div className='nav-custom1 hidden md:block'>
         <Navbar />
       </div>
-      <div className='login-main-custom1 w-full  h-screen md:h-[82.5vh] flex flex-col md:flex-row'>
+      <div className='login-main-custom1 w-full  h-screen md:h-[90.5vh] flex flex-col md:flex-row'>
         <div className='side-left-custom1 w-full md:w-1/2 flex flex-col items-center justify-center'>
           <HashLink to="/newsletter" className='md:overflow-visible'>
             <img src={Header} alt="" className='w-full h-[13vh]  md:overflow-visible' />
