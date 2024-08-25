@@ -24,7 +24,7 @@ function Navbar() {
             <img src={Logo} alt="logo" onClick={handleC}  className='cursor-pointer'/>
         </div>
         <div className='button5'>
-            <button className='button2' onClick={contactusprscroll}>Institute Login</button>
+            <button className='button2' onClick={contactusprscroll}>Newsletter Login</button>
         </div>
     </div>
     </>

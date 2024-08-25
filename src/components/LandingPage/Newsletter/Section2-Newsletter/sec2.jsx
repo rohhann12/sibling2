@@ -44,7 +44,7 @@ function Sec2() {
           <h1 className='font-bold text-[10vh]'>
             <Number n={500} /> <span>+</span>
           </h1>
-          <p>Comprehensive articles written by <br /> mental health professionals</p>
+          <p>people part of the sibling community</p>
         </div>
       </div>
     </div>
