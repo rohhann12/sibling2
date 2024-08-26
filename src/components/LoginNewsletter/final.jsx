@@ -42,7 +42,7 @@ const UniversityLogin = () => {
               <p className='text-black custom1 flex font-bold mb-3'>Select Institute</p>
               <select className='form-select-custom1 w-full rounded text-black custom1' onChange={handleSelectChange} value={selectedUniversity}>
                 <option value="">Select</option>
-                <option value="Sibling">Sibling Community</option>
+                <option value="sibling">Sibling Community</option>
                 {/* <option value="Krea">Krea University</option>
                 <option value="Flame">Flame University</option>
                 <option value="Ashoka">Ashoka University</option>
