@@ -46,7 +46,7 @@ function Hero() {
         </div>
         <img src={RightSideImg} alt="Newsletter Preview" className='news-img'/>
         <div className='hey'>
-        <button className="left-button911 text-[1.8vh]" onClick={navigateToLogin}>Insitute Login</button>
+        <button className="left-button911 text-[1.8vh]" onClick={navigateToLogin}>Newsletter Login</button>
         <button className="left-button911" onClick={contactusprscroll}>Get Started</button>
         </div>
       </div>
