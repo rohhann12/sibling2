@@ -16,7 +16,7 @@ const UniversityLogin = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const universities = ["Sibling"];
+    const universities = ["sibling"];
     if (universities.includes(selectedUniversity) && password === selectedUniversity) {
       window.location.href = "https://www.hqsibling.in/";
     } else {
