@@ -34,7 +34,7 @@
           {menuOpen ? <IoMdClose /> : <RxHamburgerMenu />}
         </div>
         <div className={`clickables ${menuOpen ? 'open' : ''}`}>
-          <a href="https://www.instagram.com/hqsibling">Join Us</a>
+          <a href="https://communitysibling.super.site">Join Us</a>
           <a href="#About">About</a>
           <a onClick={handleClick} >Newsletter</a>
           <a onClick={forSpace} id="space-button">Space By Sibling</a>
